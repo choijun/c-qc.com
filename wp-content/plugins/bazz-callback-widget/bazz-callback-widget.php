@@ -217,7 +217,7 @@ function bazz_layout() { ?>
     <div class="bazz-widget">
         <div class="bazz-widget-button">
             <i></i>
-            <i><div><?php _e( 'CALL ME', 'bazz-callback-widget' ); ?></div></i>
+            <i><span><?php _e( 'CALL ME', 'bazz-callback-widget' ); ?></span></i>
         </div>
         <div class="bazz-widget-close">+</div>
         <div class="bazz-widget-form">

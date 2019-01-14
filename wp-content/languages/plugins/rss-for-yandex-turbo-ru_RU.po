@@ -1,0 +1,1381 @@
+# Translation of Plugins - RSS for Yandex Turbo - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - RSS for Yandex Turbo - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-09-13 00:11:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - RSS for Yandex Turbo - Development (trunk)\n"
+
+#: rss-for-yandex-turbo.php:1614
+msgid "<strong>Внимание!</strong> Произвольные поля плагина <strong>Advanced Custom Fields</strong> необходимо обрабатывать <a target=\"new\" href=\"https://ru.wordpress.org/plugins/rss-for-yandex-turbo/#%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B%20%D0%B8%20%D0%BF%D0%BB%D0%B0%D0%B3%D0%B8%D0%BD%20advanced%20custom%20fields\">фильтром.</a>"
+msgstr "<strong>Внимание!</strong> Произвольные поля плагина <strong>Advanced Custom Fields</strong> необходимо обрабатывать <a target=\"new\" href=\"https://ru.wordpress.org/plugins/rss-for-yandex-turbo/#%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B%20%D0%B8%20%D0%BF%D0%BB%D0%B0%D0%B3%D0%B8%D0%BD%20advanced%20custom%20fields\">фильтром.</a>"
+
+#: rss-for-yandex-turbo.php:1748
+msgid "плагин скрывает длинные комментарии js-скриптом (в стиле Яндекса или Амазона)."
+msgstr "плагин скрывает длинные комментарии js-скриптом (в стиле Яндекса или Амазона)."
+
+#: rss-for-yandex-turbo.php:1120
+msgid "К записям на турбо-страницах будут добавлены комментарии (пример смотреть <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/rss-elements.html#turbo-content-details__comments\">здесь</a>)."
+msgstr "К записям на турбо-страницах будут добавлены комментарии (пример смотреть <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/rss-elements.html#turbo-content-details__comments\">здесь</a>)."
+
+#: rss-for-yandex-turbo.php:1967
+msgid "Например, <strong>%%_yoast_wpseo_title%%</strong>. Стандартное поле со всем контентом - <strong>%%post_content%%</strong>."
+msgstr "Например, <strong>%%_yoast_wpseo_title%%</strong>. Стандартное поле со всем контентом - <strong>%%post_content%%</strong>."
+
+#: rss-for-yandex-turbo.php:1966
+msgid "Названия произвольных полей должны быть обернуты символами <strong>%%</strong>."
+msgstr "Названия произвольных полей должны быть обернуты символами <strong>%%</strong>."
+
+#: rss-for-yandex-turbo.php:1963
+msgid "Задать индивидуальный шаблон для этой записи"
+msgstr "Задать индивидуальный шаблон для этой записи"
+
+#: rss-for-yandex-turbo.php:1940
+msgid "Удалить турбо-страницу можно только, если запись попадет в RSS-ленту."
+msgstr "Удалить турбо-страницу можно только, если запись попадет в RSS-ленту."
+
+#: rss-for-yandex-turbo.php:1938
+msgid "Удалить турбо-страницу для этой записи"
+msgstr "Удалить турбо-страницу для этой записи"
+
+#: rss-for-yandex-turbo.php:1749
+msgid "вывод партнерского виджета покупки книг от ЛитРес."
+msgstr "вывод партнерского виджета покупки книг от ЛитРес."
+
+#: rss-for-yandex-turbo.php:1639
+msgid "<p><strong style=\"color:red;\">Внимание!</strong> У вас не включен вывод ни для одного типа записей. <br />Перейдите на вкладку \"<a href=\"#tab6\">Таксономии и типы записей</a>\" и включите хотя бы один тип записей.</p>"
+msgstr "<p><strong style=\"color:red;\">Внимание!</strong> У вас не включен вывод ни для одного типа записей. <br />Перейдите на вкладку \"<a href=\"#tab6\">Таксономии и типы записей</a>\" и включите хотя бы один тип записей.</p>"
+
+#: rss-for-yandex-turbo.php:1632
+msgid "Шаблон контента для типа записи"
+msgstr "Шаблон контента для типа записи"
+
+#: rss-for-yandex-turbo.php:1613
+msgid "Расставляйте в шаблоне html-теги сами или за вас это сделает WordPress."
+msgstr "Расставляйте в шаблоне html-теги сами или за вас это сделает WordPress."
+
+#: rss-for-yandex-turbo.php:1612
+msgid "В шаблоне можно использовать шорткоды (убедитесь, что их вывод не содержит скрипты или css-код)."
+msgstr "В шаблоне можно использовать шорткоды (убедитесь, что их вывод не содержит скрипты или css-код)."
+
+#: rss-for-yandex-turbo.php:1609
+msgid "Учтите, что фильтры плагина сработают уже после формирования контента записи по вашему шаблону."
+msgstr "Учтите, что фильтры плагина сработают уже после формирования контента записи по вашему шаблону."
+
+#: rss-for-yandex-turbo.php:1608
+msgid "То есть данную функцию плагина можно использовать в качестве \"подписи\" к вашим записям на турбо-страницах."
+msgstr "То есть данную функцию плагина можно использовать в качестве \"подписи\" к вашим записям на турбо-страницах."
+
+#: rss-for-yandex-turbo.php:1597
+msgid "Простой пример собственного шаблона:"
+msgstr "Простой пример собственного шаблона:"
+
+#: rss-for-yandex-turbo.php:1594
+msgid "Например, <strong>%%_yoast_wpseo_title%%</strong> или <strong>%%_aioseop_title%%</strong>."
+msgstr "Например, <strong>%%_yoast_wpseo_title%%</strong> или <strong>%%_aioseop_title%%</strong>."
+
+#: rss-for-yandex-turbo.php:1593
+msgid "Для использования произвольных полей оберните название произвольного поля символами <strong>%%</strong>."
+msgstr "Для использования произвольных полей оберните название произвольного поля символами <strong>%%</strong>."
+
+#: rss-for-yandex-turbo.php:1591
+msgid "В стандартных типах записей (<strong>post</strong>, <strong>page</strong>) в этом поле содержится весь контент записи."
+msgstr "В стандартных типах записей (<strong>post</strong>, <strong>page</strong>) в этом поле содержится весь контент записи."
+
+#: rss-for-yandex-turbo.php:1590
+msgid "В шаблоне по умолчанию для каждого типа записей выводится только поле <strong>post_content</strong>."
+msgstr "В шаблоне по умолчанию для каждого типа записей выводится только поле <strong>post_content</strong>."
+
+#: rss-for-yandex-turbo.php:1587
+msgid "Чтобы здесь появились все выбранные вами типы записей - <strong>сохраните</strong> настройки плагина."
+msgstr "Чтобы здесь появились все выбранные вами типы записей - <strong>сохраните</strong> настройки плагина."
+
+#: rss-for-yandex-turbo.php:1586
+msgid "Здесь можно создать собственный шаблон формирования контента для указанного типа записей."
+msgstr "Здесь можно создать собственный шаблон формирования контента для указанного типа записей."
+
+#: rss-for-yandex-turbo.php:1571
+msgid "Типы записей для включения в RSS-ленту."
+msgstr "Типы записей для включения в RSS-ленту."
+
+#: rss-for-yandex-turbo.php:1302
+msgid "Укажите идентификатор <strong>tmsec</strong> счетчика Mediascope."
+msgstr "Укажите идентификатор <strong>tmsec</strong> счетчика Mediascope."
+
+#: rss-for-yandex-turbo.php:1295
+msgid "Укажите <strong>ID</strong> счетчика Rambler Топ-100 (например: <tt>4505046</tt>)."
+msgstr "Укажите <strong>ID</strong> счетчика Rambler Топ-100 (например: <tt>4505046</tt>)."
+
+#: rss-for-yandex-turbo.php:1288
+msgid "Укажите <strong>ID</strong> счетчика Рейтинг Mail.RU (например: <tt>123456</tt>)."
+msgstr "Укажите <strong>ID</strong> счетчика Рейтинг Mail.RU (например: <tt>123456</tt>)."
+
+#: rss-for-yandex-turbo.php:1281
+msgid "Укажите <strong>ID</strong> счетчика Google Analytics (например: <tt>UA-12340005-6</tt>)."
+msgstr "Укажите <strong>ID</strong> счетчика Google Analytics (например: <tt>UA-12340005-6</tt>)."
+
+#: rss-for-yandex-turbo.php:1274
+msgid "Укажите <strong>ID</strong> счетчика LiveInternet (например: <tt>site.ru</tt>)."
+msgstr "Укажите <strong>ID</strong> счетчика LiveInternet (например: <tt>site.ru</tt>)."
+
+#: rss-for-yandex-turbo.php:1267
+msgid "Укажите <strong>ID</strong> счетчика Яндекс.Метрики (например: <tt>33382498</tt>)."
+msgstr "Укажите <strong>ID</strong> счетчика Яндекс.Метрики (например: <tt>33382498</tt>)."
+
+#: rss-for-yandex-turbo.php:1261
+msgid "Выберите нужный счетчик и укажите его идентификатор (<a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/find-counter-id.html\">как узнать ID счетчика</a>). <br /> В ленте будут использованы <strong>все</strong> указанные вами счетчики."
+msgstr "Выберите нужный счетчик и укажите его идентификатор (<a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/find-counter-id.html\">как узнать ID счетчика</a>). <br /> В ленте будут использованы <strong>все</strong> указанные вами счетчики."
+
+#: rss-for-yandex-turbo.php:1244
+msgid "Этот рейтинг будет выведен сразу после заголовка (RSS-тег <tt>&lt;header&gt;</tt>)."
+msgstr "Этот рейтинг будет выведен сразу после заголовка (RSS-тег <tt>&lt;header&gt;</tt>)."
+
+#: rss-for-yandex-turbo.php:1243
+msgid "Каждой записи будет присвоена случайная оценка в указанном диапазоне."
+msgstr "Каждой записи будет присвоена случайная оценка в указанном диапазоне."
+
+#: rss-for-yandex-turbo.php:1242
+msgid "Укажите минимальную и максимальную оценку."
+msgstr "Укажите минимальную и максимальную оценку."
+
+#: rss-for-yandex-turbo.php:1241
+msgid "До:"
+msgstr "До:"
+
+#: rss-for-yandex-turbo.php:1240
+msgid "От:"
+msgstr "От:"
+
+#: rss-for-yandex-turbo.php:1238
+msgid "Диапазон оценок:"
+msgstr "Диапазон оценок:"
+
+#: rss-for-yandex-turbo.php:1233
+msgid "Добавить рейтинг на турбо-страницы"
+msgstr "Добавить рейтинг на турбо-страницы"
+
+#: rss-for-yandex-turbo.php:1231
+msgid "Рейтинг:"
+msgstr "Рейтинг:"
+
+#: rss-for-yandex-turbo.php:627
+msgid "И последнее - общее количество картинок в ленте не может превышать 5000 штук (при ленте в 1000 записей это по 5 картинок на запись)."
+msgstr "И последнее - общее количество картинок в ленте не может превышать 5000 штук (при ленте в 1000 записей это по 5 картинок на запись)."
+
+#: rss-for-yandex-turbo.php:556
+msgid "Фильтры"
+msgstr "Фильтры"
+
+#: rss-for-yandex-turbo.php:555
+msgid "Шаблоны"
+msgstr "Шаблоны"
+
+#: rss-for-yandex-turbo.php:554
+msgid "Таксономии и типы записей"
+msgstr "Таксономии и типы записей"
+
+#: rss-for-yandex-turbo.php:553
+msgid "Реклама"
+msgstr "Реклама"
+
+#: rss-for-yandex-turbo.php:550
+msgid "Оформление"
+msgstr "Оформление"
+
+#: rss-for-yandex-turbo.php:549
+msgid "RSS-лента"
+msgstr "RSS-лента"
+
+#: rss-for-yandex-turbo.php:1669
+msgid "Указывать параметры шорткодов (включая квадратные скобки) не требуется."
+msgstr "Указывать параметры шорткодов (включая квадратные скобки) не требуется."
+
+#: rss-for-yandex-turbo.php:1668
+msgid "Список удаляемых шорткодов через запятую (пример: <code>spoiler,contact-form-7</code>)."
+msgstr "Список удаляемых шорткодов через запятую (пример: <code>spoiler,contact-form-7</code>)."
+
+#: rss-for-yandex-turbo.php:1665
+msgid "Шорткоды для удаления:"
+msgstr "Шорткоды для удаления:"
+
+#: rss-for-yandex-turbo.php:1661
+msgid "Из контента записей будут удалены все указанные шорткоды (вместе с их контентом)."
+msgstr "Из контента записей будут удалены все указанные шорткоды (вместе с их контентом)."
+
+#: rss-for-yandex-turbo.php:1660
+msgid "Удалить указанные шорткоды"
+msgstr "Удалить указанные шорткоды"
+
+#: rss-for-yandex-turbo.php:1658
+msgid "Фильтр шорткодов:"
+msgstr "Фильтр шорткодов:"
+
+#: rss-for-yandex-turbo.php:1211
+msgid "При включении непрерывной ленты статей вывод миниатюр для похожих записей будет отключен."
+msgstr "При включении непрерывной ленты статей вывод миниатюр для похожих записей будет отключен."
+
+#: rss-for-yandex-turbo.php:1187
+msgid "Больше <strong>30</strong> похожих записей установить нельзя (тоже лимит Яндекса на количество ссылок в блоке похожих записей)."
+msgstr "Больше <strong>30</strong> похожих записей установить нельзя (тоже лимит Яндекса на количество ссылок в блоке похожих записей)."
+
+#: rss-for-yandex-turbo.php:1186
+msgid "Лимит Яндекса на общее количество изображений одной страницы - <strong>50</strong> (миниатюры похожих записей тоже учитываются)."
+msgstr "Лимит Яндекса на общее количество изображений одной страницы - <strong>50</strong> (миниатюры похожих записей тоже учитываются)."
+
+#: rss-for-yandex-turbo.php:1185
+msgid "Внимание! Не устанавливайте слишком большое число похожих записей, если вы используете вместе с ними вывод миниатюр."
+msgstr "Внимание! Не устанавливайте слишком большое число похожих записей, если вы используете вместе с ними вывод миниатюр."
+
+#: rss-for-yandex-turbo.php:1175
+msgid "Добавить блок похожих записей на турбо-страницы"
+msgstr "Добавить блок похожих записей на турбо-страницы"
+
+#: rss-for-yandex-turbo.php:1130
+msgid "В случае отключения вывода аватаров Яндекс выведет на месте аватаров картинку-заглушку."
+msgstr "В случае отключения вывода аватаров Яндекс выведет на месте аватаров картинку-заглушку."
+
+#: rss-for-yandex-turbo.php:1129
+msgid "Внимание! Картинки аватаров могут не уложиться в лимит изображений на одну запись (не более <strong>50</strong> штук)."
+msgstr "Внимание! Картинки аватаров могут не уложиться в лимит изображений на одну запись (не более <strong>50</strong> штук)."
+
+#: rss-for-yandex-turbo.php:1128
+msgid "Выводить или нет аватары (граватары) к комментариям."
+msgstr "Выводить или нет аватары (граватары) к комментариям."
+
+#: rss-for-yandex-turbo.php:1127
+msgid "Добавить аватары к комментариям"
+msgstr "Добавить аватары к комментариям"
+
+#: rss-for-yandex-turbo.php:1125
+msgid "Аватары:"
+msgstr "Аватары:"
+
+#: rss-for-yandex-turbo.php:1105
+msgid "Укажите урл связи для Telegram (пример: <tt>https://t.me/123456</tt>, где <tt>123456</tt> это ваш аккаунт)."
+msgstr "Укажите урл связи для Telegram (пример: <tt>https://t.me/123456</tt>, где <tt>123456</tt> это ваш аккаунт)."
+
+#: rss-for-yandex-turbo.php:1102
+msgid "Telegram:"
+msgstr "Telegram:"
+
+#: rss-for-yandex-turbo.php:1098
+msgid "Укажите урл связи для Whatsapp (пример: <tt>whatsapp://send?phone=74951234567</tt>, где <tt>74951234567</tt> это ваш номер телефона)."
+msgstr "Укажите урл связи для Whatsapp (пример: <tt>whatsapp://send?phone=74951234567</tt>, где <tt>74951234567</tt> это ваш номер телефона)."
+
+#: rss-for-yandex-turbo.php:1095
+msgid "Whatsapp:"
+msgstr "Whatsapp:"
+
+#: rss-for-yandex-turbo.php:1091
+msgid "Укажите урл связи для Viber (пример для чата: <tt>viber://chat?number=+74951234567</tt>, где <tt>+74991234567</tt> это ваш номер телефона)."
+msgstr "Укажите урл связи для Viber (пример для чата: <tt>viber://chat?number=+74951234567</tt>, где <tt>+74991234567</tt> это ваш номер телефона)."
+
+#: rss-for-yandex-turbo.php:1088
+msgid "Viber:"
+msgstr "Viber:"
+
+#: rss-for-yandex-turbo.php:1084
+msgid "Укажите урл профиля Google Plus (пример: <tt>https://plus.google.com/123456</tt>, где <tt>123456</tt> это ваш аккаунт)."
+msgstr "Укажите урл профиля Google Plus (пример: <tt>https://plus.google.com/123456</tt>, где <tt>123456</tt> это ваш аккаунт)."
+
+#: rss-for-yandex-turbo.php:1081
+msgid "Google Plus:"
+msgstr "Google Plus:"
+
+#: rss-for-yandex-turbo.php:1077
+msgid "Укажите урл (профиль, группа или чат) Facebook (пример для профиля: <tt>https://www.facebook.com/yandex</tt>, где <tt>yandex</tt> это ваш аккаунт)."
+msgstr "Укажите урл (профиль, группа или чат) Facebook (пример для профиля: <tt>https://www.facebook.com/yandex</tt>, где <tt>yandex</tt> это ваш аккаунт)."
+
+#: rss-for-yandex-turbo.php:1074
+msgid "Facebook:"
+msgstr "Facebook:"
+
+#: rss-for-yandex-turbo.php:1070
+msgid "Укажите урл профиля Twitter (пример: <tt>https://twitter.com/yandex</tt>, где <tt>yandex</tt> это ваш аккаунт)."
+msgstr "Укажите урл профиля Twitter (пример: <tt>https://twitter.com/yandex</tt>, где <tt>yandex</tt> это ваш аккаунт)."
+
+#: rss-for-yandex-turbo.php:1067
+msgid "Twitter:"
+msgstr "Twitter:"
+
+#: rss-for-yandex-turbo.php:1063
+msgid "Укажите урл (профиль или группа) Одноклассники (пример для профиля: <tt>https://www.ok.ru/profile/123456</tt>, где <tt>123456</tt> это ваш аккаунт)."
+msgstr "Укажите урл (профиль или группа) Одноклассники (пример для профиля: <tt>https://www.ok.ru/profile/123456</tt>, где <tt>123456</tt> это ваш аккаунт)."
+
+#: rss-for-yandex-turbo.php:1060
+msgid "Odnoklassniki:"
+msgstr "Odnoklassniki:"
+
+#: rss-for-yandex-turbo.php:1056
+msgid "Укажите урл (профиль, группа или чат) ВКонтакте (пример для чата: <tt>https://vk.me/123456</tt>, где <tt>123456</tt> это ваш аккаунт)."
+msgstr "Укажите урл (профиль, группа или чат) ВКонтакте (пример для чата: <tt>https://vk.me/123456</tt>, где <tt>123456</tt> это ваш аккаунт)."
+
+#: rss-for-yandex-turbo.php:1053
+msgid "VKontakte:"
+msgstr "VKontakte:"
+
+#: rss-for-yandex-turbo.php:1046
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: rss-for-yandex-turbo.php:1041
+msgid "Справку о том, как создать \"Чат для бизнеса\" читайте <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/rss-elements.html#turbo-content-details__chat\">здесь</a>."
+msgstr "Справку о том, как создать \"Чат для бизнеса\" читайте <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/rss-elements.html#turbo-content-details__chat\">здесь</a>."
+
+#: rss-for-yandex-turbo.php:1040
+msgid "Указывать ничего не надо, если вы создали чат для своего сайта."
+msgstr "Указывать ничего не надо, если вы создали чат для своего сайта."
+
+#: rss-for-yandex-turbo.php:1037
+msgid "Чат:"
+msgstr "Чат:"
+
+#: rss-for-yandex-turbo.php:1032
+msgid "* При заполнении требуется указать юридическое название вашей организации."
+msgstr "* При заполнении требуется указать юридическое название вашей организации."
+
+#: rss-for-yandex-turbo.php:1031
+msgid "Укажите ссылку на пользовательское соглашение о предоставлении обратной связи."
+msgstr "Укажите ссылку на пользовательское соглашение о предоставлении обратной связи."
+
+#: rss-for-yandex-turbo.php:1028
+msgid "Пользовательское соглашение:"
+msgstr "Пользовательское соглашение:"
+
+#: rss-for-yandex-turbo.php:1023
+msgid "* При заполнении требуется указать ссылку на пользовательское соглашении."
+msgstr "* При заполнении требуется указать ссылку на пользовательское соглашении."
+
+#: rss-for-yandex-turbo.php:1022
+msgid "Укажите юридическое название вашей организации (пример: <tt>ООО «Ромашка»</tt>)."
+msgstr "Укажите юридическое название вашей организации (пример: <tt>ООО «Ромашка»</tt>)."
+
+#: rss-for-yandex-turbo.php:1019
+msgid "Название организации:"
+msgstr "Название организации:"
+
+#: rss-for-yandex-turbo.php:1014
+msgid "Разрешено указывать только e-mail, принадлежащий вашему домену."
+msgstr "Разрешено указывать только e-mail, принадлежащий вашему домену."
+
+#: rss-for-yandex-turbo.php:1013 rss-for-yandex-turbo.php:1049
+msgid "Укажите адрес e-mail (пример: <tt>mail@test.ru</tt>)."
+msgstr "Укажите адрес e-mail (пример: <tt>mail@test.ru</tt>)."
+
+#: rss-for-yandex-turbo.php:1010
+msgid "Email для контактной формы:"
+msgstr "Email для контактной формы:"
+
+#: rss-for-yandex-turbo.php:1006
+msgid "Укажите телефонный номер в международном формате (пример: <tt>+74951234567</tt>)."
+msgstr "Укажите телефонный номер в международном формате (пример: <tt>+74951234567</tt>)."
+
+#: rss-for-yandex-turbo.php:1003
+msgid "Звонок:"
+msgstr "Звонок:"
+
+#: rss-for-yandex-turbo.php:998
+msgid "Для установки контактов выберите нужную кнопку из списка (доступны только отмеченные кнопки связи)."
+msgstr "Для установки контактов выберите нужную кнопку из списка (доступны только отмеченные кнопки связи)."
+
+#: rss-for-yandex-turbo.php:996
+msgid "Telegram"
+msgstr "Telegram"
+
+#: rss-for-yandex-turbo.php:995
+msgid "Whatsapp"
+msgstr "Whatsapp"
+
+#: rss-for-yandex-turbo.php:994
+msgid "Viber"
+msgstr "Viber"
+
+#: rss-for-yandex-turbo.php:993
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: rss-for-yandex-turbo.php:992
+msgid "Facebook"
+msgstr "Facebook"
+
+#: rss-for-yandex-turbo.php:991
+msgid "Twitter"
+msgstr "Twitter"
+
+#: rss-for-yandex-turbo.php:990
+msgid "Odnoklassniki"
+msgstr "Odnoklassniki"
+
+#: rss-for-yandex-turbo.php:989
+msgid "VKontakte"
+msgstr "VKontakte"
+
+#: rss-for-yandex-turbo.php:988
+msgid "E-mail"
+msgstr "E-mail"
+
+#: rss-for-yandex-turbo.php:987
+msgid "Чат"
+msgstr "Чат"
+
+#: rss-for-yandex-turbo.php:986
+msgid "Контактная форма"
+msgstr "Контактная форма"
+
+#: rss-for-yandex-turbo.php:985
+msgid "Звонок"
+msgstr "Звонок"
+
+#: rss-for-yandex-turbo.php:984
+msgid "- Выбрать -"
+msgstr "- Выбрать -"
+
+#: rss-for-yandex-turbo.php:981
+msgid "Контакты для кнопок:"
+msgstr "Контакты для кнопок:"
+
+#: rss-for-yandex-turbo.php:973
+msgid "Порядок кнопок:"
+msgstr "Порядок кнопок:"
+
+#: rss-for-yandex-turbo.php:902
+msgid "Кнопки связи:"
+msgstr "Кнопки связи:"
+
+#: rss-for-yandex-turbo.php:897
+msgid "Укажите заголовок блока (используется только при выводе блока в указанном месте)."
+msgstr "Укажите заголовок блока (используется только при выводе блока в указанном месте)."
+
+#: rss-for-yandex-turbo.php:894
+msgid "Заголовок блока:"
+msgstr "Заголовок блока:"
+
+#: rss-for-yandex-turbo.php:889
+msgid "В начале записи блок будет расположен после заголовка, а в конце записи после блока \"Поделиться\"."
+msgstr "В начале записи блок будет расположен после заголовка, а в конце записи после блока \"Поделиться\"."
+
+#: rss-for-yandex-turbo.php:886
+msgid "В начале записи"
+msgstr "В начале записи"
+
+#: rss-for-yandex-turbo.php:883
+msgid "Расположить блок:"
+msgstr "Расположить блок:"
+
+#: rss-for-yandex-turbo.php:878
+msgid "При выравнивании по левому или правому краю страницы можно разместить лишь <strong>4</strong> кнопки связи."
+msgstr "При выравнивании по левому или правому краю страницы можно разместить лишь <strong>4</strong> кнопки связи."
+
+#: rss-for-yandex-turbo.php:877
+msgid "Укажите где именно на турбо-страницах должен выводиться блок обратной связи."
+msgstr "Укажите где именно на турбо-страницах должен выводиться блок обратной связи."
+
+#: rss-for-yandex-turbo.php:875
+msgid "В указанном месте"
+msgstr "В указанном месте"
+
+#: rss-for-yandex-turbo.php:874
+msgid "Справа"
+msgstr "Справа"
+
+#: rss-for-yandex-turbo.php:873
+msgid "Слева"
+msgstr "Слева"
+
+#: rss-for-yandex-turbo.php:870
+msgid "Выравнивание блока:"
+msgstr "Выравнивание блока:"
+
+#: rss-for-yandex-turbo.php:865
+msgid "На турбо-страницы будет добавлен блок обратной связи в выбранном вами месте (пример смотреть <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/rss-elements.html#turbo-content-details__feedback\">здесь</a>)."
+msgstr "На турбо-страницы будет добавлен блок обратной связи в выбранном вами месте (пример смотреть <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/rss-elements.html#turbo-content-details__feedback\">здесь</a>)."
+
+#: rss-for-yandex-turbo.php:864
+msgid "Добавить блок обратной связи на турбо-страницы"
+msgstr "Добавить блок обратной связи на турбо-страницы"
+
+#: rss-for-yandex-turbo.php:862
+msgid "Блок обратной связи:"
+msgstr "Блок обратной связи:"
+
+#: rss-for-yandex-turbo.php:806
+msgid "Этот блок будет добавлен в конце записи (пример смотреть <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/rss-elements.html#turbo-content-details__share\">здесь</a>)."
+msgstr "Этот блок будет добавлен в конце записи (пример смотреть <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/rss-elements.html#turbo-content-details__share\">здесь</a>)."
+
+#: rss-for-yandex-turbo.php:798
+msgid "Меню должно быть ограничено <strong>10</strong> ссылками без иерархии (пример смотреть <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/rss-elements.html#turbo-content-details__menu\">здесь</a>)."
+msgstr "Меню должно быть ограничено <strong>10</strong> ссылками без иерархии (пример смотреть <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/rss-elements.html#turbo-content-details__menu\">здесь</a>)."
+
+#: rss-for-yandex-turbo.php:794
+msgid "Внешний вид \\ Меню"
+msgstr "Внешний вид \\ Меню"
+
+#: rss-for-yandex-turbo.php:794
+msgid "Выберите меню для использования на турбо-страницах (создать меню можно на вкладке "
+msgstr "Выберите меню для использования на турбо-страницах (создать меню можно на вкладке "
+
+#: rss-for-yandex-turbo.php:784
+msgid "Меню:"
+msgstr "Меню:"
+
+#: rss-for-yandex-turbo.php:551
+msgid "Блоки Яндекс.Турбо"
+msgstr "Блоки Яндекс.Турбо"
+
+#: rss-for-yandex-turbo.php:697
+msgid "Выберите используемый вами SEO-плагин. <br /> Если заголовок записи в SEO-плагине не установлен, то будет использован стандартный заголовок."
+msgstr "Выберите используемый вами SEO-плагин. <br /> Если заголовок записи в SEO-плагине не установлен, то будет использован стандартный заголовок."
+
+#: rss-for-yandex-turbo.php:695
+msgid "All in One SEO Pack"
+msgstr "All in One SEO Pack"
+
+#: rss-for-yandex-turbo.php:694
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: rss-for-yandex-turbo.php:691
+msgid "SEO-плагин:"
+msgstr "SEO-плагин:"
+
+#: rss-for-yandex-turbo.php:686
+msgid "Эта опция меняет только видимый пользователями тег <tt>&lt;h1&gt;</tt> и не затрагивает RSS-теги <tt>&lt;title&gt;</tt> и <tt>&lt;turbo:topic&gt;</tt>."
+msgstr "Эта опция меняет только видимый пользователями тег <tt>&lt;h1&gt;</tt> и не затрагивает RSS-теги <tt>&lt;title&gt;</tt> и <tt>&lt;turbo:topic&gt;</tt>."
+
+#: rss-for-yandex-turbo.php:685
+msgid "В качестве заголовка записи (тег <tt>&lt;h1&gt;</tt>) будет использован заголовок записи из выбранного SEO-плагина."
+msgstr "В качестве заголовка записи (тег <tt>&lt;h1&gt;</tt>) будет использован заголовок записи из выбранного SEO-плагина."
+
+#: rss-for-yandex-turbo.php:684
+msgid "Использовать данные из SEO-плагинов"
+msgstr "Использовать данные из SEO-плагинов"
+
+#: rss-for-yandex-turbo.php:682
+msgid "Заголовок записей:"
+msgstr "Заголовок записей:"
+
+#: rss-for-yandex-turbo.php:626
+msgid "Однако помните, что при добавлении новых \"турбо-фич\" вам надо будет заново \"скормить\" Яндексу максимальное количество RSS-лент."
+msgstr "Однако помните, что при добавлении новых \"турбо-фич\" вам надо будет заново \"скормить\" Яндексу максимальное количество RSS-лент."
+
+#: rss-for-yandex-turbo.php:625
+msgid "В идеале у вас должна остаться в Яндекс.Вебмастере только одна RSS-лента с 20-30 последними записями сайта и все."
+msgstr "В идеале у вас должна остаться в Яндекс.Вебмастере только одна RSS-лента с 20-30 последними записями сайта и все."
+
+#: rss-for-yandex-turbo.php:624
+msgid "Таким образом можно обойти ограничение Яндекса на 10000 турбо-страниц (10 RSS-лент по 1000 записей в каждой)."
+msgstr "Таким образом можно обойти ограничение Яндекса на 10000 турбо-страниц (10 RSS-лент по 1000 записей в каждой)."
+
+#: rss-for-yandex-turbo.php:623
+msgid "Достаточно единоразово \"скормить\" Яндексу максимальное количество лент, а потом их можно безбоязненно удалить (турбо-страницы при этом удалены не будут)."
+msgstr "Достаточно единоразово \"скормить\" Яндексу максимальное количество лент, а потом их можно безбоязненно удалить (турбо-страницы при этом удалены не будут)."
+
+#: rss-for-yandex-turbo.php:622
+msgid "Внимание! Не обязательно держать в Яндекс.Вебмастере максимальное количество лент (одновременно там может присутствовать <strong>10</strong> лент)."
+msgstr "Внимание! Не обязательно держать в Яндекс.Вебмастере максимальное количество лент (одновременно там может присутствовать <strong>10</strong> лент)."
+
+#: rss-for-yandex-turbo.php:1958
+msgid "Отключить блок рекламы #5 для этой записи (после комментариев)"
+msgstr "Отключить блок рекламы #5 для этой записи (после комментариев)"
+
+#: rss-for-yandex-turbo.php:1955
+msgid "Отключить блок рекламы #4 для этой записи (после блока \"Поделиться\")"
+msgstr "Отключить блок рекламы #4 для этой записи (после блока \"Поделиться\")"
+
+#: rss-for-yandex-turbo.php:1952
+msgid "Отключить блок рекламы #3 для этой записи (в конце записи)"
+msgstr "Отключить блок рекламы #3 для этой записи (в конце записи)"
+
+#: rss-for-yandex-turbo.php:1949
+msgid "Отключить блок рекламы #2 для этой записи (в середине записи)"
+msgstr "Отключить блок рекламы #2 для этой записи (в середине записи)"
+
+#: rss-for-yandex-turbo.php:1946
+msgid "Отключить блок рекламы #1 для этой записи (в начале записи)"
+msgstr "Отключить блок рекламы #1 для этой записи (в начале записи)"
+
+#: rss-for-yandex-turbo.php:1468
+msgid "Рекламная сеть блока рекламы #5."
+msgstr "Рекламная сеть блока рекламы #5."
+
+#: rss-for-yandex-turbo.php:1462
+msgid "Рекламная сеть блока рекламы #5:"
+msgstr "Рекламная сеть блока рекламы #5:"
+
+#: rss-for-yandex-turbo.php:1458
+msgid "Рекламный блок будет выведен только, если к записи есть хотя бы один комментарий (и включен вывод комментариев)."
+msgstr "Рекламный блок будет выведен только, если к записи есть хотя бы один комментарий (и включен вывод комментариев)."
+
+#: rss-for-yandex-turbo.php:1456
+msgid "Включить пятый блок рекламы (<span style=\"color:green;\">после комментариев</span>)"
+msgstr "Включить пятый блок рекламы (<span style=\"color:green;\">после комментариев</span>)"
+
+#: rss-for-yandex-turbo.php:1454
+msgid "Блок рекламы #5:"
+msgstr "Блок рекламы #5:"
+
+#: rss-for-yandex-turbo.php:1434
+msgid "Рекламная сеть блока рекламы #4."
+msgstr "Рекламная сеть блока рекламы #4."
+
+#: rss-for-yandex-turbo.php:1428
+msgid "Рекламная сеть блока рекламы #4:"
+msgstr "Рекламная сеть блока рекламы #4:"
+
+#: rss-for-yandex-turbo.php:1424
+msgid "Рекламный блок будет выведен только, если включена опция вывода блока \"Поделиться\"."
+msgstr "Рекламный блок будет выведен только, если включена опция вывода блока \"Поделиться\"."
+
+#: rss-for-yandex-turbo.php:1422
+msgid "Включить четвертый блок рекламы (<span style=\"color:green;\">после блока \"Поделиться\"</span>)"
+msgstr "Включить четвертый блок рекламы (<span style=\"color:green;\">после блока \"Поделиться\"</span>)"
+
+#: rss-for-yandex-turbo.php:1420
+msgid "Блок рекламы #4:"
+msgstr "Блок рекламы #4:"
+
+#: rss-for-yandex-turbo.php:1389
+msgid "Включить третий блок рекламы (<span style=\"color:green;\">в конце записи</span>)"
+msgstr "Включить третий блок рекламы (<span style=\"color:green;\">в конце записи</span>)"
+
+#: rss-for-yandex-turbo.php:1356
+msgid "Включить второй блок рекламы (<span style=\"color:green;\">в середине записи</span>)"
+msgstr "Включить второй блок рекламы (<span style=\"color:green;\">в середине записи</span>)"
+
+#: rss-for-yandex-turbo.php:1322
+msgid "Включить первый блок рекламы (<span style=\"color:green;\">после заголовка записи</span>)"
+msgstr "Включить первый блок рекламы (<span style=\"color:green;\">после заголовка записи</span>)"
+
+#: rss-for-yandex-turbo.php:1227
+msgid "Внимание! Любое изменение настроек плагина скинет кэш похожих записей."
+msgstr "Внимание! Любое изменение настроек плагина скинет кэш похожих записей."
+
+#: rss-for-yandex-turbo.php:1226
+msgid "Укажите время жизни кэша (в часах)."
+msgstr "Укажите время жизни кэша (в часах)."
+
+#: rss-for-yandex-turbo.php:1223
+msgid "Время жизни кэша:"
+msgstr "Время жизни кэша:"
+
+#: rss-for-yandex-turbo.php:1219
+msgid "Для ускорения генерирования RSS-ленты вы можете включить кэширование списка похожих записей."
+msgstr "Для ускорения генерирования RSS-ленты вы можете включить кэширование списка похожих записей."
+
+#: rss-for-yandex-turbo.php:1218
+msgid "Кэшировать список похожих записей"
+msgstr "Кэшировать список похожих записей"
+
+#: rss-for-yandex-turbo.php:1216
+msgid "Кэширование:"
+msgstr "Кэширование:"
+
+#: rss-for-yandex-turbo.php:1210
+msgid "Вместо обычного короткого списка похожих статей будет выводиться непрерывная лента из полных записей (пример смотреть <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/rss-elements.html#item__infinity\">здесь</a>)."
+msgstr "Вместо обычного короткого списка похожих статей будет выводиться непрерывная лента из полных записей (пример смотреть <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/rss-elements.html#item__infinity\">здесь</a>)."
+
+#: rss-for-yandex-turbo.php:1209
+msgid "Включить непрерывную ленту статей"
+msgstr "Включить непрерывную ленту статей"
+
+#: rss-for-yandex-turbo.php:1207
+msgid "Непрерывная лента статей:"
+msgstr "Непрерывная лента статей:"
+
+#: rss-for-yandex-turbo.php:1168
+msgid "Учтите, что отключение древовидности не повлияет на сортировку комментариев."
+msgstr "Учтите, что отключение древовидности не повлияет на сортировку комментариев."
+
+#: rss-for-yandex-turbo.php:1167
+msgid "Поддерживается древовидность только для 2 уровней глубины."
+msgstr "Поддерживается древовидность только для 2 уровней глубины."
+
+#: rss-for-yandex-turbo.php:1166
+msgid "Выводить или не выводить комментарии в древовидном виде."
+msgstr "Выводить или не выводить комментарии в древовидном виде."
+
+#: rss-for-yandex-turbo.php:1165
+msgid "Использовать древовидность"
+msgstr "Использовать древовидность"
+
+#: rss-for-yandex-turbo.php:1163
+msgid "Древовидность:"
+msgstr "Древовидность:"
+
+#: rss-for-yandex-turbo.php:1158
+msgid "Указывать дату для комментариев по <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/rss-elements.html#turbo-content-details__comments\">спецификации</a> Яндекса необязательно."
+msgstr "Указывать дату для комментариев по <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/rss-elements.html#turbo-content-details__comments\">спецификации</a> Яндекса необязательно."
+
+#: rss-for-yandex-turbo.php:1157
+msgid "Добавить дату к комментариям"
+msgstr "Добавить дату к комментариям"
+
+#: rss-for-yandex-turbo.php:1155
+msgid "Дата комментариев:"
+msgstr "Дата комментариев:"
+
+#: rss-for-yandex-turbo.php:1150
+msgid "Учтите, что при использовании древовидных комментариев сортировка визуально может быть нарушена."
+msgstr "Учтите, что при использовании древовидных комментариев сортировка визуально может быть нарушена."
+
+#: rss-for-yandex-turbo.php:1149
+msgid "Сортировка комментариев по дате добавления."
+msgstr "Сортировка комментариев по дате добавления."
+
+#: rss-for-yandex-turbo.php:1147
+msgid "В начале старые комментарии"
+msgstr "В начале старые комментарии"
+
+#: rss-for-yandex-turbo.php:1146
+msgid "В начале новые комментарии"
+msgstr "В начале новые комментарии"
+
+#: rss-for-yandex-turbo.php:1143
+msgid "Сортировка:"
+msgstr "Сортировка:"
+
+#: rss-for-yandex-turbo.php:1138
+msgid "Укажите число выводимых комментариев (максимально можно выводить только <strong>40</strong> комментариев)."
+msgstr "Укажите число выводимых комментариев (максимально можно выводить только <strong>40</strong> комментариев)."
+
+#: rss-for-yandex-turbo.php:1135
+msgid "Число комментариев:"
+msgstr "Число комментариев:"
+
+#: rss-for-yandex-turbo.php:1234
+msgid "На турбо-страницы будет добавлен блок рейтинга (пример смотреть <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/rss-elements.html#turbo-content-details__rating\">здесь</a>)."
+msgstr "На турбо-страницы будет добавлен блок рейтинга (пример смотреть <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/rss-elements.html#turbo-content-details__rating\">здесь</a>)."
+
+#: rss-for-yandex-turbo.php:1119
+msgid "Добавить комментарии к турбо-страницам"
+msgstr "Добавить комментарии к турбо-страницам"
+
+#: rss-for-yandex-turbo.php:1117
+msgid "Комментарии:"
+msgstr "Комментарии:"
+
+#: rss-for-yandex-turbo.php:1112
+msgid "Данная опция преобразует стандартные галереи WordPress в турбо-галереи (пример смотреть <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/rss-elements.html#turbo-content-details__gallery\">здесь</a>)."
+msgstr "Данная опция преобразует стандартные галереи WordPress в турбо-галереи (пример смотреть <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/rss-elements.html#turbo-content-details__gallery\">здесь</a>)."
+
+#: rss-for-yandex-turbo.php:1111
+msgid "Использовать галереи"
+msgstr "Использовать галереи"
+
+#: rss-for-yandex-turbo.php:1109
+msgid "Галереи:"
+msgstr "Галереи:"
+
+#: rss-for-yandex-turbo.php:858 rss-for-yandex-turbo.php:977
+msgid "Для сортировки иконок сначала снимите все чекбоксы, а потом снова их выберите в нужном вам порядке."
+msgstr "Для сортировки иконок сначала снимите все чекбоксы, а потом снова их выберите в нужном вам порядке."
+
+#: rss-for-yandex-turbo.php:854
+msgid "Порядок:"
+msgstr "Порядок:"
+
+#: rss-for-yandex-turbo.php:811
+msgid "Социальные сети:"
+msgstr "Социальные сети:"
+
+#: rss-for-yandex-turbo.php:805
+msgid "Добавить блок \"Поделиться\" на турбо-страницы"
+msgstr "Добавить блок \"Поделиться\" на турбо-страницы"
+
+#: rss-for-yandex-turbo.php:803
+msgid "Блок \"Поделиться\":"
+msgstr "Блок \"Поделиться\":"
+
+#: rss-for-yandex-turbo.php:1348 rss-for-yandex-turbo.php:1382
+#: rss-for-yandex-turbo.php:1415 rss-for-yandex-turbo.php:1449
+#: rss-for-yandex-turbo.php:1483
+msgid "Код рекламной сети ADFOX (начиная с <tt>&lt;div></tt>, <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/find-ad-block.html\">как его узнать</a>)."
+msgstr "Код рекламной сети ADFOX (начиная с <tt>&lt;div></tt>, <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/find-ad-block.html\">как его узнать</a>)."
+
+#: rss-for-yandex-turbo.php:1345 rss-for-yandex-turbo.php:1379
+#: rss-for-yandex-turbo.php:1412 rss-for-yandex-turbo.php:1446
+#: rss-for-yandex-turbo.php:1480
+msgid "Код ADFOX:"
+msgstr "Код ADFOX:"
+
+#: rss-for-yandex-turbo.php:677
+msgid "Например, когда \"отрывок\" (цитата) записи содержит контент, которого нет в самой записи."
+msgstr "Например, когда \"отрывок\" (цитата) записи содержит контент, которого нет в самой записи."
+
+#: rss-for-yandex-turbo.php:676
+msgid "Используйте эту опцию только в случае необходимости."
+msgstr "Используйте эту опцию только в случае необходимости."
+
+#: rss-for-yandex-turbo.php:675
+msgid "Добавить в начало записей \"отрывок\""
+msgstr "Добавить в начало записей \"отрывок\""
+
+#: rss-for-yandex-turbo.php:673
+msgid "Отрывок записей:"
+msgstr "Отрывок записей:"
+
+#: rss-for-yandex-turbo.php:668
+msgid "Выводить или не выводить дату публикации записей в ленте."
+msgstr "Выводить или не выводить дату публикации записей в ленте."
+
+#: rss-for-yandex-turbo.php:667
+msgid "Указать дату публикации записей"
+msgstr "Указать дату публикации записей"
+
+#: rss-for-yandex-turbo.php:665
+msgid "Дата записей:"
+msgstr "Дата записей:"
+
+#: rss-for-yandex-turbo.php:1542
+msgid "Пример: <code>category:1,2,4</code> - записи рубрик с ID равным 1, 2 и 4 будут <strong style=\"color:red;\">добавлены</strong> в RSS-ленту."
+msgstr "Пример: <code>category:1,2,4</code> - записи рубрик с ID равным 1, 2 и 4 будут <strong style=\"color:red;\">добавлены</strong> в RSS-ленту."
+
+#: rss-for-yandex-turbo.php:1538
+msgid "Таксономии для добавления:"
+msgstr "Таксономии для добавления:"
+
+#: rss-for-yandex-turbo.php:1531
+msgid "Пример: <code>category:1,2,4</code> - записи рубрик с ID равным 1, 2 и 4 будут <strong style=\"color:red;\">исключены</strong> из RSS-ленты."
+msgstr "Пример: <code>category:1,2,4</code> - записи рубрик с ID равным 1, 2 и 4 будут <strong style=\"color:red;\">исключены</strong> из RSS-ленты."
+
+#: rss-for-yandex-turbo.php:1522
+msgid "По умолчанию в ленту попадают записи всех таксономий, кроме указанных ниже."
+msgstr "По умолчанию в ленту попадают записи всех таксономий, кроме указанных ниже."
+
+#: rss-for-yandex-turbo.php:1521
+msgid "Обязательно установите ниже таксономии для включения в ленту - иначе лента будет пустая."
+msgstr "Обязательно установите ниже таксономии для включения в ленту - иначе лента будет пустая."
+
+#: rss-for-yandex-turbo.php:1520
+msgid "Внимание! Будьте осторожны с этой настройкой!"
+msgstr "Внимание! Будьте осторожны с этой настройкой!"
+
+#: rss-for-yandex-turbo.php:1518
+msgid "Только указанные таксономии"
+msgstr "Только указанные таксономии"
+
+#: rss-for-yandex-turbo.php:1517
+msgid "Все таксономии, кроме исключенных"
+msgstr "Все таксономии, кроме исключенных"
+
+#: rss-for-yandex-turbo.php:1514
+msgid "Включить в RSS:"
+msgstr "Включить в RSS:"
+
+#: rss-for-yandex-turbo.php:1299
+msgid "Mediascope (TNS):"
+msgstr "Mediascope (TNS):"
+
+#: rss-for-yandex-turbo.php:1292
+msgid "Rambler Топ-100:"
+msgstr "Rambler Топ-100:"
+
+#: rss-for-yandex-turbo.php:1285
+msgid "Рейтинг Mail.RU:"
+msgstr "Рейтинг Mail.RU:"
+
+#: rss-for-yandex-turbo.php:1278
+msgid "Google Analytics:"
+msgstr "Google Analytics:"
+
+#: rss-for-yandex-turbo.php:1271
+msgid "LiveInternet:"
+msgstr "LiveInternet:"
+
+#: rss-for-yandex-turbo.php:1264
+msgid "Яндекс.Метрика:"
+msgstr "Яндекс.Метрика:"
+
+#: rss-for-yandex-turbo.php:552
+msgid "Счетчики"
+msgstr "Счетчики"
+
+#: rss-for-yandex-turbo.php:736
+msgid "Произвольное имя автора записей (если не заполнено, то будет использовано имя автора записи)."
+msgstr "Произвольное имя автора записей (если не заполнено, то будет использовано имя автора записи)."
+
+#: rss-for-yandex-turbo.php:728
+msgid "Автор записей (RSS-тег <tt>&lt;author></tt> - для сервиса Яндекс.Турбо данный тег не является обязательным). "
+msgstr "Автор записей (RSS-тег <tt>&lt;author></tt> - для сервиса Яндекс.Турбо данный тег не является обязательным). "
+
+#: rss-for-yandex-turbo.php:574
+msgid "Текущий URL RSS-ленты:"
+msgstr "Текущий URL RSS-ленты:"
+
+#: rss-for-yandex-turbo.php:647
+msgid "Простое удаление плагина не поможет - необходимо, чтобы бот Яндекса \"съел\" ленту с <tt>turbo=\"false\"</tt>."
+msgstr "Простое удаление плагина не поможет - необходимо, чтобы бот Яндекса \"съел\" ленту с <tt>turbo=\"false\"</tt>."
+
+#: rss-for-yandex-turbo.php:646
+msgid "Это единственный способ заставить Яндекс отключить турбо-страницы для вашего сайта."
+msgstr "Это единственный способ заставить Яндекс отключить турбо-страницы для вашего сайта."
+
+#: rss-for-yandex-turbo.php:645
+msgid "Эта опция добавит в RSS-ленту атрибут <tt>turbo=\"false\"</tt> к тегу <tt>&lt;item></tt>."
+msgstr "Эта опция добавит в RSS-ленту атрибут <tt>turbo=\"false\"</tt> к тегу <tt>&lt;item></tt>."
+
+#: rss-for-yandex-turbo.php:644
+msgid "Отключить турбо-страницы"
+msgstr "Отключить турбо-страницы"
+
+#: rss-for-yandex-turbo.php:642
+msgid "Отключение Турбо:"
+msgstr "Отключение Турбо:"
+
+#: rss-for-yandex-turbo.php:1201
+msgid "Вывод миниатюр для похожих записей можно отключить."
+msgstr "Вывод миниатюр для похожих записей можно отключить."
+
+#: rss-for-yandex-turbo.php:1192
+msgid "Миниатюра для похожих записей:"
+msgstr "Миниатюра для похожих записей:"
+
+#: rss-for-yandex-turbo.php:1184
+msgid "Список похожих записей будет формироваться случайным образом из записей рубрики текущей записи."
+msgstr "Список похожих записей будет формироваться случайным образом из записей рубрики текущей записи."
+
+#: rss-for-yandex-turbo.php:1183
+msgid "Укажите число записей в блоке похожих записей."
+msgstr "Укажите число записей в блоке похожих записей."
+
+#: rss-for-yandex-turbo.php:1180
+msgid "Количество похожих записей:"
+msgstr "Количество похожих записей:"
+
+#: rss-for-yandex-turbo.php:1176
+msgid "На турбо-страницы будет добавлен блок похожих записей (RSS-тег <tt>&lt;yandex:related></tt>)."
+msgstr "На турбо-страницы будет добавлен блок похожих записей (RSS-тег <tt>&lt;yandex:related></tt>)."
+
+#: rss-for-yandex-turbo.php:1173
+msgid "Похожие записи:"
+msgstr "Похожие записи:"
+
+#: rss-for-yandex-turbo.php:1493
+msgid "Учитывается только текст контента записи (html-разметка не считается)."
+msgstr "Учитывается только текст контента записи (html-разметка не считается)."
+
+#: rss-for-yandex-turbo.php:1492
+msgid "Данная опция используется только при вставке рекламы в <strong>середину</strong> записи."
+msgstr "Данная опция используется только при вставке рекламы в <strong>середину</strong> записи."
+
+#: rss-for-yandex-turbo.php:1491
+msgid "Укажите минимальное количество символов записи для добавления рекламы."
+msgstr "Укажите минимальное количество символов записи для добавления рекламы."
+
+#: rss-for-yandex-turbo.php:1488
+msgid "Минимальный размер записи:"
+msgstr "Минимальный размер записи:"
+
+#: rss-for-yandex-turbo.php:1400
+msgid "Рекламная сеть блока рекламы #3."
+msgstr "Рекламная сеть блока рекламы #3."
+
+#: rss-for-yandex-turbo.php:1394
+msgid "Рекламная сеть блока рекламы #3:"
+msgstr "Рекламная сеть блока рекламы #3:"
+
+#: rss-for-yandex-turbo.php:1387
+msgid "Блок рекламы #3:"
+msgstr "Блок рекламы #3:"
+
+#: rss-for-yandex-turbo.php:575
+msgid "Только буквы и цифры, не меняйте без необходимости."
+msgstr "Только буквы и цифры, не меняйте без необходимости."
+
+#: rss-for-yandex-turbo.php:571
+msgid "Имя RSS-ленты:"
+msgstr "Имя RSS-ленты:"
+
+#: rss-for-yandex-turbo.php:704
+msgid "В заголовок записи (RSS-тег <tt>&lt;header></tt>) будет добавлена миниатюра записи (изображение записи)."
+msgstr "В заголовок записи (RSS-тег <tt>&lt;header></tt>) будет добавлена миниатюра записи (изображение записи)."
+
+#: rss-for-yandex-turbo.php:703
+msgid "Добавить миниатюру к заголовку записи"
+msgstr "Добавить миниатюру к заголовку записи"
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/flector#content-plugins"
+msgstr "https://profiles.wordpress.org/flector#content-plugins"
+
+#. Author of the plugin/theme
+msgid "Flector"
+msgstr "Flector"
+
+#. Description of the plugin/theme
+msgid "Создание RSS-ленты для сервиса Яндекс.Турбо."
+msgstr "Создание RSS-ленты для сервиса Яндекс.Турбо."
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/rss-for-yandex-turbo/"
+msgstr "https://wordpress.org/plugins/rss-for-yandex-turbo/"
+
+#. Plugin Name of the plugin/theme
+msgid "RSS for Yandex Turbo"
+msgstr "Яндекс.Турбо"
+
+#: rss-for-yandex-turbo.php:1937
+msgid "Исключить эту запись из RSS"
+msgstr "Исключить эту запись из RSS"
+
+#: rss-for-yandex-turbo.php:1747
+msgid "относительные даты для записей за сегодня и вчера."
+msgstr "относительные даты для записей за сегодня и вчера."
+
+#: rss-for-yandex-turbo.php:1746
+msgid "плагин добавляет иконки социальных сетей на каждое изображение в ваших записях."
+msgstr "плагин добавляет иконки социальных сетей на каждое изображение в ваших записях."
+
+#: rss-for-yandex-turbo.php:1745
+msgid "плагин очень красиво анимирует текст (шорткодами в записях и виджетах или PHP-кодом в файлах темы)."
+msgstr "плагин очень красиво анимирует текст (шорткодами в записях и виджетах или PHP-кодом в файлах темы)."
+
+#: rss-for-yandex-turbo.php:1744
+msgid "плагин позволит вам спрятать текст под тегами [spoiler]текст[/spoiler]."
+msgstr "плагин позволит вам спрятать текст под тегами [spoiler]текст[/spoiler]."
+
+#: rss-for-yandex-turbo.php:1743
+msgid "cоздание RSS-ленты для сервиса Яндекс.Дзен."
+msgstr "cоздание RSS-ленты для сервиса Яндекс.Дзен."
+
+#: rss-for-yandex-turbo.php:1739
+msgid "Возможно, что вам также будут интересны другие мои плагины:"
+msgstr "Возможно, что вам также будут интересны другие мои плагины:"
+
+#: rss-for-yandex-turbo.php:1738
+msgid "Если вам нравится мой плагин, то, пожалуйста, поставьте ему <a target=\"new\" href=\"https://wordpress.org/plugins/rss-for-yandex-turbo/\"><strong>5 звезд</strong></a> в репозитории."
+msgstr "Если вам нравится мой плагин, то, пожалуйста, поставьте ему <a target=\"new\" href=\"https://wordpress.org/plugins/rss-for-yandex-turbo/\"><strong>5 звезд</strong></a> в репозитории."
+
+#: rss-for-yandex-turbo.php:1735
+msgid "О плагине"
+msgstr "О плагине"
+
+#: rss-for-yandex-turbo.php:1718
+msgid "Каждый новый шаблон для удаления должен начинаться с новой строки."
+msgstr "Каждый новый шаблон для удаления должен начинаться с новой строки."
+
+#: rss-for-yandex-turbo.php:1715
+msgid "Список удаляемого контента:"
+msgstr "Список удаляемого контента:"
+
+#: rss-for-yandex-turbo.php:1711
+msgid "Точные вхождения указанного контента будут удалены из записей в RSS-ленте."
+msgstr "Точные вхождения указанного контента будут удалены из записей в RSS-ленте."
+
+#: rss-for-yandex-turbo.php:1710
+msgid "Удалить указанный контент из RSS"
+msgstr "Удалить указанный контент из RSS"
+
+#: rss-for-yandex-turbo.php:1708
+msgid "Контент для удаления:"
+msgstr "Контент для удаления:"
+
+#: rss-for-yandex-turbo.php:1694
+msgid "Из контента записей будут удалены все указанные html-теги (<strong>включая сам контент этих тегов</strong>)."
+msgstr "Из контента записей будут удалены все указанные html-теги (<strong>включая сам контент этих тегов</strong>)."
+
+#: rss-for-yandex-turbo.php:1691
+msgid "Фильтр тегов (с контентом):"
+msgstr "Фильтр тегов (с контентом):"
+
+#: rss-for-yandex-turbo.php:1686 rss-for-yandex-turbo.php:1703
+msgid "Самозакрывающиеся теги вроде <tt>&lt;img src=\"...\" /></tt> и <tt>&lt;br /></tt> удалить нельзя."
+msgstr "Самозакрывающиеся теги вроде <tt>&lt;img src=\"...\" /></tt> и <tt>&lt;br /></tt> удалить нельзя."
+
+#: rss-for-yandex-turbo.php:1685 rss-for-yandex-turbo.php:1702
+msgid "Указывать классы, идентификаторы и прочее не требуется."
+msgstr "Указывать классы, идентификаторы и прочее не требуется."
+
+#: rss-for-yandex-turbo.php:1684 rss-for-yandex-turbo.php:1701
+msgid "Список удаляемых html-тегов через запятую."
+msgstr "Список удаляемых html-тегов через запятую."
+
+#: rss-for-yandex-turbo.php:1681 rss-for-yandex-turbo.php:1698
+msgid "Теги для удаления:"
+msgstr "Теги для удаления:"
+
+#: rss-for-yandex-turbo.php:1677
+msgid "Из контента записей будут удалены все указанные html-теги (<strong>сам контент этих тегов останется</strong>)."
+msgstr "Из контента записей будут удалены все указанные html-теги (<strong>сам контент этих тегов останется</strong>)."
+
+#: rss-for-yandex-turbo.php:1676 rss-for-yandex-turbo.php:1693
+msgid "Удалить указанные html-теги"
+msgstr "Удалить указанные html-теги"
+
+#: rss-for-yandex-turbo.php:1674
+msgid "Фильтр тегов (без контента):"
+msgstr "Фильтр тегов (без контента):"
+
+#: rss-for-yandex-turbo.php:1533 rss-for-yandex-turbo.php:1544
+msgid "Стандартные таксономии WordPress: рубрика: <code>category</code>, метка: <code>post_tag</code>."
+msgstr "Стандартные таксономии WordPress: рубрика: <code>category</code>, метка: <code>post_tag</code>."
+
+#: rss-for-yandex-turbo.php:1532 rss-for-yandex-turbo.php:1543
+msgid "Каждая новая таксономия должна начинаться с новой строки."
+msgstr "Каждая новая таксономия должна начинаться с новой строки."
+
+#: rss-for-yandex-turbo.php:1530 rss-for-yandex-turbo.php:1541
+msgid "Используемый формат: <strong>taxonomy_name:id1,id2,id3</strong>"
+msgstr "Используемый формат: <strong>taxonomy_name:id1,id2,id3</strong>"
+
+#: rss-for-yandex-turbo.php:1527
+msgid "Таксономии для исключения:"
+msgstr "Таксономии для исключения:"
+
+#: rss-for-yandex-turbo.php:717 rss-for-yandex-turbo.php:1201
+msgid "Выберите нужный размер миниатюры (в списке находятся все зарегистрированные на сайте размеры миниатюр). "
+msgstr "Выберите нужный размер миниатюры (в списке находятся все зарегистрированные на сайте размеры миниатюр). "
+
+#: rss-for-yandex-turbo.php:709
+msgid "Размер миниатюры в RSS:"
+msgstr "Размер миниатюры в RSS:"
+
+#: rss-for-yandex-turbo.php:701
+msgid "Миниатюра в RSS:"
+msgstr "Миниатюра в RSS:"
+
+#: rss-for-yandex-turbo.php:1511 rss-for-yandex-turbo.php:1655
+msgid "В данной секции находятся продвинутые настройки. <br />Пожалуйста, будьте внимательны в этом разделе!"
+msgstr "В данной секции находятся продвинутые настройки. <br />Пожалуйста, будьте внимательны в этом разделе!"
+
+#: rss-for-yandex-turbo.php:1367
+msgid "Рекламная сеть блока рекламы #2."
+msgstr "Рекламная сеть блока рекламы #2."
+
+#: rss-for-yandex-turbo.php:1361
+msgid "Рекламная сеть блока рекламы #2:"
+msgstr "Рекламная сеть блока рекламы #2:"
+
+#: rss-for-yandex-turbo.php:1354
+msgid "Блок рекламы #2:"
+msgstr "Блок рекламы #2:"
+
+#: rss-for-yandex-turbo.php:1340 rss-for-yandex-turbo.php:1374
+#: rss-for-yandex-turbo.php:1407 rss-for-yandex-turbo.php:1441
+#: rss-for-yandex-turbo.php:1475
+msgid "Укажите идентификатор блока РСЯ (например, <strong>RA-123456-7</strong>, <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/find-ad-block.html\">как его узнать</a>)</small>."
+msgstr "Укажите идентификатор блока РСЯ (например, <strong>RA-123456-7</strong>, <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/find-ad-block.html\">как его узнать</a>)</small>."
+
+#: rss-for-yandex-turbo.php:1337 rss-for-yandex-turbo.php:1371
+#: rss-for-yandex-turbo.php:1404 rss-for-yandex-turbo.php:1438
+#: rss-for-yandex-turbo.php:1472
+msgid "РСЯ идентификатор:"
+msgstr "РСЯ идентификатор:"
+
+#: rss-for-yandex-turbo.php:1333
+msgid "Рекламная сеть блока рекламы #1."
+msgstr "Рекламная сеть блока рекламы #1."
+
+#: rss-for-yandex-turbo.php:1331 rss-for-yandex-turbo.php:1365
+#: rss-for-yandex-turbo.php:1398 rss-for-yandex-turbo.php:1432
+#: rss-for-yandex-turbo.php:1466
+msgid "ADFOX"
+msgstr "ADFOX"
+
+#: rss-for-yandex-turbo.php:1330 rss-for-yandex-turbo.php:1364
+#: rss-for-yandex-turbo.php:1397 rss-for-yandex-turbo.php:1431
+#: rss-for-yandex-turbo.php:1465
+msgid "РСЯ"
+msgstr "РСЯ"
+
+#: rss-for-yandex-turbo.php:1327
+msgid "Рекламная сеть блока рекламы #1:"
+msgstr "Рекламная сеть блока рекламы #1:"
+
+#: rss-for-yandex-turbo.php:887
+msgid "В конце записи"
+msgstr "В конце записи"
+
+#: rss-for-yandex-turbo.php:1323 rss-for-yandex-turbo.php:1357
+#: rss-for-yandex-turbo.php:1390 rss-for-yandex-turbo.php:1423
+#: rss-for-yandex-turbo.php:1457
+msgid "Будет включен блок рекламы на турбо-страницах в выбранном вами месте."
+msgstr "Будет включен блок рекламы на турбо-страницах в выбранном вами месте."
+
+#: rss-for-yandex-turbo.php:1320
+msgid "Блок рекламы #1:"
+msgstr "Блок рекламы #1:"
+
+#: rss-for-yandex-turbo.php:655 rss-for-yandex-turbo.php:774
+#: rss-for-yandex-turbo.php:1251 rss-for-yandex-turbo.php:1309
+#: rss-for-yandex-turbo.php:1501 rss-for-yandex-turbo.php:1578
+#: rss-for-yandex-turbo.php:1646 rss-for-yandex-turbo.php:1726
+msgid "Сохранить настройки &raquo;"
+msgstr "Сохранить настройки &raquo;"
+
+#: rss-for-yandex-turbo.php:767
+msgid "Автор изображений (если не заполнено, то будет использовано имя автора записи)."
+msgstr "Автор изображений (если не заполнено, то будет использовано имя автора записи)."
+
+#: rss-for-yandex-turbo.php:759
+msgid "Разметка \"автора\" для изображений (<tt>&lt;span class=\"copyright\">Автор&lt;/span></tt>)."
+msgstr "Разметка \"автора\" для изображений (<tt>&lt;span class=\"copyright\">Автор&lt;/span></tt>)."
+
+#: rss-for-yandex-turbo.php:726 rss-for-yandex-turbo.php:757
+msgid "Отключить указание автора"
+msgstr "Отключить указание автора"
+
+#: rss-for-yandex-turbo.php:725 rss-for-yandex-turbo.php:756
+msgid "Указать автора"
+msgstr "Указать автора"
+
+#: rss-for-yandex-turbo.php:724 rss-for-yandex-turbo.php:755
+msgid "Автор записи"
+msgstr "Автор записи"
+
+#: rss-for-yandex-turbo.php:752 rss-for-yandex-turbo.php:764
+msgid "Автор изображений:"
+msgstr "Автор изображений:"
+
+#: rss-for-yandex-turbo.php:748
+msgid "В случае отсутствия у изображения alt-атрибута для описания изображения будет использовано название записи."
+msgstr "В случае отсутствия у изображения alt-атрибута для описания изображения будет использовано название записи."
+
+#: rss-for-yandex-turbo.php:747
+msgid "Разметка \"описания\" для изображений (<tt>&lt;figcaption>Описание&lt;/figcaption></tt>)."
+msgstr "Разметка \"описания\" для изображений (<tt>&lt;figcaption>Описание&lt;/figcaption></tt>)."
+
+#: rss-for-yandex-turbo.php:745
+msgid "Отключить описания"
+msgstr "Отключить описания"
+
+#: rss-for-yandex-turbo.php:744
+msgid "Использовать название записи"
+msgstr "Использовать название записи"
+
+#: rss-for-yandex-turbo.php:743
+msgid "Использовать alt по возможности"
+msgstr "Использовать alt по возможности"
+
+#: rss-for-yandex-turbo.php:740
+msgid "Описания изображений:"
+msgstr "Описания изображений:"
+
+#: rss-for-yandex-turbo.php:721 rss-for-yandex-turbo.php:733
+msgid "Автор записей:"
+msgstr "Автор записей:"
+
+#: rss-for-yandex-turbo.php:1549
+msgid "Типы записей:"
+msgstr "Типы записей:"
+
+#: rss-for-yandex-turbo.php:638
+msgid "Важно: разбитие не будет работать, если на вашем сайте нет необходимого числа записей."
+msgstr "Важно: разбитие не будет работать, если на вашем сайте нет необходимого числа записей."
+
+#: rss-for-yandex-turbo.php:637
+msgid "Для получения ссылок на ваши RSS-ленты сохраните настройки плагина."
+msgstr "Для получения ссылок на ваши RSS-ленты сохраните настройки плагина."
+
+#: rss-for-yandex-turbo.php:636
+msgid "Укажите число записей, по которому лента будет делиться."
+msgstr "Укажите число записей, по которому лента будет делиться."
+
+#: rss-for-yandex-turbo.php:633
+msgid "Делить RSS-ленту по:"
+msgstr "Делить RSS-ленту по:"
+
+#: rss-for-yandex-turbo.php:621
+msgid "Включите эту опцию, если RSS-лента слишком долго генерируется или если она превышает <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/quota.html\">ограничения</a>, установленные Яндексом."
+msgstr "Включите эту опцию, если RSS-лента слишком долго генерируется или если она превышает <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/quota.html\">ограничения</a>, установленные Яндексом."
+
+#: rss-for-yandex-turbo.php:620
+msgid "Плагин будет генерировать несколько RSS-лент с указанным числом записей в каждой."
+msgstr "Плагин будет генерировать несколько RSS-лент с указанным числом записей в каждой."
+
+#: rss-for-yandex-turbo.php:619
+msgid "Включить разбитие RSS-ленты"
+msgstr "Включить разбитие RSS-ленты"
+
+#: rss-for-yandex-turbo.php:617
+msgid "Разбитие RSS-ленты:"
+msgstr "Разбитие RSS-ленты:"
+
+#: rss-for-yandex-turbo.php:612
+msgid "Общее количество записей в RSS (обязательно прочтите про <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/quota.html\">ограничения</a> Яндекса)."
+msgstr "Общее количество записей в RSS (обязательно прочтите про <a target=\"new\" href=\"https://yandex.ru/support/webmaster/turbo/quota.html\">ограничения</a> Яндекса)."
+
+#: rss-for-yandex-turbo.php:609
+msgid "Количество записей:"
+msgstr "Количество записей:"
+
+#: rss-for-yandex-turbo.php:604
+msgid "Язык статей издания в стандарте <a target=\"new\" href=\"https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4%D1%8B_%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2\">ISO 639-1</a> (Россия - <strong>ru</strong>, Украина - <strong>uk</strong> и т.д.)."
+msgstr "Язык статей издания в стандарте <a target=\"new\" href=\"https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4%D1%8B_%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2\">ISO 639-1</a> (Россия - <strong>ru</strong>, Украина - <strong>uk</strong> и т.д.)."
+
+#: rss-for-yandex-turbo.php:601
+msgid "Язык:"
+msgstr "Язык:"
+
+#: rss-for-yandex-turbo.php:597
+msgid "Описание издания."
+msgstr "Описание издания."
+
+#: rss-for-yandex-turbo.php:594
+msgid "Описание:"
+msgstr "Описание:"
+
+#: rss-for-yandex-turbo.php:590
+msgid "Адрес сайта издания."
+msgstr "Адрес сайта издания."
+
+#: rss-for-yandex-turbo.php:587
+msgid "Ссылка:"
+msgstr "Ссылка:"
+
+#: rss-for-yandex-turbo.php:583
+msgid "Название издания."
+msgstr "Название издания."
+
+#: rss-for-yandex-turbo.php:580
+msgid "Заголовок:"
+msgstr "Заголовок:"
+
+#: rss-for-yandex-turbo.php:538
+msgid "Быстро, качественно и дешево. Прайс-лист смотрите по адресу <a target=\"new\" href=\"https://www.wpuslugi.ru/?from=yturbo-plugin\">https://www.wpuslugi.ru/</a>."
+msgstr "Быстро, качественно и дешево. Прайс-лист смотрите по адресу <a target=\"new\" href=\"https://www.wpuslugi.ru/?from=yturbo-plugin\">https://www.wpuslugi.ru/</a>."
+
+#: rss-for-yandex-turbo.php:537
+msgid "Или вы можете заказать у меня услуги по WordPress, от мелких правок до создания полноценного сайта."
+msgstr "Или вы можете заказать у меня услуги по WordPress, от мелких правок до создания полноценного сайта."
+
+#: rss-for-yandex-turbo.php:534
+msgid "Поэтому не откажусь от небольшого пожертвования :)"
+msgstr "Поэтому не откажусь от небольшого пожертвования :)"
+
+#: rss-for-yandex-turbo.php:533
+msgid "Я потратил много времени на разработку этого плагина."
+msgstr "Я потратил много времени на разработку этого плагина."
+
+#: rss-for-yandex-turbo.php:532
+msgid "Привет, меня зовут <strong>Flector</strong>."
+msgstr "Привет, меня зовут <strong>Flector</strong>."
+
+#: rss-for-yandex-turbo.php:530
+msgid "Купить мне чашку кофе :)"
+msgstr "Купить мне чашку кофе :)"
+
+#: rss-for-yandex-turbo.php:528
+msgid "Вам нравится этот плагин ?"
+msgstr "Вам нравится этот плагин ?"
+
+#: rss-for-yandex-turbo.php:521
+msgid "Настройки плагина &#171;Яндекс.Турбо&#187;"
+msgstr "Настройки плагина &#171;Яндекс.Турбо&#187;"
+
+#: rss-for-yandex-turbo.php:515
+msgid "Настройки сохранены."
+msgstr "Настройки сохранены."
+
+#: rss-for-yandex-turbo.php:302 rss-for-yandex-turbo.php:512
+msgid "Cheatin&#8217; uh?"
+msgstr "Cheatin&#8217; uh?"
+
+#: rss-for-yandex-turbo.php:269
+msgid "Настройки"
+msgstr "Настройки"

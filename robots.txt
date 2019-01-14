@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /wp-admin
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /xmlrpc.php
+Disallow: */*feed*
+Disallow: */*comment*
+Disallow: */trackback/
+Disallow: */*?s=*
+Disallow: */*?p=*
+Sitemap: http://c-qc.com/sitemap_index.xml

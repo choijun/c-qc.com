@@ -36,7 +36,7 @@ class Nextend_ET_Builder_Module_Smart_Slider extends ET_Builder_Module {
 
     public static function add_admin_icon() {
         ?>
-        <style type="text/css">
+        <style>
             .et-pb-all-modules .et_pb_nextend_smart_slider_3::before,
             .et-pb-all-modules .et_pb_nextend_smart_slider_3_fullwidth::before {
                 content: 'S';

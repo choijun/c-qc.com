@@ -6,7 +6,7 @@ class N2ElementPublishSlider extends N2ElementHidden {
     protected function fetchElement() {
         ob_start();
         ?>
-        <script type="text/javascript">
+        <script>
             function selectText(container) {
                 if (document.selection) {
                     var range = document.body.createTextRange();

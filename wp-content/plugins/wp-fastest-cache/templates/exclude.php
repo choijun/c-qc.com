@@ -1,4 +1,4 @@
-<style type="text/css">
+<style>
 	.wpfc-exclude-item:hover{
 		background-color: #E5E5E5;
 	}
@@ -143,7 +143,7 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script>
 	var WpFcExcludePages = {
 		rules: [],
 		init: function(rules){

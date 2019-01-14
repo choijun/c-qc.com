@@ -7,7 +7,7 @@ if ( !defined( 'W3TC' ) )
 ?>
 <?php include W3TC_INC_DIR . '/options/common/header.php'; ?>
 
-<script type="text/javascript">/*<![CDATA[*/
+<script>/*<![CDATA[*/
     var referrer_themes = {};
     <?php foreach ( $themes as $theme_key => $theme_name ): ?>
     referrer_themes['<?php echo addslashes( $theme_key ); ?>'] = '<?php echo addslashes( $theme_name ); ?>';

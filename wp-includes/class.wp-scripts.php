@@ -202,7 +202,7 @@ class WP_Scripts extends WP_Dependencies {
 		if ( !$echo )
 			return $output;
 
-		echo "<script type='text/javascript'>\n"; // CDATA and type='text/javascript' is not needed for HTML 5
+		echo "<script>\n"; // CDATA and type='text/javascript' is not needed for HTML 5
 		echo "/* <![CDATA[ */\n";
 		echo "$output\n";
 		echo "/* ]]> */\n";
@@ -259,11 +259,11 @@ class WP_Scripts extends WP_Dependencies {
 		$after_handle = $this->print_inline_script( $handle, 'after', false );
 
 		if ( $before_handle ) {
-			$before_handle = sprintf( "<script type='text/javascript'>\n%s\n</script>\n", $before_handle );
+			$before_handle = sprintf( "<script>\n%s\n</script>\n", $before_handle );
 		}
 
 		if ( $after_handle ) {
-			$after_handle = sprintf( "<script type='text/javascript'>\n%s\n</script>\n", $after_handle );
+			$after_handle = sprintf( "<script>\n%s\n</script>\n", $after_handle );
 		}
 
 		if ( $before_handle || $after_handle ) {
@@ -327,7 +327,7 @@ class WP_Scripts extends WP_Dependencies {
 
 		$translations = $this->print_translations( $handle, false );
 		if ( $translations ) {
-			$translations = sprintf( "<script type='text/javascript'>\n%s\n</script>\n", $translations );
+			$translations = sprintf( "<script>\n%s\n</script>\n", $translations );
 		}
 
 		if ( ! preg_match( '|^(https?:)?//|', $src ) && ! ( $this->content_url && 0 === strpos( $src, $this->content_url ) ) ) {
@@ -343,7 +343,7 @@ class WP_Scripts extends WP_Dependencies {
 		if ( ! $src )
 			return true;
 
-		$tag = "{$translations}{$cond_before}{$before_handle}<script type='text/javascript' src='$src'></script>\n{$after_handle}{$cond_after}";
+		$tag = "{$translations}{$cond_before}{$before_handle}<script src='$src'></script>\n{$after_handle}{$cond_after}";
 
 		/**
 		 * Filters the HTML script tag of an enqueued script.
@@ -413,7 +413,7 @@ class WP_Scripts extends WP_Dependencies {
 		$output = trim( implode( "\n", $output ), "\n" );
 
 		if ( $echo ) {
-			printf( "<script type='text/javascript'>\n%s\n</script>\n", $output );
+			printf( "<script>\n%s\n</script>\n", $output );
 		}
 
 		return $output;
@@ -541,7 +541,7 @@ class WP_Scripts extends WP_Dependencies {
 JS;
 
 		if ( $echo ) {
-			printf( "<script type='text/javascript'>\n%s\n</script>\n", $output );
+			printf( "<script>\n%s\n</script>\n", $output );
 		}
 
 		return $output;

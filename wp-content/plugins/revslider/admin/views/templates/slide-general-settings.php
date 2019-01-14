@@ -186,7 +186,7 @@ $slide_general_addon = apply_filters('revslider_slide_settings_addons', array(),
 		</ul>
 
 		<div style="clear:both"></div>
-		<script type="text/javascript">
+		<script>
 			jQuery('document').ready(function() {
 				jQuery('.rs-slide-settings-tabs li').click(function() {
 					var tw = jQuery('.rs-slide-settings-tabs .selected'),
@@ -216,7 +216,7 @@ $slide_general_addon = apply_filters('revslider_slide_settings_addons', array(),
 
 					<div class="tp-clearfix"></div>
 
-					<script type="text/javascript">
+					<script>
 						jQuery('document').ready(function() {
 							jQuery('.rs-layer-main-image-tabs li').click(function() {
 								var tw = jQuery('.rs-layer-main-image-tabs .selected'),
@@ -1017,7 +1017,7 @@ $slide_general_addon = apply_filters('revslider_slide_settings_addons', array(),
 						<?php $transition_duration = (array) RevSliderFunctions::getVal($slideParams, 'transition_duration',$def_transition_duration); ?>
 						<?php $transition_ease_in = (array) RevSliderFunctions::getVal($slideParams, 'transition_ease_in','default'); ?>
 						<?php $transition_ease_out = (array) RevSliderFunctions::getVal($slideParams, 'transition_ease_out','default'); ?>
-						<script type="text/javascript">
+						<script>
 							var choosen_slide_transition = [];
 							<?php
 							$tr_count = count($slide_transition);
@@ -1369,7 +1369,7 @@ $slide_general_addon = apply_filters('revslider_slide_settings_addons', array(),
 						
 					</ul>
 					<p style="margin-top:25px"><i><?php _e("The Custom Settings are always depending on the current selected Navigation Elements in Slider Settings, and will only be active on the current Slide.",'revslider'); ?></i></p>
-					<script type="text/javascript">
+					<script>
 						jQuery(document).ready(function() {
 							if (jQuery('.custom-nav-types.nav-type-arrows').length==0)
 								jQuery('#custom-nav-arrows-tab-selector').remove();
@@ -1429,7 +1429,7 @@ $slide_general_addon = apply_filters('revslider_slide_settings_addons', array(),
 							?>
 							<div id="rs-addon-settings-trigger-<?php echo esc_attr($rs_addon_handle); ?>-settings" class="rs-addon-settings-wrapper-settings" style="display: none;">
 								<?php echo $rs_addon['markup']; ?>
-								<script type="text/javascript">
+								<script>
 									<?php echo $rs_addon['javascript']; ?>
 								</script>
 							</div>
@@ -1437,7 +1437,7 @@ $slide_general_addon = apply_filters('revslider_slide_settings_addons', array(),
 						}
 					}
 					?>
-					<script type="text/javascript">
+					<script>
 						jQuery('.rs-addon-settings-trigger').click(function(){
 							var show_addon = jQuery(this).attr('id');
 							jQuery('.rs-addon-settings-trigger').removeClass("selected");
@@ -1602,7 +1602,7 @@ $slide_general_addon = apply_filters('revslider_slide_settings_addons', array(),
 
 	</div>
 </div>
-<script type="text/javascript">
+<script>
 	var rs_plugin_url = '<?php echo RS_PLUGIN_URL; ?>';
 	
 	jQuery('document').ready(function() {

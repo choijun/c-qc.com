@@ -48,7 +48,7 @@
     <?php if( empty($error) ): ?>
         <?php _e( 'Redirecting ...', YATURBO_FEED ); ?>
 
-        <script type="text/javascript">
+        <script>
         <!--
             window.setTimeout( function() {
                 window.location.href = "<?php print $redirect; ?>";

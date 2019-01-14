@@ -797,7 +797,7 @@ if(!isset($linksEditSlides)) $linksEditSlides = '';
 							echo '	<span class="rs-preset-label">' . __('Save Current Settings as Preset', 'revslider') . '</span>';
 							echo '</span>';
 							
-							echo '<script type="text/javascript">';
+							echo '<script>';
 							//$pjs = RevSliderFunctions::jsonEncodeForClientSide($pjs);
 							$pjs = RevSliderFunctions::jsonEncodeForClientSide($presets);
 							echo 'var revslider_presets = jQuery.parseJSON(' . $pjs . ');';
@@ -806,7 +806,7 @@ if(!isset($linksEditSlides)) $linksEditSlides = '';
 							<span class="tp-clearfix"></span>
 						</div>
 					 </div>
-					 <script type="text/javascript">
+					 <script>
 					 	jQuery("document").ready(function() {
 
 					 		jQuery('.preset-splitter').click(function() {
@@ -1824,7 +1824,7 @@ if(!isset($linksEditSlides)) $linksEditSlides = '';
 					</div>
 				</div>
 
-				<script type="text/javascript">
+				<script>
 					rev_cm_custom_css = null;
 					rev_cm_custom_js = null;
 					
@@ -1863,7 +1863,7 @@ if(!isset($linksEditSlides)) $linksEditSlides = '';
 
 
 		<div class="settings_panel_right">
-			<script type="text/javascript">
+			<script>
 				function drawToolBarPreview() {
 
 					 var tslideprev = jQuery('.toolbar-sliderpreview'),
@@ -2773,7 +2773,7 @@ if(!isset($linksEditSlides)) $linksEditSlides = '';
 
 							</div>
 
-							<script type="text/javascript">
+							<script>
 								jQuery(document).on("ready",function() {
 									/**
 									* set shadow type
@@ -4651,7 +4651,7 @@ if(!isset($linksEditSlides)) $linksEditSlides = '';
 
 								<div class="inside" style="display:none;">
 									<?php echo $addon_values['markup']; ?>
-									<script type="text/javascript">
+									<script>
 										<?php echo $addon_values['javascript']; ?>
 									</script>
 								</div>
@@ -4960,7 +4960,7 @@ if(!isset($linksEditSlides)) $linksEditSlides = '';
 		</div>
 
 		<div class="clear"></div>
-		<script type="text/javascript">
+		<script>
 			
 			
 			<?php

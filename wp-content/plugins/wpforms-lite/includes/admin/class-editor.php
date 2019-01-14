@@ -133,7 +133,7 @@ class WPForms_Admin_Editor {
 				</div>
 			</form>
 		</div>
-		<style type="text/css">
+		<style>
 			#wpforms-modal-wrap {
 				display: none;
 				background-color: #fff;

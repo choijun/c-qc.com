@@ -3,7 +3,7 @@
     <p>
         <?php _e('Limit to posts in these post categories:','xml-sitemap-feed'); ?>
     </p>
-    <style type"text/css">
+    <style>
         ul.children { padding-left: 1em }
     </style>
     <ul class="cat-checklist">

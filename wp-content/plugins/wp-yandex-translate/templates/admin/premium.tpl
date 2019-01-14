@@ -1,4 +1,4 @@
-<style type="text/css">
+<style>
 .prisna-promote-wrapper .prisna-promote {
     width: 778px !important;
     color: #444 !important;
@@ -671,7 +671,7 @@
 				</tr>
 			</table>
 
-			<script type="text/javascript">
+			<script>
 			/*
 			 * Jquery AccordionImageMenu Plugin 0.4.
 			 * Examples and documentation at: http://web-argument.com/jquery-accordion-image-menu-plugin

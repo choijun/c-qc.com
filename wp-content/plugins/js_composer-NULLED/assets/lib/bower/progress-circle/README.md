@@ -10,7 +10,7 @@ homepage: http://qiao.github.com/ProgressCircle.js/
 Download the file and include it in your page.
 
 ```html
-<script type="text/javascript" src="ProgressCircle.js"></script>
+<script src="ProgressCircle.js"></script>
 ```
 
 You should first create the canvas element in either HTML or Javascript, 

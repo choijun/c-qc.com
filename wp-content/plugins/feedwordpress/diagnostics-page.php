@@ -239,7 +239,7 @@ testing but absolutely inappropriate for a production server.</p>
 </tr>
 </table>
 
-<script type="text/javascript">
+<script>
 	contextual_appearance(
 		'diagnostics-email-destination',
 		'diagnostics-email-destination-address',
@@ -322,7 +322,7 @@ testing but absolutely inappropriate for a production server.</p>
 
 	static function tests_box ($page, $box = NULL) {
 ?>
-<script type="text/javascript">
+<script>
 function clone_http_test_args_keyvalue_prototype () {
 	var next = jQuery('#http-test-args').find('.http-test-args-keyvalue').length;
 	var newRow = jQuery('#http-test-args-keyvalue-prototype').clone().attr('id', 'http-test-args-keyvalue-' + next);

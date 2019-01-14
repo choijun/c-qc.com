@@ -586,7 +586,7 @@
         document.body.scrollHeight > window.innerHeight
       ) {
         $("head").append(
-          '<style id="fancybox-style-noscroll" type="text/css">.compensate-for-scrollbar{margin-right:' +
+          '<style id="fancybox-style-noscroll">.compensate-for-scrollbar{margin-right:' +
             (window.innerWidth - document.documentElement.clientWidth) +
             "px;}</style>"
         );

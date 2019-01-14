@@ -331,7 +331,7 @@ if(!$slide->isStaticSlide()){
 }
 
 ?>
-<script type="text/javascript">
+<script>
 	
 /*
  * Copyright 2015 Small Batch, Inc.
@@ -908,7 +908,7 @@ if($slide->isStaticSlide() || $slider->isSlidesFromPosts()){ //insert sliderid f
 				)
 			);
 			?>
-			<script type="text/javascript">
+			<script>
 			jQuery('document').ready(function() {
 				jQuery('.rs-template-settings-tabs li').click(function() {
 					var tw = jQuery('.rs-template-settings-tabs .selected'),
@@ -974,7 +974,7 @@ if($slide->isStaticSlide() || $slider->isSlidesFromPosts()){ //insert sliderid f
 			</div>
 		</div>
 		
-		<script type="text/javascript">
+		<script>
 			
 			<?php
 			$icon_sets = RevSliderBase::get_icon_sets();
@@ -1339,7 +1339,7 @@ if(!empty($arrSlidesWPML)){
 $mslide_list = RevSliderFunctions::jsonEncodeForClientSide($mslide_list);
 
 ?>
-<script type="text/javascript">
+<script>
 	var g_patternViewSlide = '<?php echo $patternViewSlide; ?>';
 
 	
@@ -1358,7 +1358,7 @@ require self::getPathTemplate("../system/dialog-copy-move");
 ?>
 
 
-<script type="text/javascript">
+<script>
 	jQuery(document).ready(function(){
 		jQuery('#rs-do-set-style-on-devices').click(function(){
 			var layer = UniteLayersRev.getCurrentLayer();

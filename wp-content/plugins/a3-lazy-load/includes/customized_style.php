@@ -1,4 +1,4 @@
-<style type="text/css">
+<style>
 <?php
 global $a3_lazy_load_global_settings;
 

@@ -758,7 +758,7 @@ if ( ! class_exists( 'EWWW_Nextcellent' ) ) {
 				return;
 			}
 			?>
-			<script type="text/javascript">
+			<script>
 				jQuery(document).ready(function($){
 					$('select[name^="bulkaction"] option:last-child').after('<option value="bulk_optimize">Bulk Optimize</option>');
 				});

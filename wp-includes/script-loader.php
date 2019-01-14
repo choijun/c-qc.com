@@ -2146,7 +2146,7 @@ function _print_scripts() {
 	if ( $concat = trim( $wp_scripts->concat, ', ' ) ) {
 
 		if ( !empty($wp_scripts->print_code) ) {
-			echo "\n<script type='text/javascript'>\n";
+			echo "\n<script>\n";
 			echo "/* <![CDATA[ */\n"; // not needed in HTML 5
 			echo $wp_scripts->print_code;
 			echo "/* ]]> */\n";
@@ -2157,7 +2157,7 @@ function _print_scripts() {
 		$concat = 'load%5B%5D=' . implode( '&load%5B%5D=', $concat );
 
 		$src = $wp_scripts->base_url . "/wp-admin/load-scripts.php?c={$zip}&" . $concat . '&ver=' . $wp_scripts->default_version;
-		echo "<script type='text/javascript' src='" . esc_attr($src) . "'></script>\n";
+		echo "<script src='" . esc_attr($src) . "'></script>\n";
 	}
 
 	if ( !empty($wp_scripts->print_html) )
@@ -2328,7 +2328,7 @@ function _print_styles() {
 		echo "<link rel='stylesheet' href='" . esc_attr($href) . "' type='text/css' media='all' />\n";
 
 		if ( !empty($wp_styles->print_code) ) {
-			echo "<style type='text/css'>\n";
+			echo "<style>\n";
 			echo $wp_styles->print_code;
 			echo "\n</style>\n";
 		}

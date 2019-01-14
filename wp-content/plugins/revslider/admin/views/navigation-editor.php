@@ -250,7 +250,7 @@ $font_families = $rsopr->getArrFontFamilys();
 	<!--a class="button-primary revgreen" id="rs-save-navigation-style" href="javascript:void(0);"><i class="rs-icon-save-light"></i><?php _e('Save All Changes','revslider'); ?></a-->
 	
 	
-	<script type="text/javascript">
+	<script>
 		var rs_navigations = jQuery.parseJSON(<?php echo RevSliderFunctions::jsonEncodeForClientSide($navigs); ?>) || new Array();
 
 		jQuery(document).ready(function(){

@@ -384,15 +384,15 @@ var easy_fancybox_auto=function(){setTimeout(function(){jQuery(\'a[class*="'.$tr
 
 	// fallback methods for WordPress pre-4.5
 	public static function print_inline_script() {
-		print( '<script type="text/javascript">' . self::$inline_script . '</script>' );
+		print( '<script>' . self::$inline_script . '</script>' );
 	}
 
 	public static function print_inline_style() {
-		print( '<style id="fancybox-inline-css" type="text/css">' . self::$inline_style . '</style>' );
+		print( '<style id="fancybox-inline-css">' . self::$inline_style . '</style>' );
 	}
 
 	public static function print_inline_style_ie() {
-		print( '<!--[if lt IE 9]><style id="fancybox-inline-css-ie" type="text/css">' . self::$inline_style_ie . '</style><![endif]-->' );
+		print( '<!--[if lt IE 9]><style id="fancybox-inline-css-ie">' . self::$inline_style_ie . '</style><![endif]-->' );
 	}
 
 	// Hack to fix missing wmode in Youtube oEmbed code based on David C's code in the comments on

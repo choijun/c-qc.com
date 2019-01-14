@@ -10,7 +10,7 @@ $optimize = new N2SmartSliderFeatureOptimize($sliderObj);
 $router = N2Base::getApplication('smartslider')
                 ->getApplicationType('backend')->router;
 ?>
-<script type="text/javascript">
+<script>
     document.getElementsByTagName("BODY")[0].setAttribute("data-slides", '<?php echo count($slides); ?>');
 </script>
 <div id="n2-ss-slides-container">
@@ -18,7 +18,7 @@ $router = N2Base::getApplication('smartslider')
 
         <div class="n2-ss-slides-create">
             <div>
-                <script type="text/javascript">
+                <script>
                 N2R('documentReady', function ($) {
                     var showCreateSlide = 0;
                     $('.n2-ss-add-slide-button').on('click', function (e) {

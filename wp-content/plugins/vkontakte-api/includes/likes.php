@@ -575,7 +575,7 @@
 						Darx_JS::add('vkshare', 'https://vk.com/js/api/share.js');
 						// todo: remove script, make vanilla link
 						?>
-						<script type="text/javascript">
+						<script>
 							window.stManager = {};
 							window.stManager.done = function(type) {
 								if( type === 'api/share.js' ) {
@@ -682,7 +682,7 @@
 			$vkapi_text = addcslashes($vkapi_text, '\'');
 			$vkapi_descr = $vkapi_text = mb_substr($vkapi_text, 0, 139);
 			echo "
-			<script type=\"text/javascript\">
+			<script>
 				(function(){
 					darx.addEvent(document, 'vk', function(){
 						VK.Widgets.Like('{$div_id}', {
@@ -723,7 +723,7 @@
 			$vkapi_text = get_option('vkapi_share_text');
 			$vkapi_text = addcslashes($vkapi_text, '\'');
 			echo "
-			<script type=\"text/javascript\">
+			<script>
 				(function(){
 					darx.addEvent(document, 'vkapi_vkshare', function () {
 						document.getElementById('{$div_id}').innerHTML = VK.Share.button(
@@ -804,7 +804,7 @@
 			++$i;
 			$url = rawurlencode(get_permalink());
 			$id = 'okapi_share_' . $i;
-			echo "<li><div id=\"{$id}\"><script type=\"text/javascript\">
+			echo "<li><div id=\"{$id}\"><script>
 					(function(){
 						darx.addEvent(document, 'ok', function () {
 							setTimeout(function () {
@@ -823,7 +823,7 @@
 		public function social_button_style()
 		{
 			?>
-			<style type="text/css">
+			<style>
 				ul.nostyle,
 				ul.nostyle li {
 					list-style: none;

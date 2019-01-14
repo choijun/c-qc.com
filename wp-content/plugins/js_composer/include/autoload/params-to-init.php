@@ -53,7 +53,7 @@ function vc_output_required_params_to_init() {
 	}
 
 	echo '
-		<script type="text/javascript">
+		<script>
 			if ( window.vc ) {
 				window.vc.required_params_to_init = [' . implode( ',', $js_array ) . '];
 			}

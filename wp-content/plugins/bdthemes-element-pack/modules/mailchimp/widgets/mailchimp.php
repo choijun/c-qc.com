@@ -795,7 +795,7 @@ class Mailchimp extends Widget_Base {
 
 		</div><!-- end newsletter-signup -->
 
-		<script type="text/javascript">
+		<script>
 			jQuery(document).ready(function($) {
 				"use strict";
 				$('#<?php echo esc_attr($id); ?>').submit(function(){

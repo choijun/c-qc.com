@@ -440,7 +440,7 @@ class Vc_Base {
 			$post_custom_css = get_post_meta( $id, '_wpb_post_custom_css', true );
 			if ( ! empty( $post_custom_css ) ) {
 				$post_custom_css = strip_tags( $post_custom_css );
-				echo '<style type="text/css" data-type="vc_custom-css">';
+				echo '<style data-type="vc_custom-css">';
 				echo $post_custom_css;
 				echo '</style>';
 			}
@@ -471,7 +471,7 @@ class Vc_Base {
 			$shortcodes_custom_css = get_post_meta( $id, '_wpb_shortcodes_custom_css', true );
 			if ( ! empty( $shortcodes_custom_css ) ) {
 				$shortcodes_custom_css = strip_tags( $shortcodes_custom_css );
-				echo '<style type="text/css" data-type="vc_shortcodes-custom-css">';
+				echo '<style data-type="vc_shortcodes-custom-css">';
 				echo $shortcodes_custom_css;
 				echo '</style>';
 			}
@@ -488,7 +488,7 @@ class Vc_Base {
 
 	public function addNoScript() {
 		echo '<noscript>';
-		echo '<style type="text/css">';
+		echo '<style>';
 		echo ' .wpb_animate_when_almost_visible { opacity: 1; }';
 		echo '</style>';
 		echo '</noscript>';

@@ -1821,14 +1821,14 @@ if($slide->isStaticSlide()){
 							?>
 							<div id="rs-addon-trigger-<?php echo esc_attr($rs_addon_handle); ?>-settings" class="rs-addon-settings-wrapper" style="display: none;">
 								<?php echo $rs_addon['markup']; ?>
-								<script type="text/javascript">
+								<script>
 									<?php echo $rs_addon['javascript']; ?>
 								</script>
 							</div>
 							<?php
 						}
 						?>
-						<script type="text/javascript">
+						<script>
 							jQuery('.rs-addon-trigger').click(function(){
 								var show_addon = jQuery(this).attr('id');
 								jQuery('.rs-addon-trigger').removeClass("selected");
@@ -2255,7 +2255,7 @@ if($slide->isStaticSlide()){
 						</div>
 					</div>
 				</div>
-				<script type="text/javascript">
+				<script>
 					jQuery('#rs-set-style-on-devices-button').click(function(){
 						jQuery('#rs-set-style-on-devices-dialog').toggle();
 						jQuery(this).toggleClass('selected');						
@@ -2503,7 +2503,7 @@ if($slide->isStaticSlide()){
 				<option value="tablet"><?php _e('Tablet','revslider'); ?></option>
 				<option value="mobile"><?php _e('Mobile','revslider'); ?></option>
 			</select>
-			<script type="text/javascript">
+			<script>
 				
 
 				jQuery('#add-layer-selector-container').hover(function() {

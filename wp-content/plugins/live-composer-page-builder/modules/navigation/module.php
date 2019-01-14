@@ -1596,7 +1596,7 @@ class DSLC_Navigation extends DSLC_Module {
 
 			<?php /* Add chevron icon */ ?>
 
-			<script type="text/javascript">
+			<script>
 				var menuItems = document.querySelectorAll( '.dslc-navigation .menu > li.menu-item-has-children:not(.menu-with-arrow) > a' );
 
 				for (var i = 0, len = menuItems.length; i < len; i++) {
@@ -1608,7 +1608,7 @@ class DSLC_Navigation extends DSLC_Module {
 
 			if ( $dslc_is_admin ) { ?>
 
-			<style type="text/css">
+			<style>
 
 			@-webkit-keyframes fade-in {   0% { opacity: 0; }   100% { opacity: 1; }   }
 			@-moz-keyframes    fade-in {   0% { opacity: 0; }   100% { opacity: 1; }   }

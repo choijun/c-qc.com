@@ -230,7 +230,7 @@ class SmartSlider3 {
         add_menu_page('Smart Slider Update', 'Smart Slider Update', 'smartslider', NEXTEND_SMARTSLIDER_3_URL_PATH, 'SmartSlider3::networkUpdate', 'dashicons-welcome-learn-more');
 
         function nextend_smart_slider_admin_menu() {
-            echo '<style type="text/css">#adminmenu .toplevel_page_' . NEXTEND_SMARTSLIDER_3_URL_PATH . '{display: none;}</style>';
+            echo '<style>#adminmenu .toplevel_page_' . NEXTEND_SMARTSLIDER_3_URL_PATH . '{display: none;}</style>';
         }
 
         add_action('admin_head', 'nextend_smart_slider_admin_menu');

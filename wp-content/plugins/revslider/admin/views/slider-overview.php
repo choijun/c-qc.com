@@ -724,7 +724,7 @@ $stable_version = get_option('revslider-stable-version', '4.1');
 	</div>
 </div>
 
-<script type="text/javascript">
+<script>
 	jQuery(document).ready(function(){
 		RevSliderAdmin.initSlidersListView();
 		RevSliderAdmin.initNewsletterRoutine();

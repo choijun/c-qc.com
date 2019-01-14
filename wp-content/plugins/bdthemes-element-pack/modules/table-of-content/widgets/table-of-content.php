@@ -499,7 +499,7 @@ class Table_Of_Content extends Widget_Base {
 			</div>
 		</div>
 		
-		<script type="text/javascript">
+		<script>
 			jQuery(document).ready(function($) {
 				$('#<?php echo esc_attr($id); ?> .bdt-offcanvas-bar').TableOfContent({
 					tH: <?php echo esc_attr($settings['start_tag']); ?>, //lowest-level header to be included (H2)

@@ -34,7 +34,7 @@ $tp_color_picker_presets = TPColorpicker::get_color_presets();
 </div>
 
 
-<script type="text/javascript">
+<script>
 	var g_revNonce = "<?php echo $nonce; ?>";
 	var g_uniteDirPlugin = "revslider";
 	var g_urlContent = "<?php echo str_replace(array("\n", "\r", chr(10), chr(13)), array(''), content_url())."/"; ?>";
@@ -75,7 +75,7 @@ $tp_color_picker_presets = TPColorpicker::get_color_presets();
 </div>
 <?php
 /*
-<script type="text/javascript">
+<script>
 	<span class="rs-shop">SHOP</span>
 	jQuery(document).ready(function(){
 		jQuery('.rs-shop').click(function(){
@@ -352,7 +352,7 @@ if(version_compare(RevSliderGlobals::SLIDER_REVISION, $cvc, '>')){
 		
 		
 	</div>
-	<script type="text/javascript">
+	<script>
 		jQuery(document).ready(function() {			
 			show_premium_dialog("cahce-warning-dialog");
 		});				
@@ -363,7 +363,7 @@ if(version_compare(RevSliderGlobals::SLIDER_REVISION, $cvc, '>')){
 update_option('rs_cache_overlay', $cvc);
 ?>
 
-<script type="text/javascript">
+<script>
     <?php
 	$validated = get_option('revslider-valid', 'false');
 	?>

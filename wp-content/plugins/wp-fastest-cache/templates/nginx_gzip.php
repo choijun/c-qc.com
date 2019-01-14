@@ -40,7 +40,7 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script>
 	jQuery("#wpFastestCacheGzip").click(function(){
 		if(jQuery("#wpFastestCacheGzip").is(':checked')){
 			if(jQuery("div[id^='wpfc-modal-nginxgzip-']").length === 0){

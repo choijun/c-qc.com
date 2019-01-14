@@ -27,7 +27,7 @@ function tm_get_customizer_io_html() {
 		<input type="file" id="import-file" name="import-file"/>
 		<input type="hidden" name="action" value="thememove_customizer_options_import"/>
 	</form>
-	<script type="text/javascript">
+	<script>
 		jQuery(function ($) {
 			$('#import-btn').on('click', function (evt) {
 				evt.preventDefault();

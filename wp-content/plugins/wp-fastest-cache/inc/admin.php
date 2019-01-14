@@ -98,7 +98,7 @@
 
 		public function addButtonOnQuicktagsEditor(){
 			if (wp_script_is('quicktags') && current_user_can( 'manage_options' )){ ?>
-				<script type="text/javascript">
+				<script>
 					if(typeof QTags != "undefined"){
 				    	QTags.addButton('wpfc_not', 'wpfcNOT', '<!--[wpfcNOT]-->', '', '', 'Block caching for this page');
 					}
@@ -798,7 +798,7 @@
 				echo "<noscript id='wpfc-htaccess-data'>".$htaccess."</noscript>";
 				echo "<noscript id='wpfc-htaccess-path-data'>".$path.".htaccess"."</noscript>";
 				?>
-				<script type="text/javascript">
+				<script>
 					jQuery(document).ready(function(){
 						Wpfc_New_Dialog.dialog("wpfc-modal-htaccess", {close: "default"}, function(modal){
 							jQuery("#" + modal.id).find("label.mm-input-label").html(jQuery("#wpfc-htaccess-path-data").html());
@@ -1304,7 +1304,7 @@
 						    	</div>
 						    	<h2 style="opacity:0.3;padding-left:20px;padding-bottom:10px;">Cache Statistics</h2>
 						    	<div id="wpfc-cache-statics" style="opacity:0.3;width:100%;float:right;margin:15px 0;">
-									<style type="text/css">
+									<style>
 										#wpfc-cache-statics > div{
 											float: left;
 											width: 24%;
@@ -1440,7 +1440,7 @@
 				    		<input type="hidden" value="timeout" name="wpFastestCachePage">
 				    		<div class="wpfc-timeout-rule-container"></div>
 				    	</form>
-				    	<script type="text/javascript">
+				    	<script>
 
 					    	<?php
 					    		$schedules_rules = array();
@@ -1695,7 +1695,7 @@
 
 					    				<?php include(WPFC_MAIN_PATH."templates/download.html"); ?> 
 
-					    				<script type="text/javascript">
+					    				<script>
 					    					jQuery("#wpfc-download-premium-button").click(function(){
 					    						//jQuery("#revert-loader-toolbar").show();
 
@@ -1855,7 +1855,7 @@
 								<div class="submit"><input type="submit" class="button-primary" value="Submit"></div>
 							</div> -->
 				    	</form>
-				    	<script type="text/javascript">
+				    	<script>
 
 					    	<?php 
 					    		if($rules_json = get_option("WpFastestCacheExclude")){
@@ -1912,7 +1912,7 @@
 
 				    		</div>
 				    	</div>
-				    	<script type="text/javascript">
+				    	<script>
 				    		(function() {
 					    		<?php
 					    			$cdn_values = get_option("WpFastestCacheCDN");
@@ -1984,7 +1984,7 @@
 				    	<div>
 
 			    		<?php if(!$this->isPluginActive("wp-fastest-cache-premium/wpFastestCachePremium.php")){ ?>
-				    			<style type="text/css">
+				    			<style>
 				    				div.tab8 h2{
 				    					opacity: 0.3 !important;
 				    				}
@@ -2141,7 +2141,7 @@
 			            </div>
 			        </div>
 			</div>
-			<script type="text/javascript">
+			<script>
 				var WPFC_SPINNER = {
 					id: false,
 					number: false,
@@ -2175,7 +2175,7 @@
 					}
 				};
 			</script>
-			<script type="text/javascript">
+			<script>
 				jQuery("#wpFastestCachePreload").click(function(){
 					if(typeof jQuery(this).attr("checked") != "undefined"){
 						if(jQuery("div[id^='wpfc-modal-preload-']").length === 0){
@@ -2208,7 +2208,7 @@
 					</div>
 				</div>
 
-				<script type="text/javascript">
+				<script>
 					jQuery("div.questionCon.disabled").click(function(e){
 						if(typeof window.wpfc.tooltip != "undefined"){
 							clearTimeout(window.wpfc.tooltip);
@@ -2229,7 +2229,7 @@
 					});
 				</script>
 			<?php }else{ ?>
-				<script type="text/javascript">
+				<script>
 					jQuery(".update-needed").click(function(){
 						if(jQuery("div[id^='wpfc-modal-updatenow-']").length === 0){
 							Wpfc_New_Dialog.dialog("wpfc-modal-updatenow", {close: function(){
@@ -2250,7 +2250,7 @@
 					});
 				</script>
 			<?php } ?>
-			<script type="text/javascript">
+			<script>
 				jQuery(document).ready(function() {
 					//if "Mobile Theme" is selected, "Mobile" is selected as well
 					jQuery("#wpFastestCacheMobileTheme").click(function(e){

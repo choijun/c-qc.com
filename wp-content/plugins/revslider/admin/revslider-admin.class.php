@@ -470,7 +470,7 @@ class RevSliderAdmin extends RevSliderBaseAdmin{
 		$nonce = wp_create_nonce("revslider_actions");
 		?>
 		<div class="updated below-h2 rs-update-notice-wrap" id="message"><a href="javascript:void(0);" style="float: right;padding-top: 9px;" id="rs-dismiss-notice"><?php _e('(never show this message again)&nbsp;&nbsp;<b>X</b>','revslider'); ?></a><p><?php _e('Hi! Would you like to activate your version of Revolution Slider to receive live updates & get premium support? This is optional and not needed if the slider came bundled with a theme. ','revslider'); ?></p></div>
-		<script type="text/javascript">
+		<script>
 			jQuery('#rs-dismiss-notice').click(function(){
 				var objData = {
 							action:"revslider_ajax_action",
@@ -566,7 +566,7 @@ class RevSliderAdmin extends RevSliderBaseAdmin{
 					}
 				}
 				?>
-				<script type="text/javascript">
+				<script>
 					jQuery('.rs-notices-button').click(function(){
 						
 						var notice_id = jQuery(this).attr('class').replace('rs-notices-button', '').replace('rs-notice-', '');
@@ -661,7 +661,7 @@ class RevSliderAdmin extends RevSliderBaseAdmin{
 		$style_pre = '';
 		$style_post = '';
 		if($wp_version < 3.7){
-			$style_pre = '<style type="text/css">';
+			$style_pre = '<style>';
 			$style_post = '</style>';
 		}
 		
@@ -2130,8 +2130,8 @@ class RevSliderAdmin extends RevSliderBaseAdmin{
 						$styles = RevSliderCssParser::parseDbArrayToCss($styles, "\n");
 						$styles = RevSliderCssParser::compress_css($styles);
 						
-						$html .= '<style type="text/css">'.$custom_css.'</style>';
-						$html .= '<style type="text/css">'.$styles.'</style>';
+						$html .= '<style>'.$custom_css.'</style>';
+						$html .= '<style>'.$styles.'</style>';
 						
 						ob_clean();
 						ob_end_clean();

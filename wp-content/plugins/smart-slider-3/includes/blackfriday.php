@@ -22,7 +22,7 @@ if ($current <= mktime(0, 0, 0, 11, 27, 2018)) {
 
         add_action('admin_footer', function () {
             ?>
-            <script type="text/javascript">
+            <script>
             (function ($) {
                 $(function () {
                     setTimeout(function () {

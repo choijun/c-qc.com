@@ -1133,7 +1133,7 @@ class Video_Player extends Widget_Base {
 		</div>
 		</div>
 
-		<script type="text/javascript">
+		<script>
 			jQuery(document).ready(function($){
 				$("#jplayer_<?php echo esc_attr($id); ?>").jPlayer({
 					ready: function () {

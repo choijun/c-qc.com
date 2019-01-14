@@ -442,7 +442,7 @@ add_action( 'wp_ajax_dslc_dismiss_notice', 'dslc_dismiss_notice' );
 
 function dslc_adminjs_dismiss_notice() {
 	?>
-	<script type="text/javascript">
+	<script>
 		jQuery(document).on( 'click', '.dslc-notice .notice-dismiss', function(event) {
 				var notice_id = event.target.parentNode.id;
 				var nonce = event.target.parentNode.getAttribute("data-nonce");

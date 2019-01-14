@@ -161,7 +161,7 @@
 		$( '.customize-control-code_editor textarea.code' ).on( 'change wptouch.customizerReady', function( e ) {
 			$( '.customize-custom-css-styles' ).remove();
 			var customCss = $( this ).val(),
-				customCssContents = '<style class="customize-custom-css-styles" type="text/css">' + customCss + '</style>';
+				customCssContents = '<style class="customize-custom-css-styles">' + customCss + '</style>';
 			$( '#customize-preview iframe' )
 				.contents()
 				.find( '.customize-custom-css-styles' )

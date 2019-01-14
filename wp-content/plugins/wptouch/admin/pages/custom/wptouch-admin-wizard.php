@@ -12,7 +12,7 @@
 	}
 ?>
 
-<script type="text/javascript">
+<script>
 	// Set the default
 	var bncHasLicense = 0;
 </script>

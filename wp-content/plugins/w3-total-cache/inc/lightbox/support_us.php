@@ -24,7 +24,7 @@ if ( !defined( 'W3TC' ) )
                 <!-- Place this tag where you want the widget to render. -->
                 <div class="g-follow" data-annotation="bubble" data-height="20" data-href="https://plus.google.com/106009620651385224281" data-rel="author"></div>
                 <!-- Place this tag after the last widget tag. -->
-                <script type="text/javascript">
+                <script>
                     (function() {
                         var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
                         po.src = 'https://apis.google.com/js/plusone.js';

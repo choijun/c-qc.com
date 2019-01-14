@@ -366,7 +366,7 @@ class Generic_Plugin {
 			'?action=w3tc_monitoring_score&' . md5( $_SERVER['REQUEST_URI'] );
 
 ?>
-        <script type= "text/javascript">
+        <script>
         var w3tc_monitoring_score = document.createElement('script');
         w3tc_monitoring_score.type = 'text/javascript';
         w3tc_monitoring_score.src = '<?php echo $url ?>';
@@ -635,7 +635,7 @@ class Generic_Plugin {
 
 	function popup_script() {
 ?>
-        <script type="text/javascript">
+        <script>
             function w3tc_popupadmin_bar(url) {
                 return window.open(url, '', 'width=800,height=600,status=no,toolbar=no,menubar=no,scrollbars=yes');
             }

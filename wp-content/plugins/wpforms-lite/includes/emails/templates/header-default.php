@@ -31,7 +31,7 @@ $text_direction   = is_rtl() ? 'rtl' : 'ltr';
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php echo get_bloginfo( 'name' ); ?></title>
-	<style type="text/css">
+	<style>
 		p{
 			margin:10px 0;
 			padding:0;

@@ -35,7 +35,7 @@ wp_enqueue_media( array( 'post' => $post_ID ) );
 visual_composer()->templatesPanelEditor()->registerPreviewScripts();
 require_once( ABSPATH . 'wp-admin/admin-header.php' );
 ?>
-	<style type="text/css">
+	<style>
 		#screen-meta, #adminmenumain, .notice, #wpfooter, #message, .updated {
 			display: none !important;
 		}
@@ -81,7 +81,7 @@ require_once( ABSPATH . 'wp-admin/admin-header.php' );
 		<input type="hidden" id="wpb_vc_loading_row" name="wpb_vc_loading_row"
 		       value="<?php esc_attr_e( 'Crunching...', 'js_composer' ) ?>"/>
 	</div>
-	<script type="text/javascript">
+	<script>
 		/**
 		 * Get content of grid item editor of current post. Data is used as models collection of shortcodes.
 		 * Data always wrapped with vc_gitem shortcode.

@@ -150,7 +150,7 @@ class csstidy_print {
 		$output .= "\n<head>\n    <title>$title</title>";
 
 		if ($externalcss) {
-			$output .= "\n    <style type=\"text/css\">\n";
+			$output .= "\n    <style>\n";
 			$cssparsed = file_get_contents('cssparsed.css');
 			$output .= $cssparsed; // Adds an invisible BOM or something, but not in css_optimised.php
 			$output .= "\n</style>";

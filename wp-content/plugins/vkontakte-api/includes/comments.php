@@ -79,8 +79,8 @@
 				<h1><span class='dashicons-before dashicons-format-chat'>{$h1}</span></h1>
 				
 				<div id='vkapi_comments'>
-					<script type='text/javascript' src='//vk.com/js/api/openapi.js' async></script>
-					<script type='text/javascript'>
+					<script src='//vk.com/js/api/openapi.js' async></script>
+					<script>
 						window.vkAsyncInit = function () { 
 							VK.init({ apiId: $appID });
 							VK.Widgets.CommentsBrowse('vkapi_comments', { mini: 1})
@@ -686,7 +686,7 @@
 		{
 			if( get_option('vkapi_appid') ):
 				?>
-				<script type="text/javascript">
+				<script>
 					window.vkAsyncInit = function() {
 						VK.Observer.subscribe('widgets.comments.new_comment', function(num, last_comment, date, sign) {
 							var data = {
@@ -885,14 +885,14 @@
 
 						switch( get_option('vkapi_show_first') ) {
 							case 'vk':
-								echo '<script type="text/javascript">darx.addEvent(document, "DOMContentLoaded", showVK);</script>';
+								echo '<script>darx.addEvent(document, "DOMContentLoaded", showVK);</script>';
 								break;
 							case 'fb':
-								echo '<script type="text/javascript">darx.addEvent(document, "DOMContentLoaded", showFB);</script>';
+								echo '<script>darx.addEvent(document, "DOMContentLoaded", showFB);</script>';
 								break;
 							case 'wp':
 							default:
-								echo '<script type="text/javascript">darx.addEvent(document, "DOMContentLoaded", showWP);</script>';
+								echo '<script>darx.addEvent(document, "DOMContentLoaded", showWP);</script>';
 								break;
 						}
 					}
@@ -1014,7 +1014,7 @@
 			echo "
 			<div id='vk-comments' style='max-width:{$width}'>
 				<div id='vk-comments-widget'></div>
-				<script type='text/javascript'>
+				<script>
 					(function(){
 						darx.addEvent(document, 'vk', function(){
 		                    VK.Widgets.Comments(

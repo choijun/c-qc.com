@@ -295,7 +295,7 @@ class WeDevs_Settings_API {
         $js_id = $args['section']  . '\\\\[' . $args['id'] . '\\\\]';
         $html = sprintf( '<input type="text" class="%1$s-text" id="%2$s[%3$s]" name="%2$s[%3$s]" value="%4$s"/>', $size, $args['section'], $args['id'], $value );
         $html .= '<input type="button" class="button wpsf-browse" id="'. $id .'_button" value="Browse" />
-        <script type="text/javascript">
+        <script>
         jQuery(document).ready(function($){
             $("#'. $js_id .'_button").click(function() {
                 tb_show("", "media-upload.php?post_id=0&amp;type=image&amp;TB_iframe=true");
@@ -512,7 +512,7 @@ class WeDevs_Settings_API {
                 });
             });
         </script>
-        <style type="text/css">
+        <style>
             .nav-tab-wrapper { margin-bottom:30px; }
         </style>
         <?php

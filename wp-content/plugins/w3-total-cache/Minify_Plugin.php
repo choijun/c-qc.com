@@ -380,7 +380,7 @@ class Minify_Plugin {
 
 		if ( $embed_extsrcjs ) {
 			$script = "
-<script type=\"text/javascript\">
+<script>
 " ."var extsrc=null;
 ".'(function(){function j(){if(b&&g){document.write=k;document.writeln=l;var f=document.createElement("span");f.innerHTML=b;g.appendChild(f);b=""}}function d(){j();for(var f=document.getElementsByTagName("script"),c=0;c<f.length;c++){var e=f[c],h=e.getAttribute("asyncsrc");if(h){e.setAttribute("asyncsrc","");var a=document.createElement("script");a.async=!0;a.src=h;document.getElementsByTagName("head")[0].appendChild(a)}if(h=e.getAttribute("extsrc")){e.setAttribute("extsrc","");g=document.createElement("span");e.parentNode.insertBefore(g,e);document.write=function(a){b+=a};document.writeln=function(a){b+=a;b+="\n"};a=document.createElement("script");a.async=!0;a.src=h;/msie/i.test(navigator.userAgent)&&!/opera/i.test(navigator.userAgent)?a.onreadystatechange=function(){("loaded"==this.readyState||"complete"==this.readyState)&&d()}:-1!=navigator.userAgent.indexOf("Firefox")||"onerror"in a?(a.onload=d,a.onerror=d):(a.onload=d,a.onreadystatechange=d);document.getElementsByTagName("head")[0].appendChild(a);return}}j();document.write=k;document.writeln=l;for(c=0;c<extsrc.complete.funcs.length;c++)extsrc.complete.funcs[c]()}function i(){arguments.callee.done||(arguments.callee.done=!0,d())}extsrc={complete:function(b){this.complete.funcs.push(b)}};extsrc.complete.funcs=[];var k=document.write,l=document.writeln,b="",g="";document.addEventListener&&document.addEventListener("DOMContentLoaded",i,!1);if(/WebKit/i.test(navigator.userAgent))var m=setInterval(function(){/loaded|complete/.test(document.readyState)&&(clearInterval(m),i())},10);window.onload=i})();' . "
 </script>
@@ -739,7 +739,7 @@ class Minify_Plugin {
 	 */
 	function get_style( $url, $import = false, $use_style = true ) {
 		if ( $import && $use_style ) {
-			return "<style type=\"text/css\" media=\"all\">@import url(\"" . $url . "\");</style>\r\n";
+			return "<style media=\"all\">@import url(\"" . $url . "\");</style>\r\n";
 		} elseif ( $import && !$use_style ) {
 			return "@import url(\"" . $url . "\");\r\n";
 		}else {
@@ -781,7 +781,7 @@ class Minify_Plugin {
 				else
 					$style = 'not set';
 
-				$return['body'] = "<style type=\"text/css\" media=\"all\">$style</style>\r\n";
+				$return['body'] = "<style media=\"all\">$style</style>\r\n";
 			} else {
 				$return['url'] = $this->get_minify_manual_url( $theme, $template, $location, $type );
 
@@ -1192,7 +1192,7 @@ class _W3_MinifyHelpers {
 			return null;
 
 		$style = $m['content'];
-		return "<style type=\"text/css\" media=\"all\">$style</style>\r\n";
+		return "<style media=\"all\">$style</style>\r\n";
 	}
 
 	/**
@@ -1206,7 +1206,7 @@ class _W3_MinifyHelpers {
 		static $non_blocking_function = false;
 
 		if ( $embed_type == 'blocking' ) {
-			$script = '<script type="text/javascript" src="' .
+			$script = '<script src="' .
 				str_replace( '&', '&amp;', $url ) . '"></script>';
 		} else {
 			$script = '';
@@ -1214,10 +1214,10 @@ class _W3_MinifyHelpers {
 			if ( $embed_type == 'nb-js' ) {
 				if ( !$non_blocking_function ) {
 					$non_blocking_function = true;
-					$script = "<script type=\"text/javascript\">function w3tc_load_js(u){var d=document,p=d.getElementsByTagName('HEAD')[0],c=d.createElement('script');c.type='text/javascript';c.src=u;p.appendChild(c);}</script>";
+					$script = "<script>function w3tc_load_js(u){var d=document,p=d.getElementsByTagName('HEAD')[0],c=d.createElement('script');c.type='text/javascript';c.src=u;p.appendChild(c);}</script>";
 				}
 
-				$script .= "<script type=\"text/javascript\">w3tc_load_js('" .
+				$script .= "<script>w3tc_load_js('" .
 					$url . "');</script>";
 
 			} else if ( $embed_type == 'nb-async' ) {
@@ -1227,10 +1227,10 @@ class _W3_MinifyHelpers {
 					$script = '<script defer type="text/javascript" src="' .
 						str_replace( '&', '&amp;', $url ) . '"></script>';
 				} else if ( $embed_type == 'extsrc' ) {
-					$script = '<script type="text/javascript" extsrc="' .
+					$script = '<script extsrc="' .
 						str_replace( '&', '&amp;', $url ) . '"></script>';
 				} else if ( $embed_type == 'asyncsrc' ) {
-					$script = '<script type="text/javascript" asyncsrc="' .
+					$script = '<script asyncsrc="' .
 						str_replace( '&', '&amp;', $url ) . '"></script>';
 				}
 		}

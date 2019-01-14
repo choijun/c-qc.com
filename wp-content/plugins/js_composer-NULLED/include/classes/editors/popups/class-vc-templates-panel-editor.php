@@ -826,7 +826,7 @@ HTML;
 		$shortcodes_custom_css = visual_composer()->parseShortcodesCustomCss( vc_frontend_editor()->getTemplateContent() );
 		if ( ! empty( $shortcodes_custom_css ) ) {
 			$shortcodes_custom_css = strip_tags( $shortcodes_custom_css );
-			$output .= '<style type="text/css" data-type="vc_shortcodes-custom-css">';
+			$output .= '<style data-type="vc_shortcodes-custom-css">';
 			$output .= $shortcodes_custom_css;
 			$output .= '</style>';
 		}

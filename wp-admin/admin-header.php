@@ -74,7 +74,7 @@ wp_enqueue_script( 'svg-painter' );
 
 $admin_body_class = preg_replace('/[^a-z0-9_-]+/i', '-', $hook_suffix);
 ?>
-<script type="text/javascript">
+<script>
 addLoadEvent = function(func){if(typeof jQuery!="undefined")jQuery(document).ready(func);else if(typeof wpOnload!='function'){wpOnload=func;}else{var oldonload=wpOnload;wpOnload=function(){oldonload();func();}}};
 var ajaxurl = '<?php echo admin_url( 'admin-ajax.php', 'relative' ); ?>',
 	pagenow = '<?php echo $current_screen->id; ?>',
@@ -204,7 +204,7 @@ if ( $current_screen->is_block_editor() ) {
 $admin_body_classes = apply_filters( 'admin_body_class', '' );
 ?>
 <body class="wp-admin wp-core-ui no-js <?php echo $admin_body_classes . ' ' . $admin_body_class; ?>">
-<script type="text/javascript">
+<script>
 	document.body.className = document.body.className.replace('no-js','js');
 </script>
 

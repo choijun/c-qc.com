@@ -897,7 +897,7 @@ function wp_color_scheme_settings() {
 		$icon_colors = array( 'base' => '#82878c', 'focus' => '#00a0d2', 'current' => '#fff' );
 	}
 
-	echo '<script type="text/javascript">var _wpColorScheme = ' . wp_json_encode( array( 'icons' => $icon_colors ) ) . ";</script>\n";
+	echo '<script>var _wpColorScheme = ' . wp_json_encode( array( 'icons' => $icon_colors ) ) . ";</script>\n";
 }
 
 /**

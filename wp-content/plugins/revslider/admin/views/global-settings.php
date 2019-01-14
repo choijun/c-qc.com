@@ -50,7 +50,7 @@ $force_activation_box = RevSliderBase::getVar($arrValues, 'force_activation_box'
 	
 	<div id="rs-global-settings-dialog-wrap">
 		<form name="form_general_settings" id="form_general_settings">
-			<script type="text/javascript">
+			<script>
 				g_settingsObj['form_general_settings'] = {};
 				
 				jQuery(document).ready(function(){

@@ -29,7 +29,7 @@
 	<link rel="alternate" type="application/rss+xml" title="<?php esc_attr(bloginfo( 'name' )); ?>" href="<?php esc_attr(bloginfo( 'rss2_url' )); ?>" />
 	<link rel="alternate" type="application/atom+xml" title="<?php esc_attr(bloginfo( 'name' )); ?>" href="<?php esc_attr(bloginfo( 'atom_url' )); ?>" />
 
-    <script type="text/javascript">var $OZY_WP_AJAX_URL = "<?php echo esc_url(admin_url('admin-ajax.php')) ?>", $OZY_WP_IS_HOME = <?php echo (is_home() || is_front_page() ? 'true' : 'false') ?>, $OZY_WP_HOME_URL = "<?php echo esc_url(home_url()) ?>";</script>
+    <script>var $OZY_WP_AJAX_URL = "<?php echo esc_url(admin_url('admin-ajax.php')) ?>", $OZY_WP_IS_HOME = <?php echo (is_home() || is_front_page() ? 'true' : 'false') ?>, $OZY_WP_HOME_URL = "<?php echo esc_url(home_url()) ?>";</script>
     <?php global $ozyHelper, $ozy_global_params, $ozy_data; ?>
 	<?php wp_head(); /* this is used by many Wordpress features and for plugins to work proporly */ ?>
   <noindex><script async src="https://stats.lptracker.ru/code/new/58157"></script></noindex>

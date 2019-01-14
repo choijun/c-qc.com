@@ -29,7 +29,7 @@ wp_enqueue_media( array( 'post' => $post_ID ) );
 visual_composer()->templatesPanelEditor()->registerPreviewScripts();
 require_once( ABSPATH . 'wp-admin/admin-header.php' );
 ?>
-<style type="text/css">
+<style>
 	#screen-meta, #adminmenumain, .notice, #wpfooter, #message, .updated {
 		display: none !important;
 	}

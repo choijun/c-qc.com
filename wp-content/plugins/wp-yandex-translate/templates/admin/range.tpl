@@ -9,7 +9,7 @@
 			<div id="{{ id }}_range" class="prisna_ywt_field_range"></div>
 			<input type="text" name="{{ id }}" id="{{ id }}" value="{{ value }}" readonly="readonly" />
 			<div class="prisna_ywt_field_unit"><small>{{ unit }}</small></div>
-			<script type="text/javascript">
+			<script>
 			/*<![CDATA[*/
 				PrisnaYWTAdmin.addRangeField({
 					container: "#{{ id }}_range", 

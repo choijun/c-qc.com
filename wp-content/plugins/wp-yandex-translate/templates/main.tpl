@@ -1,5 +1,5 @@
 
-<style type="text/css">
+<style>
 <!--
 .prisna-ywt-align-left {
 	text-align: left !important;
@@ -41,14 +41,14 @@
 -->
 </style>
 {{ on_before_load.empty.false:begin }}
-<script type="text/javascript">
+<script>
 /*<![CDATA[*/
 {{ on_before_load }}
 /*]]>*/
 </script>
 {{ on_before_load.empty.false:end }}
 {{ has_flags.true:begin }}
-<script type="text/javascript">
+<script>
 /*<![CDATA[*/
 var PrisnaYWT = {
 
@@ -73,7 +73,7 @@ var PrisnaYWT = {
 {{ has_flags.true:end }}
 {{ has_container.true:begin }}<div id="prisna-ywt-widget" class="prisna-ywt-align-{{ align_mode }}"></div><script src="https://translate.yandex.net/website-widget/v1/widget.js?widgetId=prisna-ywt-widget&pageLang={{ from }}&widgetTheme={{ style }}&trnslKey={{ api_key }}&autoMode={{ detect_browser_locale }}" type="text/javascript"></script>{{ has_container.true:end }}
 {{ on_after_load.empty.false:begin }}
-<script type="text/javascript">
+<script>
 /*<![CDATA[*/
 {{ on_after_load }}
 /*]]>*/

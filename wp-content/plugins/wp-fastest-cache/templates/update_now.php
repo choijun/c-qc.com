@@ -31,7 +31,7 @@
 	</div>
 </div>
 
-<style type="text/css">
+<style>
 
 .wpfc-lightbox-help{
 	margin:25px 35px 35px;

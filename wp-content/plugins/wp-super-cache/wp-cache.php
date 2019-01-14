@@ -809,7 +809,7 @@ function wp_cache_manager() {
 	$valid_nonce = isset($_REQUEST['_wpnonce']) ? wp_verify_nonce($_REQUEST['_wpnonce'], 'wp-cache') : false;
 	/* http://www.netlobo.com/div_hiding.html */
 	?>
-<script type='text/javascript'>
+<script>
 <!--
 function toggleLayer( whichLayer ) {
 	var elem, vis;
@@ -834,7 +834,7 @@ jQuery(document).ready(function(){
 });
 </script>
 
-<style type='text/css'>
+<style>
 #nav h3 {
 	border-bottom: 1px solid #ccc;
 	padding-bottom: 0;
@@ -1790,7 +1790,7 @@ function wp_cache_edit_max_time() {
 	if ( $wp_cache_preload_on )
 		echo "<p>" . __( 'Warning! <strong>PRELOAD MODE</strong> activated. Supercache files will not be deleted regardless of age.', 'wp-super-cache' ) . "</p>";
 
-	echo "<script type='text/javascript'>";
+	echo "<script>";
 	echo "jQuery(function () {
 		jQuery('#cache_interval_time').click(function () {
 			jQuery('#schedule_interval').attr('checked', true);
@@ -2295,7 +2295,7 @@ function wp_cache_index_notice() {
 		}
 		echo "</div>";
 ?>
-		<script  type='text/javascript'>
+		<script>
 		<!--
 			jQuery(document).ready(function(){
 				jQuery('#wpsc-dismiss').click(function() {

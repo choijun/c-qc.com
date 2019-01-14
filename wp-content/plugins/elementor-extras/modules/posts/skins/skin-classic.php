@@ -2096,7 +2096,7 @@ class Skin_Classic extends Skin_Base {
 		if ( \Elementor\Plugin::instance()->editor->is_edit_mode() === false )
 			return;
 
-		?><script type="text/javascript">
+		?><script>
         	jQuery( document ).ready( function( $ ) {
 
 				$( '.ee-loop' ).each( function() {

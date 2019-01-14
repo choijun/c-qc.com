@@ -76,7 +76,7 @@ if ( $el_class ) {
 	data-map_type="<?php echo $map_type; ?>"
 	data-map_style="<?php echo $map_style; ?>"
 ></div>
-<script type="text/javascript">
+<script>
 	jQuery(document).ready(function ($) {
 
 		var gmMapDiv = $("<?php if ( $el_class ) {

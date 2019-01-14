@@ -2656,7 +2656,7 @@ class FeedWordPress {
 <html>
 <head>
 <title>$subj</title>
-<style type="text/css">
+<style>
 	body { background-color: white; color: black; }
 	table { width: 100%; border: 1px solid black; }
 	table thead tr th { background-color: #ff7700; color: white; border-bottom: 1px solid black; }

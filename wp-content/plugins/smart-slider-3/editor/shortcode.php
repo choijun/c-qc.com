@@ -86,7 +86,7 @@ class N2SSShortcodeInsert {
                     <iframe style="border: 0;" src="<?php echo $router->createUrl(array('sliders/embed')); ?>"></iframe>
 				</div>
 			</div>
-        <script type="text/javascript">
+        <script>
 				jQuery(document).ready(function ($) {
                     var modal = $('#n2-ss-editor-modal'),
                         inner = $('.n2-ss-editor-inner'),

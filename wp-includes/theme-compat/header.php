@@ -27,7 +27,7 @@ _deprecated_file(
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 <?php if ( file_exists( get_stylesheet_directory() . '/images/kubrickbgwide.jpg' ) ) { ?>
-<style type="text/css" media="screen">
+<style media="screen">
 
 <?php
 // Checks to see whether it needs a sidebar

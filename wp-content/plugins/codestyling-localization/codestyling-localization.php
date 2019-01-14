@@ -1426,7 +1426,7 @@ function csp_po_ajax_handle_dlg_show_source() {
 	}
 ?>
 	</table>
-	<script type="text/javascript">
+	<script>
 	/* <![CDATA[ */
 function init() {
 	try{
@@ -1495,7 +1495,7 @@ Event.domReady = {
 			// Windows IE
 			var src = (window.location.protocol == 'https:') ? '://0' : 'javascript:void(0)';
 			document.write(
-				'<script type="text/javascript" defer="defer" src="' + src + '" ' +
+				'<script defer="defer" src="' + src + '" ' +
 				'onreadystatechange="if (this.readyState == \'complete\') Event.domReady.callback();"' +
 				'><\/script>');
  
@@ -2580,7 +2580,7 @@ function csp_self_script_protection_head() {
 				}
 			}else{
 				//embedded scripts - wrap within exception handler
-				$content = str_replace($scripts[0][$i], '<script type="text/javascript">'."\n//<![CDATA[\ntry {\n".csp_try_jquery_document_ready_hardening($scripts[1][$i])."\n}catch (e) {\n\tcsp_self_protection.runtime.push(e.message); \n}\n//]]>\n</script>", $content);
+				$content = str_replace($scripts[0][$i], '<script>'."\n//<![CDATA[\ntry {\n".csp_try_jquery_document_ready_hardening($scripts[1][$i])."\n}catch (e) {\n\tcsp_self_protection.runtime.push(e.message); \n}\n//]]>\n</script>", $content);
 			}
 		}
 	}
@@ -2591,7 +2591,7 @@ function csp_self_script_protection_head() {
 		}
 	}
 	//4th - define our protection
-	echo '<script type="text/javascript">var csp_self_protection = { "dirty_theme" : '.json_encode($dirty_theme).', "dirty_plugins" : ' . json_encode($dirty_plugins). ", \"runtime\" : [] };</script>\n";
+	echo '<script>var csp_self_protection = { "dirty_theme" : '.json_encode($dirty_theme).', "dirty_plugins" : ' . json_encode($dirty_plugins). ", \"runtime\" : [] };</script>\n";
 	echo $content;
 }
 
@@ -2632,7 +2632,7 @@ function csp_self_script_protection_footer() {
 				}
 			}else{
 				//embedded scripts - wrap within exception handler
-				$content = str_replace($scripts[0][$i], '<script type="text/javascript">'."\ntry {\n".csp_try_jquery_document_ready_hardening($scripts[1][$i])."\n }\ncatch(e) {\n\tcsp_self_protection.runtime.push(e.message); \n};\n</script>", $content);
+				$content = str_replace($scripts[0][$i], '<script>'."\ntry {\n".csp_try_jquery_document_ready_hardening($scripts[1][$i])."\n }\ncatch(e) {\n\tcsp_self_protection.runtime.push(e.message); \n};\n</script>", $content);
 			}
 		}
 	}
@@ -2643,30 +2643,30 @@ function csp_self_script_protection_footer() {
 		}
 	}
 	//4th - define our protection
-	echo '<script type="text/javascript">csp_self_protection.dirty_theme = csp_self_protection.dirty_theme.concat('.json_encode($dirty_theme).");</script>\n";
-	echo '<script type="text/javascript">csp_self_protection.dirty_plugins = csp_self_protection.dirty_plugins.concat('.json_encode($dirty_plugins).");</script>\n";
+	echo '<script>csp_self_protection.dirty_theme = csp_self_protection.dirty_theme.concat('.json_encode($dirty_theme).");</script>\n";
+	echo '<script>csp_self_protection.dirty_plugins = csp_self_protection.dirty_plugins.concat('.json_encode($dirty_plugins).");</script>\n";
 	$media_upload = ((defined('CSL_MEDIA_UPLOAD_STRIPPED') && CSL_MEDIA_UPLOAD_STRIPPED === true) ? ( function_exists("admin_url") ? admin_url('js/media-upload.js') : get_site_url().'/wp-admin/js/media-upload.js' ) : '');
 	if (!empty($media_upload))
-		echo '<script type="text/javascript">csp_self_protection.dirty_enqueues = ["'.$media_upload."\"];</script>\n";
+		echo '<script>csp_self_protection.dirty_enqueues = ["'.$media_upload."\"];</script>\n";
 	else
-		echo "<script type=\"text/javascript\">csp_self_protection.dirty_enqueues = [];</script>\n";
+		echo "<script>csp_self_protection.dirty_enqueues = [];</script>\n";
 
 	global $csp_external_scripts;
 	if (count($csp_external_scripts['cdn']['tokens']) > 0 || count($csp_external_scripts['dubious']['tokens']) > 0)
-		echo '<script type="text/javascript">csp_self_protection.externals = '.json_encode($csp_external_scripts).";</script>\n";
+		echo '<script>csp_self_protection.externals = '.json_encode($csp_external_scripts).";</script>\n";
 	else
-		echo "<script type=\"text/javascript\">csp_self_protection.externals = { 'cdn' : { 'tokens' : [], 'scripts' : [] }, 'dubious' : { 'tokens' : [], 'scripts' : [] } };</script>\n";
+		echo "<script>csp_self_protection.externals = { 'cdn' : { 'tokens' : [], 'scripts' : [] }, 'dubious' : { 'tokens' : [], 'scripts' : [] } };</script>\n";
 	
 	global $csp_traced_php_errors;
 	if(count($csp_traced_php_errors['messages'])) {
-		echo '<script type="text/javascript">csp_self_protection.php = '.json_encode($csp_traced_php_errors['messages']).";</script>\n";
+		echo '<script>csp_self_protection.php = '.json_encode($csp_traced_php_errors['messages']).";</script>\n";
 	}else{
-		echo "<script type=\"text/javascript\">csp_self_protection.php = []; </script>\n";
+		echo "<script>csp_self_protection.php = []; </script>\n";
 	}
 		
 	echo $content;
 ?>
-<script type="text/javascript">
+<script>
 	jQuery(document).ready(function($) { 
 		if (
 			csp_self_protection.dirty_theme.length 
@@ -3579,7 +3579,7 @@ define('MICROSOFT_TRANSLATE_CLIENT_SECRET', 'enter your secret here');
 </div><!-- csp-dialog-container closed -->
 <div id="csp-credentials"></div><!-- credential for filesystem -->
 <br />
-<script type="text/javascript">
+<script>
 /* <![CDATA[ */
 
 //ajax call parameter

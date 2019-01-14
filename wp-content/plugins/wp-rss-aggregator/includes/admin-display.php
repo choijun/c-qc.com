@@ -555,7 +555,7 @@
         return;
         ?>
 
-        <script type="text/javascript">
+        <script>
             jQuery('table.wp-list-table a.row-title').contents().unwrap();
         </script>
         <?php

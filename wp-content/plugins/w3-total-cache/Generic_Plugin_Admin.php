@@ -245,7 +245,7 @@ class Generic_Plugin_Admin {
 	function admin_head() {
 		if ( isset( $_GET['page'] ) && $_GET['page'] == 'w3tc_dashboard' ) {
 ?>
-            <script type="text/javascript">
+            <script>
             jQuery(function() {
                 jQuery('#normal-sortables').masonry({
                     itemSelector: '.postbox'
@@ -267,7 +267,7 @@ class Generic_Plugin_Admin {
 				$profile = 'UA-2264433-8';
 
 ?>
-            <script type="text/javascript">
+            <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -293,7 +293,7 @@ class Generic_Plugin_Admin {
 		}
 
 ?>
-        <style type="text/css" media="screen">
+        <style media="screen">
         #toplevel_page_w3tc_dashboard .wp-menu-image {
             background: url(<?php echo plugins_url( 'pub/img/w3tc-sprite.png', W3TC_FILE )?>) no-repeat 0 -32px !important;
         }
@@ -438,7 +438,7 @@ class Generic_Plugin_Admin {
 
 	function print_plugins_page_css() {
 		echo "
-            <style type=\"text/css\">
+            <style>
             .w3tc-missing-files ul {
                 margin-left: 20px;
                 list-style-type: disc;

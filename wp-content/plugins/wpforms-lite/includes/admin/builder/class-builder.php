@@ -469,7 +469,7 @@ class WPForms_Builder {
 		);
 		$choices = apply_filters( 'wpforms_builder_preset_choices', $choices );
 
-		echo '<script type="text/javascript">wpforms_preset_choices=' . wp_json_encode( $choices ) . '</script>';
+		echo '<script>wpforms_preset_choices=' . wp_json_encode( $choices ) . '</script>';
 
 		do_action( 'wpforms_builder_print_footer_scripts' );
 	}

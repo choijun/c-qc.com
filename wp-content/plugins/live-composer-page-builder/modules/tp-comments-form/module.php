@@ -1607,7 +1607,7 @@ function dslc_module_comments_form_output( $atts, $content = null ) {
 		 * Due to poor browser support we can't change it the normal way.
 		 */
 		?>
-		<style type="text/css">
+		<style>
 			.dslc-tp-comment-form input[type=text]::-moz-placeholder, .dslc-tp-comment-form input[type=url]::-moz-placeholder, .dslc-tp-comment-form input[type=email]::-moz-placeholder, .dslc-tp-comment-form textarea::-moz-placeholder {
 				color: <?php echo $css_inputs_color ?>;
 			}

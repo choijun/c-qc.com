@@ -73,7 +73,7 @@ if ( ! class_exists( 'Jet_Blog_Integration' ) ) {
 
 			$has_playlist = $this->has_playlist ? 1 : 0;
 
-			echo "<script type='text/javascript'>\n";
+			echo "<script>\n";
 			echo "/* <![CDATA[ */\n";
 			echo "var hasJetBlogPlaylist = $has_playlist;\n";
 			echo "/* ]]> */\n";

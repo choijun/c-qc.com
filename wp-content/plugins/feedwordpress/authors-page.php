@@ -233,12 +233,12 @@ name to delete the rule. Fill in a new name at the bottom to create a new rule.)
 
 		parent::display();
 		?>
-<script type="text/javascript">
+<script>
 	contextual_appearance('unfamiliar-author', 'unfamiliar-author-newuser', 'unfamiliar-author-default', 'newuser', 'inline');
 </script>
 
 <?php 		if ($this->for_feed_settings()) : ?>
-<script type="text/javascript">
+<script>
 	jQuery('.author-rules').each ( function () {
 		contextual_appearance(this.id, this.id+'-newuser', this.id+'-default', 'newuser', 'inline');
 	} );
@@ -247,7 +247,7 @@ name to delete the rule. Fill in a new name at the bottom to create a new rule.)
 	contextual_appearance('fix-mismatch-to', 'fix-mismatch-to-newuser', null, 'newuser', 'inline');
 </script>
 <?php 		else : ?>
-<script type="text/javascript">
+<script>
 	contextual_appearance('match-author-by-email', 'unless-null-email', null, 'yes', 'block', /*checkbox=*/ true);
 </script>
 <?php 		endif;

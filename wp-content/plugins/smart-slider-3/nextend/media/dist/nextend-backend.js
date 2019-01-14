@@ -3670,7 +3670,7 @@ N2D('ExpertMode', function ($, undefined) {
     };
 
     ExpertMode.prototype.changeStyle = function (style) {
-        this.style.html('<style type="text/css">' + style + '</style>');
+        this.style.html('<style>' + style + '</style>');
     };
 
     return function (app, allowed) {

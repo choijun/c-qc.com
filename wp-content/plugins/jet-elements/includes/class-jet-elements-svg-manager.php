@@ -59,7 +59,7 @@ if ( ! class_exists( 'Jet_Elements_SVG_Manager' ) ) {
 		 */
 		public function fix_svg_thumb_display() {
 			?>
-			<style type="text/css">
+			<style>
 				td.media-icon img[src$=".svg"], img[src$=".svg"].attachment-post-thumbnail {
 					width: 100% !important;
 					height: auto !important;

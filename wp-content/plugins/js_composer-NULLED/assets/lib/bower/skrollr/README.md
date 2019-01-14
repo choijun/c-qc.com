@@ -64,8 +64,8 @@ Let's get serious
 First of all you want to include the `skrollr.min.js` file at the bottom of your document (right before the closing `</body>`) and then call `skrollr.init()`. Or you can place it inside the `<head>` if you want to, but make sure to call `init()` once the document has been loaded (e.g. jQuery's `ready` event or even `window.onload`).
 
 ```html
-	<script type="text/javascript" src="skrollr.min.js"></script>
-	<script type="text/javascript">
+	<script src="skrollr.min.js"></script>
+	<script>
 	var s = skrollr.init();
 	</script>
 </body>

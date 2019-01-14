@@ -3,7 +3,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	header( 'HTTP/1.0 403 Forbidden' );
 	die;
 } 
-?><script type="text/javascript">
+?><script>
 (function($) {
 	
 	if( typeof YoastLicenseManager !== "undefined" ) {

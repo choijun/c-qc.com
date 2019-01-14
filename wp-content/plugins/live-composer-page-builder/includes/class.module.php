@@ -2624,7 +2624,7 @@ class DSLC_Module {
 				// If Live Composer in editing mode: output <style> block for the current module.
 			if ( DS_LIVE_COMPOSER_ACTIVE && is_user_logged_in() && current_user_can( DS_LIVE_COMPOSER_CAPABILITY ) ) :
 
-				echo '<style type="text/css" id="css-for-dslc-module-' . esc_attr( $options['module_instance_id'] ) . '">';
+				echo '<style id="css-for-dslc-module-' . esc_attr( $options['module_instance_id'] ) . '">';
 
 				$options_arr = $this->options();
 

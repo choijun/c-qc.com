@@ -504,7 +504,7 @@ abstract class SiteOrigin_Widget extends WP_Widget {
 			<a href="<?php echo sow_esc_url($this->widget_options['help']) ?>" class="siteorigin-widget-help-link siteorigin-panels-help-link" target="_blank" rel="noopener noreferrer"><?php _e('Help', 'so-widgets-bundle') ?></a>
 		<?php endif; ?>
 
-		<script type="text/javascript">
+		<script>
 			( function($) {
 				if(typeof window.sow_field_javascript_variables == 'undefined') window.sow_field_javascript_variables = {};
 				window.sow_field_javascript_variables["<?php echo addslashes( $this->widget_class ) ?>"] = <?php echo json_encode( $fields_javascript_variables ) ?>;

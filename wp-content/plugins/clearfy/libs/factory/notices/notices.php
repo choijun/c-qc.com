@@ -258,7 +258,7 @@
 				$plugin_name = str_replace('_', '-', $this->plugin->getPluginName());
 
 				?>
-				<script type="text/javascript">
+				<script>
 					jQuery(function($) {
 
 						$(document).on('click', '.<?php echo $plugin_name; ?>-factory-notice-dismiss .notice-dismiss', function() {

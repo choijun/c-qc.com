@@ -4,7 +4,7 @@ if ( !defined('P3_PATH') )
 
 $opts = get_option( 'p3-profiler_options' );
 ?>
-<script type="text/javascript">
+<script>
 
 	/*****************************************************************/
 	/**  AUTO SCANNER HELPER OBJECT                                 **/

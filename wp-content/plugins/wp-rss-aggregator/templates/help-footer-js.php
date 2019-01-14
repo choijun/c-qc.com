@@ -9,7 +9,7 @@
  * @license   http://www.gnu.org/licenses/gpl.html
  */
 ?>
-<script type="text/javascript" id="<?php echo WPRSS_Help::get_instance()->prefix('footer-js') ?>">
+<script id="<?php echo WPRSS_Help::get_instance()->prefix('footer-js') ?>">
 	(function($, document, window) {
 		$(function() {
 			var tooltipHandleClass = '<?php echo isset( $vars['tooltip_handle_class'] ) ? $vars['tooltip_handle_class'] : '' ?>';

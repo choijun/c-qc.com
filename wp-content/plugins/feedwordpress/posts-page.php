@@ -533,7 +533,7 @@ class FeedWordPressPostsPage extends FeedWordPressAdminPage {
 		endif;
 		$hookOrder = intval($page->setting('boilerplate hook order', FEEDWORDPRESS_BOILERPLATE_DEFAULT_HOOK_ORDER));
 ?>
-	<style type="text/css">	
+	<style>	
 	.boilerplate-help-box {
 		float: right;
 		width: 300px;
@@ -639,7 +639,7 @@ class FeedWordPressPostsPage extends FeedWordPressAdminPage {
 	</ul>
 	<br style="clear: both" />
 
-	<script type="text/javascript">
+	<script>
 		jQuery(document).ready( function($) {
 			$('.boilerplate-template').blur( function() {
 				if (this.value.length == 0) {

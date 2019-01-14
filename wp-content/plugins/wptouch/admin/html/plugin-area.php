@@ -16,7 +16,7 @@
 				</div>
 			</td>
 		</tr>
-		<script type="text/javascript">
+		<script>
 			( function(){
 				jQuery( '#wptouch-pro' ).addClass( 'update' );
 			}());
@@ -46,7 +46,7 @@
 				</div>
 			</td>
 		</tr>
-		<script type="text/javascript">
+		<script>
 			( function(){
 				jQuery( '#wptouch-pro' ).addClass( 'update' );
 			}());

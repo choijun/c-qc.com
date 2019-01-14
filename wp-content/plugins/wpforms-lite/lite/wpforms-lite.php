@@ -747,7 +747,7 @@ class WPForms_Lite {
 				?>
 			</p>
 		</div>
-		<script type="text/javascript">
+		<script>
 			jQuery( document ).ready( function ( $ ) {
 				$( document ).on( 'click', '.settings-lite-cta .dismiss', function ( event ) {
 					event.preventDefault();
@@ -789,7 +789,7 @@ class WPForms_Lite {
 		}
 		?>
 
-		<style type="text/css">
+		<style>
 			.wpforms-admin-content {
 				-webkit-filter: blur(3px);
 				-moz-filter: blur(3px);
@@ -888,7 +888,7 @@ class WPForms_Lite {
 				float: left;
 			}
 		</style>
-		<script type="text/javascript">
+		<script>
 			jQuery( function ( $ ) {
 				var userAgent = window.navigator.userAgent,
 					onlyIEorEdge = /msie\s|trident\/|edge\//i.test( userAgent ) && ! ! (document.uniqueID || window.MSInputMethodContext),

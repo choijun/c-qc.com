@@ -53,7 +53,7 @@ class WP_Widget_Recent_Comments extends WP_Widget {
 			|| ! apply_filters( 'show_recent_comments_widget_style', true, $this->id_base ) )
 			return;
 		?>
-		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 		<?php
 	}
 

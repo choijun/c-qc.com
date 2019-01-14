@@ -372,14 +372,14 @@ function ozy_print_inline_script_style() {
 	
 	$ozyHelper->set_footer_style(ozy_get_option('custom_css'));
 	if($ozyHelper->footer_style) {
-		echo "<style type=\"text/css\">\r\n";
+		echo "<style>\r\n";
 		echo $ozyHelper->footer_style;
 		echo "\r\n</style>\r\n";
 	}
 
 	$ozyHelper->set_footer_script(ozy_get_option('custom_script'));
 	if($ozyHelper->footer_script) {
-		echo "<script type=\"text/javascript\">\r\n";
+		echo "<script>\r\n";
 		echo $ozyHelper->footer_script;
 		echo "\r\n</script>\r\n";
 	}	

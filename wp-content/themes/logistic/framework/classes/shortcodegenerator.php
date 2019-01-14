@@ -293,7 +293,7 @@ class VP_ShortcodeGenerator
 	public static function print_styles($buttons)
 	{
 		?>
-			<style type="text/css">
+			<style>
 				<?php foreach (self::$pool as $sg): ?>
 				#qt_content_<?php echo $sg->name; ?>{
 					background: url('<?php echo $sg->sprite_image; ?>') 2px -21px no-repeat !important;

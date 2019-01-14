@@ -1,6 +1,6 @@
 <?php if ( !defined( 'W3TC' ) ) die(); ?>
 <h3><?php _e( 'Create Pull Zone', 'w3-total-cache' )?></h3>
-<style type="text/css">.form-table th {width:auto}</style>
+<style>.form-table th {width:auto}</style>
 <div class="netdna-maxcdn-form">
     <div class="create-error w3tc-error"></div>
     <table class="form-table">

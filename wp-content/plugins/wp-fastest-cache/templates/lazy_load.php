@@ -62,7 +62,7 @@
 		<?php include WPFC_MAIN_PATH."templates/buttons.html"; ?>
 	</div>
 </div>
-<script type="text/javascript">
+<script>
 	jQuery("#wpFastestCacheLazyLoad").click(function(){
 		if(typeof jQuery(this).attr("checked") != "undefined"){
 			if(jQuery("div[id^='wpfc-modal-lazyload-']").length === 0){

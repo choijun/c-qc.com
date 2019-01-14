@@ -441,7 +441,7 @@
 		public function admin_footer_suggestions()
 		{
 			?>
-			<script type="text/javascript">
+			<script>
 				jQuery(function($) {
 
 					$(document).on('click', '.<?php echo $this->prefix; ?>-dismiss-suggestions .notice-dismiss', function() {

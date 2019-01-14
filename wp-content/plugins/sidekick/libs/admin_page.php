@@ -1,4 +1,4 @@
-<script type="text/javascript">
+<script>
 	if (typeof ajax_url === 'undefined') {
 		ajax_url = '<?php echo admin_url() ?>admin-ajax.php';
 	}

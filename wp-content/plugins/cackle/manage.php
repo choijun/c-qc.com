@@ -18,7 +18,7 @@
 </style>
 
 <div id="mc-comment-admin"></div>
-<script type="text/javascript">
+<script>
     cackle_widget = window.cackle_widget || [];
     cackle_widget.push({widget: 'CommentAdmin', id: <?php print_r(get_option('cackle_apiId', '')); ?>});
     (function () {

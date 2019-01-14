@@ -7,7 +7,7 @@ if ( !defined( 'W3TC' ) )
 ?>
 <?php include W3TC_INC_DIR . '/popup/common/header.php'; ?>
 
-<script type="text/javascript">/*<![CDATA[*/
+<script>/*<![CDATA[*/
 jQuery(function() {
     W3tc_Popup_Cdn_Export_Library.nonce = '<?php echo wp_create_nonce( 'w3tc' ); ?>';
 	W3tc_Popup_Cdn_Export_Library.init();

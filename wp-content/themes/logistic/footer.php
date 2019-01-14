@@ -24,7 +24,7 @@
 
 
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
+<script >
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {
@@ -55,7 +55,7 @@
 
 
 <link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
-<script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=e9ac1113de5232970422074af500fd4a" charset="UTF-8" async></script>
+<script src="https://cdn.envybox.io/widget/cbk.js?wcb_code=e9ac1113de5232970422074af500fd4a" charset="UTF-8" async></script>
  
 </body>
  

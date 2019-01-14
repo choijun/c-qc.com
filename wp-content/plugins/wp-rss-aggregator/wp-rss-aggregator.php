@@ -424,7 +424,7 @@
      */
     function wprss_footer_pointer_scripts() {
         ?>
-        <script type="text/javascript">
+        <script>
 
             jQuery(document).ready( function($) {
 

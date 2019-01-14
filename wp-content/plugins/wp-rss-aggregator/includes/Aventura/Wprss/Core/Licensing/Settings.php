@@ -349,7 +349,7 @@ class Settings {
             ?>
         </p>
 
-        <style type="text/css">
+        <style>
             .wprss-<?php echo $addonId; ?>-license-valid {
                 color: green;
             }

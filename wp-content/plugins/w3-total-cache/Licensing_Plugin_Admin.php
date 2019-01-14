@@ -63,7 +63,7 @@ class Licensing_Plugin_Admin {
 
 	public function admin_head_licensing_upgrade() {
 ?>
-        <script type="text/javascript">
+        <script>
         jQuery(function() {
 	        w3tc_lightbox_upgrade(w3tc_nonce);
 	        jQuery('#w3tc-license-instruction').show();

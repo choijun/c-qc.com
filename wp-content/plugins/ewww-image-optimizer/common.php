@@ -6822,7 +6822,7 @@ function ewww_image_optimizer_add_bulk_actions_via_javascript() {
 		return;
 	}
 	?>
-	<script type="text/javascript">
+	<script>
 		jQuery(document).ready(function($){
 			$('select[name^="action"] option:last-child').before('<option value="bulk_optimize"><?php esc_html_e( 'Bulk Optimize', 'ewww-image-optimizer' ); ?></option>');
 			$('.ewww-manual-convert').tooltip();
@@ -7333,7 +7333,7 @@ function ewww_image_optimizer_options( $network = 'singlesite' ) {
 		$network_class = 'network-multisite';
 	}
 	$output   = array();
-	$output[] = "<script type='text/javascript'>\n" .
+	$output[] = "<script>\n" .
 		'jQuery(document).ready(function($) {$(".fade").fadeTo(5000,1).fadeOut(3000);});' . "\n" .
 		"</script>\n";
 	$output[] = "<style>\n" .
@@ -8143,7 +8143,7 @@ function ewww_image_optimizer_options( $network = 'singlesite' ) {
 			}
 		}
 		?>
-<script type='text/javascript'>
+<script>
 	!function(e,o,n){window.HSCW=o,window.HS=n,n.beacon=n.beacon||{};var t=n.beacon;t.userConfig={},t.readyQueue=[],t.config=function(e){this.userConfig=e},t.ready=function(e){this.readyQueue.push(e)},o.config={docs:{enabled:!0,baseUrl:"//ewwwio.helpscoutdocs.com/"},contact:{enabled:!0,formId:"af75cf17-310a-11e7-9841-0ab63ef01522"}};var r=e.getElementsByTagName("script")[0],c=e.createElement("script");c.type="text/javascript",c.async=!0,c.src="https://djtflbt20bdde.cloudfront.net/",r.parentNode.insertBefore(c,r)}(document,window.HSCW||{},window.HS||{});
 	HS.beacon.config(<?php echo json_encode( $hs_config ); ?>);
 	HS.beacon.ready(function() {

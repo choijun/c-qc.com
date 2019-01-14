@@ -64,7 +64,7 @@ class Yoast_HelpScout_Beacon {
 		/** @noinspection PhpUnusedLocalVariableInspection */
 		$data = wp_json_encode( $this->localize_beacon() );
 
-		echo '<script type="text/javascript">';
+		echo '<script>';
 		require dirname( __FILE__ ) . '/yoast-seo-helpscout-beacon.js.php';
 		echo '</script>';
 	}

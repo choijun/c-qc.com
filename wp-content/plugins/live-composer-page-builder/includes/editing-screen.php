@@ -194,7 +194,7 @@ function dslc_editing_screen_footer() {
 	}
 
 	?>
-	<script type="text/javascript">
+	<script>
 		jQuery('#wpadminbar, #wpfooter, #adminmenuwrap, #adminmenuback, #adminmenumain, #screen-meta, .update-nag, .updated').remove();
 		jQuery('#wpbody-content > *').each(function() {
 			var current_el = jQuery(this);

@@ -294,7 +294,7 @@ abstract class N2SmartSliderAbstract extends N2SmartSliderRenderableAbstract {
 
             $style = $this->sliderType->getStyle();
             if (N2Platform::$isAdmin) {
-                $slider = '<style type="text/css">' . $style . '</style>' . $slider;
+                $slider = '<style>' . $style . '</style>' . $slider;
             } else {
                 $cssMode = N2Settings::get('css-mode', 'normal');
                 switch ($cssMode) {

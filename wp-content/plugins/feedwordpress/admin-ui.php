@@ -493,7 +493,7 @@ class FeedWordPressAdminPage {
 	public function open_sheet ($header) {
 		// Set up prepatory AJAX stuff
 		?>
-		<script type="text/javascript">
+		<script>
 		<?php
 		$this->ajax_interface_js();
 		?>
@@ -987,7 +987,7 @@ class FeedWordPressSettingsUI {
 
 	static function admin_styles () {
 		?>
-		<style type="text/css">
+		<style>
 		#feedwordpress-admin-feeds .link-rss-params-remove .x, .feedwordpress-admin .remove-it .x {
 			background: url(<?php print admin_url('images/xit.gif') ?>) no-repeat scroll 0 0 transparent;
 		}
@@ -1028,7 +1028,7 @@ class FeedWordPressSettingsUI {
 
 	static function fix_toggles_js ($context) {
 	?>
-		<script type="text/javascript">
+		<script>
 			jQuery(document).ready( function($) {
 			// In case someone got here first...
 			$('.postbox h3, .postbox .handlediv').unbind('click');
@@ -1048,7 +1048,7 @@ class FeedWordPressSettingsUI {
 				$id = '#'.$id;
 			endif;
 		?>
-			<script type="text/javascript">
+			<script>
 			jQuery(document).ready( function () {
 				var inputBox = jQuery("<?php print $id; ?>");
 				var boxEl = inputBox.get(0);

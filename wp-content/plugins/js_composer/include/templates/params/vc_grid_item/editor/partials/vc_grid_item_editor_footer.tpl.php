@@ -24,7 +24,7 @@ if ( vc_user_access()->part( 'presets' )->can()->get() ) {
 }
 
 ?>
-	<script type="text/javascript">
+	<script>
 		var vc_user_mapper = <?php echo json_encode( WpbMap_Grid_Item::getGitemUserShortCodes() ) ?>,
 			vc_mapper = <?php echo json_encode( WpbMap_Grid_Item::getShortCodes() ) ?>,
 			vc_vendor_settings_presets = <?php echo json_encode( $vc_vendor_settings_presets ) ?>,

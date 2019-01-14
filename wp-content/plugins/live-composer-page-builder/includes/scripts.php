@@ -146,7 +146,7 @@ final class DSLC_Scripts {
 	 */
 	public static function callback_tinymce() {
 		?>
-		<script type="text/javascript">
+		<script>
 			window.parent.previewAreaTinyMCELoaded.call(window);
 		</script>
 		<?php
@@ -381,7 +381,7 @@ final class DSLC_Scripts {
 	public static function dslc_inline_js_plugin_title() {
 		?>
 
-		<script type="text/javascript">
+		<script>
 			jQuery(document).ready(function($){
 				// Shorten plugin name.
 				jQuery('.plugins [data-slug="live-composer-page-builder"] .plugin-title strong').text('Live Composer');

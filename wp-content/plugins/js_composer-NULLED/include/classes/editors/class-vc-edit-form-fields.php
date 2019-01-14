@@ -133,7 +133,7 @@ class Vc_Edit_Form_Fields implements Vc_Render {
 		if ( ! WpbakeryShortcodeParams::isEnqueue() ) {
 			$scripts = apply_filters( 'vc_edit_form_enqueue_script', WpbakeryShortcodeParams::getScripts() );
 			foreach ( $scripts as $script ) {
-				$output .= "\n\n" . '<script type="text/javascript" src="' . $script . '"></script>';
+				$output .= "\n\n" . '<script src="' . $script . '"></script>';
 			}
 		}
 
@@ -212,8 +212,8 @@ class Vc_Edit_Form_Fields implements Vc_Render {
 			$show_settings = true;
 		}
 
-		$output .= sprintf( '<script type="text/javascript">window.vc_presets_show=%s;</script>', $show_presets ? 'true' : 'false' );
-		$output .= sprintf( '<script type="text/javascript">window.vc_settings_show=%s;</script>', $show_presets || $show_settings ? 'true' : 'false' );
+		$output .= sprintf( '<script>window.vc_presets_show=%s;</script>', $show_presets ? 'true' : 'false' );
+		$output .= sprintf( '<script>window.vc_settings_show=%s;</script>', $show_presets || $show_settings ? 'true' : 'false' );
 
 		if ( ! empty( $deprecated ) ) {
 			$output .= '<div class="vc_row vc_ui-flex-row vc_shortcode-edit-form-deprecated-message"><div class="vc_col-sm-12 wpb_element_wrapper">' . vc_message_warning( sprintf( __( 'You are using outdated element, it is deprecated since version %s.', 'js_composer' ), $this->setting( 'deprecated' ) ) ) . '</div></div>';

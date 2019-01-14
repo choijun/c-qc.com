@@ -12,7 +12,7 @@
 		}
 
 		public function wpfc_wp_polls() { ?>
-			<script type="text/javascript">
+			<script>
 				jQuery(document).ready(function(){
 					var wpfcWpfcAjaxCall = function(polls){
 						if(polls.length > 0){

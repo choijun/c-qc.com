@@ -1780,7 +1780,7 @@ function iframe_header( $title = '', $deprecated = false ) {
 <?php
 wp_enqueue_style( 'colors' );
 ?>
-<script type="text/javascript">
+<script>
 addLoadEvent = function(func){if(typeof jQuery!="undefined")jQuery(document).ready(func);else if(typeof wpOnload!='function'){wpOnload=func;}else{var oldonload=wpOnload;wpOnload=function(){oldonload();func();}}};
 function tb_close(){var win=window.dialogArguments||opener||parent||top;win.tb_remove();}
 var ajaxurl = '<?php echo admin_url( 'admin-ajax.php', 'relative' ); ?>',
@@ -1829,7 +1829,7 @@ $admin_body_classes = apply_filters( 'admin_body_class', '' );
  * @global string $body_id
  */
 if ( isset($GLOBALS['body_id']) ) echo ' id="' . $GLOBALS['body_id'] . '"'; ?> class="wp-admin wp-core-ui no-js iframe <?php echo $admin_body_classes . ' ' . $admin_body_class; ?>">
-<script type="text/javascript">
+<script>
 (function(){
 var c = document.body.className;
 c = c.replace(/no-js/, 'js');
@@ -1868,7 +1868,7 @@ function iframe_footer() {
 	do_action( 'admin_print_footer_scripts' );
 ?>
 	</div>
-<script type="text/javascript">if(typeof wpOnload=="function")wpOnload();</script>
+<script>if(typeof wpOnload=="function")wpOnload();</script>
 </body>
 </html>
 <?php
@@ -2034,7 +2034,7 @@ function _media_states( $post ) {
  */
 function compression_test() {
 ?>
-	<script type="text/javascript">
+	<script>
 	var compressionNonce = <?php echo wp_json_encode( wp_create_nonce( 'update_can_compress_scripts' ) ); ?>;
 	var testCompression = {
 		get : function(test) {

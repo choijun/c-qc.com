@@ -364,7 +364,7 @@ class FeedWordPressSyndicationPage extends FeedWordPressAdminPage {
 			?>
 			</form>
 			
-			<script type="text/javascript">
+			<script>
 				jQuery(document).ready( function () {
 					// Hide it now that we're done.
 					jQuery('#multiadd-status').fadeOut(500 /*ms*/);
@@ -695,7 +695,7 @@ class FeedWordPressSyndicationPage extends FeedWordPressAdminPage {
 
 	function bleg_box ($page, $box = NULL) {
 		?>
-<script type="text/javascript">
+<script>
 /* <![CDATA[ */
     (function() {
         var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];

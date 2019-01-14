@@ -1061,7 +1061,7 @@ class WPForms_Frontend {
 			$strings[ $key ] = html_entity_decode( (string) $value, ENT_QUOTES, 'UTF-8' );
 		}
 
-		echo "<script type='text/javascript'>\n";
+		echo "<script>\n";
 		echo "/* <![CDATA[ */\n";
 		echo 'var wpforms_settings = ' . wp_json_encode( $strings ) . "\n";
 		echo "/* ]]> */\n";

@@ -320,7 +320,7 @@ class Custom_Image_Header {
 			}
 		}
 		?>
-<script type="text/javascript">
+<script>
 (function($){
 	var default_color = '<?php echo $default_color; ?>',
 		header_text_fields;
@@ -373,7 +373,7 @@ class Custom_Image_Header {
 	 * @since 2.6.0
 	 */
 	public function js_2() { ?>
-<script type="text/javascript">
+<script>
 	function onEndCrop( coords ) {
 		jQuery( '#x1' ).val(coords.x);
 		jQuery( '#y1' ).val(coords.y);

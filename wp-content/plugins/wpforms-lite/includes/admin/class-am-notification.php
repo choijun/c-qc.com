@@ -207,7 +207,7 @@ if ( ! class_exists( 'AM_Notification', false ) ) {
 					<div class="am-notification am-notification-<?php echo absint( $notification->ID ); ?> notice notice-<?php echo esc_attr( $type ); ?><?php echo $dismissable ? ' is-dismissible' : ''; ?>">
 						<?php echo wp_kses_post( $notification->post_content ); ?>
 					</div>
-					<script type="text/javascript">
+					<script>
 						jQuery( document ).ready( function ( $ ) {
 							$( document ).on( 'click', '.am-notification-<?php echo absint( $notification->ID ); ?> button.notice-dismiss', function ( event ) {
 								$.post( ajaxurl, {

@@ -983,7 +983,7 @@ class User_Register extends Widget_Base {
 		$id       = $this->get_id();
 
 		?>
-		<script type="text/javascript">
+		<script>
 			jQuery(document).ready(function($) {
 				"use strict";
 				var register_form = 'form#bdt-user-register<?php echo esc_attr($id); ?>';

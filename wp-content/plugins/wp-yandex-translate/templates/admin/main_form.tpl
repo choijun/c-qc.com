@@ -17,7 +17,7 @@
 <div class="prisna_ywt_saved prisna_ywt_message">
 	<p>{{ saved_message }}</p>
 </div>
-<script type="text/javascript">
+<script>
 PrisnaYWTAdmin.hideMessage(".prisna_ywt_saved", 1000);
 </script>
 {{ just_saved.true:end }}
@@ -26,7 +26,7 @@ PrisnaYWTAdmin.hideMessage(".prisna_ywt_saved", 1000);
 <div class="prisna_ywt_imported_success prisna_ywt_message">
 	<p>{{ advanced_import_success_message }}</p>
 </div>
-<script type="text/javascript">
+<script>
 PrisnaYWTAdmin.hideMessage(".prisna_ywt_imported_success", 3000);
 </script>
 {{ just_imported_success.true:end }}
@@ -35,7 +35,7 @@ PrisnaYWTAdmin.hideMessage(".prisna_ywt_imported_success", 3000);
 <div class="prisna_ywt_imported_fail prisna_ywt_message">
 	<p>{{ advanced_import_fail_message }}</p>
 </div>
-<script type="text/javascript">
+<script>
 PrisnaYWTAdmin.hideMessage(".prisna_ywt_imported_fail", 10000);
 </script>
 {{ just_imported_fail.true:end }}
@@ -44,7 +44,7 @@ PrisnaYWTAdmin.hideMessage(".prisna_ywt_imported_fail", 10000);
 <div class="prisna_ywt_reseted prisna_ywt_message">
 	<p>{{ reseted_message }}</p>
 </div>
-<script type="text/javascript">
+<script>
 PrisnaYWTAdmin.hideMessage(".prisna_ywt_reseted", 1000);
 </script>
 {{ just_reseted.true:end }}
@@ -153,7 +153,7 @@ PrisnaYWTAdmin.hideMessage(".prisna_ywt_reseted", 1000);
 
 </form>
 
-<script type="text/javascript">
+<script>
 /*<![CDATA[*/
 PrisnaYWTAdmin.initialize();
 /*]]>*/

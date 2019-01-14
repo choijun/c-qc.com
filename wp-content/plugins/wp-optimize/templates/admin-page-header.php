@@ -39,6 +39,6 @@
 	$wp_optimize_notices->do_notice();
 ?>
 
-<script type="text/javascript">
+<script>
 	var wp_optimize_ajax_nonce='<?php echo wp_create_nonce('wp-optimize-ajax-nonce'); ?>';
 </script>

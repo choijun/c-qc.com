@@ -1,4 +1,4 @@
-<style type="text/css">
+<style>
 	div[id^="wpfc-modal-updatepost"] .wiz-input-cont{
 		margin-top: 0 !important;
 		margin-bottom: 5px !important;
@@ -67,7 +67,7 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script>
 	jQuery("#wpFastestCacheUpdatePost").click(function(){
 		if(typeof jQuery(this).attr("checked") != "undefined"){
 			if(jQuery("div[id^='wpfc-modal-updatepost-']").length === 0){

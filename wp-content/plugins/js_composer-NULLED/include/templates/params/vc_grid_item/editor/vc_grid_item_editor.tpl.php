@@ -19,7 +19,7 @@ $nav_bar->render();
 <input type="hidden" id="wpb_vc_loading_row" name="wpb_vc_loading_row"
 	value="<?php _e( 'Crunching...', 'js_composer' ) ?>"/>
 <input type="hidden" name="vc_grid_item_editor" value="true"/>
-<script type="text/javascript">
+<script>
 	<?php
 	$vc_gitem_template = vc_request_param( 'vc_gitem_template' );
 	if ( strlen( $vc_gitem_template ) && false !== ( $template = Vc_Grid_Item::predefinedTemplate( $vc_gitem_template ) ) ) {

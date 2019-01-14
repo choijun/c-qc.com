@@ -8,7 +8,7 @@ $sliders = $slidersModel->getAll($groupID, $orderBy, $orderByDirection);
 
 $router = $appType->router;
 ?>
-<script type="text/javascript">
+<script>
     N2R('documentReady', function ($) {
         var selected = null;
         window.selectSlider = function (el, mode, sliderIDorAlias, sliderID) {

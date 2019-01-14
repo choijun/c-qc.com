@@ -35,7 +35,7 @@ class PrisnaYWTCommon {
 	public static function renderCSS($_code) {
 	
 		if (!empty($_code))
-			echo '<style type="text/css">' . $_code . '</style>';
+			echo '<style>' . $_code . '</style>';
 		
 	}
 	

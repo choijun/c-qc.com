@@ -15,7 +15,7 @@ if ( vc_user_access()->part( 'presets' )->can()->get() ) {
 	$vc_all_presets = array();
 }
 ?>
-<script type="text/javascript">
+<script>
 	var vc_user_mapper = <?php echo json_encode( WPBMap::getUserShortCodes() ) ?>,
 		vc_mapper = <?php echo json_encode( WPBMap::getShortCodes() ) ?>,
 		vc_vendor_settings_presets = <?php echo json_encode( $vc_vendor_settings_presets ) ?>,

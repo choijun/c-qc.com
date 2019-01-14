@@ -186,8 +186,8 @@ if ( 'custom' === $style ) {
 	$gradient_css_hover[] = 'background-position: 100% 0';
 
 	$uid = uniqid();
-	echo '<style type="text/css">.vc_btn3-style-' . $style . '.vc_btn-gradient-btn-' . $uid . ':hover{' . implode( ';', $gradient_css_hover ) . ';' . '}</style>';
-	echo '<style type="text/css">.vc_btn3-style-' . $style . '.vc_btn-gradient-btn-' . $uid . '{' . implode( ';', $gradient_css ) . ';' . '}</style>';
+	echo '<style>.vc_btn3-style-' . $style . '.vc_btn-gradient-btn-' . $uid . ':hover{' . implode( ';', $gradient_css_hover ) . ';' . '}</style>';
+	echo '<style>.vc_btn3-style-' . $style . '.vc_btn-gradient-btn-' . $uid . '{' . implode( ';', $gradient_css ) . ';' . '}</style>';
 	$button_classes[] = 'vc_btn-gradient-btn-' . $uid;
 	$attributes[] = 'data-vc-gradient-1="' . $gradient_color_1 . '"';
 	$attributes[] = 'data-vc-gradient-2="' . $gradient_color_2 . '"';

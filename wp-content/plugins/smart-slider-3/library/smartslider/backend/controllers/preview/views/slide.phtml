@@ -9,7 +9,7 @@ if (!empty($slidesData)) {
     $slideId = key($slidesData);
     if ($slideId > 0) {
         ?>
-        <script type="text/javascript">
+        <script>
             n2ss.ready(<?php echo $sliderId; ?>, function (slider) {
                 slider.visible(function () {
                     slider.slideToID(<?php echo key($slidesData); ?>);

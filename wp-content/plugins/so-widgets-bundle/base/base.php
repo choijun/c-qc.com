@@ -34,7 +34,7 @@ function siteorigin_widget_print_styles(){
 	if ( ! empty( $siteorigin_widgets_inline_styles ) ) {
         foreach ($siteorigin_widgets_inline_styles as $widget_css) {
             ?>
-            <style type="text/css"><?php echo($widget_css) ?></style><?php
+            <style><?php echo($widget_css) ?></style><?php
         }
     }
 

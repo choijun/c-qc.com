@@ -828,7 +828,7 @@ PrisnaYWTCommon.Tabs.prototype.selectMenu = function(name, state) {
 			g = [],
 			a = null,
 			j = null;
-		this.selector && b("head").append("<style type='text/css'>" + (this.selector.split(",").join(" " + d.dragSelector + ",") + " " + d.dragSelector) + " { cursor: move; }</style>");
+		this.selector && b("head").append("<style>" + (this.selector.split(",").join(" " + d.dragSelector + ",") + " " + d.dragSelector) + " { cursor: move; }</style>");
 		this.each(function(k, i) {
 			b(i).is("table") && b(i).children().size() == 1 && b(i).children().is("tbody") && (i = b(i).children().get(0));
 			var m = {

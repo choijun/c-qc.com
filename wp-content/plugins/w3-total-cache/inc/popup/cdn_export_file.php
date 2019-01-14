@@ -7,7 +7,7 @@ if ( !defined( 'W3TC' ) )
 ?>
 <?php include W3TC_INC_DIR . '/popup/common/header.php'; ?>
 
-<script type="text/javascript">/*<![CDATA[*/
+<script>/*<![CDATA[*/
 var files = [
 <?php $files_count = count( $files ); foreach ( $files as $index => $file ): ?>
 	'<?php echo addslashes( $file ); ?>'<?php if ( $index < $files_count - 1 ): ?>,<?php endif; ?>

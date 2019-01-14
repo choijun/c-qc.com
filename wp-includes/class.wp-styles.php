@@ -158,7 +158,7 @@ class WP_Styles extends WP_Dependencies {
 		// A single item may alias a set of items, by having dependencies, but no source.
 		if ( ! $obj->src ) {
 			if ( $inline_style = $this->print_inline_style( $handle, false ) ) {
-				$inline_style = sprintf( "<style id='%s-inline-css' type='text/css'>\n%s\n</style>\n", esc_attr( $handle ), $inline_style );
+				$inline_style = sprintf( "<style id='%s-inline-css'>\n%s\n</style>\n", esc_attr( $handle ), $inline_style );
 				if ( $this->do_concat ) {
 					$this->print_html .= $inline_style;
 				} else {
@@ -217,7 +217,7 @@ class WP_Styles extends WP_Dependencies {
 			$this->print_html .= $conditional_pre;
 			$this->print_html .= $tag;
 			if ( $inline_style = $this->print_inline_style( $handle, false ) ) {
-				$this->print_html .= sprintf( "<style id='%s-inline-css' type='text/css'>\n%s\n</style>\n", esc_attr( $handle ), $inline_style );
+				$this->print_html .= sprintf( "<style id='%s-inline-css'>\n%s\n</style>\n", esc_attr( $handle ), $inline_style );
 			}
 			$this->print_html .= $conditional_post;
 		} else {
@@ -277,7 +277,7 @@ class WP_Styles extends WP_Dependencies {
 			return $output;
 		}
 
-		printf( "<style id='%s-inline-css' type='text/css'>\n%s\n</style>\n", esc_attr( $handle ), $output );
+		printf( "<style id='%s-inline-css'>\n%s\n</style>\n", esc_attr( $handle ), $output );
 
 		return true;
 	}

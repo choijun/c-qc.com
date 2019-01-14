@@ -56,7 +56,7 @@ do_action( 'before_signup_header' );
  */
 function wpmu_signup_stylesheet() {
 	?>
-	<style type="text/css">
+	<style>
 		.mu_register { width: 90%; margin:0 auto; }
 		.mu_register form { margin-top: 2em; }
 		.mu_register .error { font-weight:700; padding:10px; color:#333333; background:#FFEBE8; border:1px solid #CC0000; }

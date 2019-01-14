@@ -11,7 +11,7 @@ $license_key = vc_license()->getLicenseKey();
 $classes = 'vc_settings-tab-content vc_settings-tab-content-active ' . esc_attr( $css );
 
 ?>
-<script type="text/javascript">
+<script>
 	var vcAdminNonce = '<?php echo vc_generate_nonce( 'vc-admin-nonce' ); ?>';
 </script>
 <?php if ( 'updater' === $tab && $dev_environment && ! vc_license()->isActivated() ) : ?>

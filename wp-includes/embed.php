@@ -434,7 +434,7 @@ function get_post_embed_html( $width, $height, $post = null ) {
 
 	$output = '<blockquote class="wp-embedded-content"><a href="' . esc_url( get_permalink( $post ) ) . '">' . get_the_title( $post ) . "</a></blockquote>\n";
 
-	$output .= "<script type='text/javascript'>\n";
+	$output .= "<script>\n";
 	$output .= "<!--//--><![CDATA[//><!--\n";
 	if ( SCRIPT_DEBUG ) {
 		$output .= file_get_contents( ABSPATH . WPINC . '/js/wp-embed.js' );
@@ -936,7 +936,7 @@ function enqueue_embed_scripts() {
  */
 function print_embed_styles() {
 	?>
-	<style type="text/css">
+	<style>
 	<?php
 		if ( SCRIPT_DEBUG ) {
 			readfile( ABSPATH . WPINC . "/css/wp-embed-template.css" );
@@ -967,7 +967,7 @@ function print_embed_styles() {
  */
 function print_embed_scripts() {
 	?>
-	<script type="text/javascript">
+	<script>
 	<?php
 		if ( SCRIPT_DEBUG ) {
 			readfile( ABSPATH . WPINC . "/js/wp-embed-template.js" );

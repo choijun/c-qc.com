@@ -3,7 +3,7 @@
 <div id="wufoo-m5pom8z0qy59rm"></div>
 <form>
 
-<script type="text/javascript">var m5pom8z0qy59rm;(function(d, t) {
+<script>var m5pom8z0qy59rm;(function(d, t) {
 var s = d.createElement(t);
 var options = {
 	'userName':'w3edge',

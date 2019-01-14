@@ -206,7 +206,7 @@ if (!class_exists('Sidekick')) {
 
 			<?php if (get_option('sk_firstuse') == true): ?>
 				<?php delete_option('sk_firstuse') ?>
-				<script type="text/javascript">
+				<script>
 					jQuery(document).ready(function($) {
 						jQuery('#sidekick #logo').trigger('click');
 					});
@@ -397,7 +397,7 @@ if (!class_exists('Sidekick')) {
 					<?php echo json_encode($sk_config) ?>
 				</script>
 
-				<script type="text/javascript">
+				<script>
 					var sk_nonce_upgrade = '<?php echo wp_create_nonce('sk_upgrade');
 			?>'
 				</script>

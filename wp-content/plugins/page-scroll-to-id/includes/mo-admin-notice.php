@@ -101,7 +101,7 @@ if (!class_exists('MO_Admin_Notice')) {
         public function notice_css()
         {
             ?>
-            <style type="text/css">
+            <style>
                 .mo-admin-notice {
                     background: #fff;
                     color: #000;

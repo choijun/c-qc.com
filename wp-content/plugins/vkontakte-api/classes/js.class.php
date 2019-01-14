@@ -17,7 +17,7 @@ class Darx_JS {
 
 	public function wp_head() {
 		?>
-		<script type="text/javascript">
+		<script>
 			'use strict';
 			(function (w) {
 				var darx = {};
@@ -129,7 +129,7 @@ class Darx_JS {
 	}
 
 	public function wp_footer() {
-		echo "<script type=\"text/javascript\">";
+		echo "<script>";
 		foreach ( self::$_scripts as $name => $src ) {
 			echo "
 				(function (d) {

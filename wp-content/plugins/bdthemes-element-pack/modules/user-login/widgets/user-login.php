@@ -1298,7 +1298,7 @@ class User_Login extends Widget_Base {
 		}
 
 		?>
-		<script type="text/javascript">
+		<script>
 			jQuery(document).ready(function($) {
 				"use strict";
 				var login_form = 'form#bdt-user-login<?php echo esc_attr($id); ?>';

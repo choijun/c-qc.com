@@ -472,7 +472,7 @@ class FeedWordPressFeedsPage extends FeedWordPressAdminPage {
 		</table>
 		</div>
 		
-		<script type="text/javascript">
+		<script>
 		jQuery('<td><a class="add-remove remove-it" id="link-rss-userpass-remove<?php print $slug; ?>" href="#"><span class="x">(X)</span> Remove</a></td>')
 			.appendTo('#link-rss-authentication-credentials<?php print $slug; ?>')
 			.click( feedAuthenticationMethodUnPress );
@@ -602,7 +602,7 @@ class FeedWordPressFeedsPage extends FeedWordPressAdminPage {
 		
 		<div><input type="hidden" id="link-rss-params-num" name="link_rss_params_num" value="<?php print $i; ?>" /></div>
 		
-		<script type="text/javascript">
+		<script>
 		function linkParamsRowRemove (element) {
 			jQuery(element).closest('tr').fadeOut('slow', function () {
 				jQuery(this).remove();

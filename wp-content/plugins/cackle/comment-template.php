@@ -160,7 +160,7 @@ if (!is_comments_close()) {
     }
     ?>
 
-<script type="text/javascript">
+<script>
     cackle_widget = window.cackle_widget || [];
     cackle_widget.push({
         widget: 'Comment', countContainer: '<?php print_r("c" . $post->ID)?>',

@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<meta name="viewport" content="width=device-width"/>
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<?php wp_head(); ?>
-	<style type="text/css">
+	<style>
 		body {
 			background-color: #FFF;
 			color: #000;
@@ -64,7 +64,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 </div>
 <!-- #primary -->
 <?php wp_footer(); ?>
-<script type="text/javascript">
+<script>
 	var currentWidth = '<?php echo $default_width_value ?>',
 		vcSetItemWidth = function ( value ) {
 			jQuery( '.vc_grid-item' ).removeClass( 'vc_col-sm-' + currentWidth )

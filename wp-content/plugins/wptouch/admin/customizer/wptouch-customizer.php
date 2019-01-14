@@ -612,7 +612,7 @@ function wptouch_customizer_scripts() {
 
 function wptouch_customizer_ajax_callbacks() {
 	?>
-	<script type="text/javascript">
+	<script>
 		function wptouchCustomizerGetLuma( hexvalue ) {
 			var c = hexvalue.substring(1);      // strip #
 			var rgb = parseInt(c, 16);   // convert rrggbb to decimal

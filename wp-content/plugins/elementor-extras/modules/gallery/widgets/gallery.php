@@ -1954,7 +1954,7 @@ class Gallery extends Extras_Widget {
 		if ( 'yes' !== $this->get_settings( 'masonry_enable' ) || 'yes' === $this->get_settings( 'parallax_enable' ) )
 			return;
 
-		?><script type="text/javascript">
+		?><script>
         	jQuery( document ).ready( function( $ ) {
 
 				$( '.ee-gallery' ).each( function() {

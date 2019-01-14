@@ -91,7 +91,7 @@ jQuery(function ($) {
 		} else {
 			// Load the recaptcha API
 			var apiUrl = 'https://www.google.com/recaptcha/api.js?onload=soContactFormInitialize&render=explicit';
-			var script = $('<script type="text/javascript" src="' + apiUrl + '" async defer>');
+			var script = $('<script src="' + apiUrl + '" async defer>');
 			$('body').append(script);
 		}
 	} else {

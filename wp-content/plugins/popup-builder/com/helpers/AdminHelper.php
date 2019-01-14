@@ -268,7 +268,7 @@ class AdminHelper
 	// countdown popup (number) styles
 	public static function renderCountdownStyles($popupId = 0, $countdownBgColor, $countdownTextColor)
 	{
-		return  "<style type='text/css'>
+		return  "<style>
 			.sgpb-counts-content.sgpb-flipclock-js-$popupId.flip-clock-wrapper ul li a div div.inn {
 				background-color: $countdownBgColor;
 				color: $countdownTextColor;
@@ -861,7 +861,7 @@ class AdminHelper
 	// proStartSilver
 	public static function setPushToBottom($element = '')
 	{
-		$style = '<style type="text/css">';
+		$style = '<style>';
 		$style .= "$element";
 		$style .= '{position: absolute !important;';
 		$style .= 'left: 0 !important;';

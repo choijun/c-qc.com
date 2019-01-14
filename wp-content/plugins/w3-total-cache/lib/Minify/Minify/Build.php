@@ -19,7 +19,7 @@
  * $jsBuild = new Minify_Build($groupSources['js']);
  * $cssBuild = new Minify_Build($groupSources['css']);
  * 
- * $script = "<script type='text/javascript' src='"
+ * $script = "<script src='"
  *     . $jsBuild->uri('/min.php/js') . "'></script>";
  * $link = "<link rel='stylesheet' type='text/css' href='"
  *     . $cssBuild->uri('/min.php/css') . "'>";

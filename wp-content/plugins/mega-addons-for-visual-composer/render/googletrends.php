@@ -36,7 +36,7 @@ vc_map( array(
 			"heading" 		=> 	__( 'Google Trend Embed Code', 'trends' ),
 			"param_name" 	=> 	"content",
 			"description" 	=> 	__( 'Visit <a href="https://www.google.com/trends/explore?date=all&q=Basketball,%20Rugby,%20Handball&hl=en-US">Google Trends</a> to create your map (Step by step: 1) Find Google Trend 2) Click the cog symbol in the right corner and select "embed code" 3) On modal window copy "Embed code on left side" 4) Copy code and paste it).', 'trends' ),
-			"value"			=>	__('<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/884_RC03/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"Basketball","geo":"","time":"all"},{"keyword":"Rugby","geo":"","time":"all"},{"keyword":"Handball","geo":"","time":"all"}],"category":0,"property":""}, {"exploreQuery":"date=all&q=Basketball,Rugby,Handball&hl=en-US"}); </script> '),
+			"value"			=>	__('<script src="https://ssl.gstatic.com/trends_nrtr/884_RC03/embed_loader.js"></script> <script> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"Basketball","geo":"","time":"all"},{"keyword":"Rugby","geo":"","time":"all"},{"keyword":"Handball","geo":"","time":"all"}],"category":0,"property":""}, {"exploreQuery":"date=all&q=Basketball,Rugby,Handball&hl=en-US"}); </script> '),
 			"group" 		=> 	'Embed Code',
 		),
 		array(

@@ -91,7 +91,7 @@ class WP_Widget_Categories extends WP_Widget {
 			echo '</form>';
 			?>
 
-<script type='text/javascript'>
+<script>
 /* <![CDATA[ */
 (function() {
 	var dropdown = document.getElementById( "<?php echo esc_js( $dropdown_id ); ?>" );

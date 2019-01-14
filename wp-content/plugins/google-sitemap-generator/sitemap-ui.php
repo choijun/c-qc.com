@@ -276,7 +276,7 @@ class GoogleSitemapGeneratorUI {
 				//Redirect so the sm_rebuild GET parameter no longer exists.
 				@header("location: " . $redirURL);
 				//If there was already any other output, the header redirect will fail
-				echo '<script type="text/javascript">location.replace("' . $redirURL . '");</script>';
+				echo '<script>location.replace("' . $redirURL . '");</script>';
 				echo '<noscript><a href="' . $redirURL . '">Click here to continue</a></noscript>';
 				exit;
 			}
@@ -412,7 +412,7 @@ class GoogleSitemapGeneratorUI {
 			echo <<<HTML
 <html>
 	<head>
-		<style type="text/css">
+		<style>
 		html {
 			background: #f1f1f1;
 		}
@@ -551,7 +551,7 @@ HTML;
 
 		?>
 
-		<style type="text/css">
+		<style>
 
 		li.sm_hint {
 			color:green;
@@ -942,7 +942,7 @@ HTML;
 
 							echo "</li></ul>";
 						?>
-						<script type="text/javascript">
+						<script>
 							//<![CDATA[
 								<?php
 								$freqVals = "'" . implode("','",array_keys($this->sg->GetFreqNames())). "'";
@@ -967,7 +967,7 @@ HTML;
 								?> ];
 							//]]>
 						</script>
-						<script type="text/javascript" src="<?php echo $this->sg->GetPluginUrl(); ?>img/sitemap.js"></script>
+						<script src="<?php echo $this->sg->GetPluginUrl(); ?>img/sitemap.js"></script>
 						<table width="100%" cellpadding="3" cellspacing="3" id="sm_pageTable">
 							<tr>
 								<th scope="col"><?php _e('URL to the page','sitemap'); ?></th>
@@ -1279,7 +1279,7 @@ HTML;
 				</div>
 				</div>
 				</div>
-				<script type="text/javascript">if(typeof(sm_loadPages)=='function') addLoadEvent(sm_loadPages); </script>
+				<script>if(typeof(sm_loadPages)=='function') addLoadEvent(sm_loadPages); </script>
 			</form>
 			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="sm_donate_form">
 				<?php

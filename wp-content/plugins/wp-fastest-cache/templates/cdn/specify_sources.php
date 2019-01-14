@@ -2,7 +2,7 @@
 <p>If you want some of the sources instead of all the sources to be served via CDN, you can specify the sources. If a source url contains any keyword below, it is served via CDN.</p>
 <div class="wiz-input-cont" style="padding:8px 18px;border-radius:0;text-align:center; background: #fff none repeat scroll 0 0;">
 	
-	<style type="text/css">
+	<style>
 		.wiz-input-cont{
 			box-shadow:0 2px 6px 0 rgba(0, 0, 0, 0.15) !important;
 			

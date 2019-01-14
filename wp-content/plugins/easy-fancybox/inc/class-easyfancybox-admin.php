@@ -58,7 +58,7 @@ class easyFancyBox_Admin extends easyFancyBox {
 
 	// add our FancyBox Media Settings Section on Settings > Media admin page
 	public static function settings_section() {
-		echo '<style type="text/css">.options-media-php br { display: initial; }</style><!-- undo WP style rule introduced in 4.9 on settings-media -->
+		echo '<style>.options-media-php br { display: initial; }</style><!-- undo WP style rule introduced in 4.9 on settings-media -->
 		<p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ravanhagen%40gmail%2ecom&item_name=Easy%20FancyBox&item_number='.EASY_FANCYBOX_VERSION.'&no_shipping=0&tax=0&charset=UTF%2d8&currency_code=EUR" title="'.__('Donate to keep the Easy FancyBox plugin development going!','easy-fancybox').'">
 		<img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" style="border:none;float:right;margin:5px 0 0 10px" alt="'.__('Donate to keep the Easy FancyBox plugin development going!','easy-fancybox').'" width="92" height="26" /></a>';
 		echo sprintf(__('The options in this section are provided by the plugin %s and determine the <strong>Media Lightbox</strong> overlay appearance and behavior controlled by %s.','easy-fancybox'),'<strong><a href="http://status301.net/wordpress-plugins/easy-fancybox/">'.__('Easy FancyBox','easy-fancybox').'</a></strong>','<strong><a href="http://fancybox.net/">'.__('FancyBox','easy-fancybox').'</a></strong>');

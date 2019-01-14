@@ -45,7 +45,7 @@ if( !function_exists( 'ozy_logistic_style') ) :
 		}
 	
 	?>
-		<style type="text/css">
+		<style>
 			@media only screen and (min-width: 1212px) {
 				.container{padding:0;width:<?php echo $ozy_data->container_width; ?>px;}
 				#content{width:<?php echo $ozy_data->content_width; ?>px;}

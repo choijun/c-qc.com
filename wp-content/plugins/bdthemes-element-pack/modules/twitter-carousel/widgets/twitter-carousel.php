@@ -1504,7 +1504,7 @@ class Twitter_Carousel extends Widget_Base {
 			
 		</div>
 
-		<script type="text/javascript">
+		<script>
 			jQuery(document).ready(function($) {
 			    "use strict";				    
 			    var swiper = new Swiper("#<?php echo $id;?> .swiper-container", {

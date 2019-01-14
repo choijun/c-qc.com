@@ -93,7 +93,7 @@ class YMC {
 		$tracker = '';
 
 		$tracker .= '<!-- Yandex.Metrika counter --> ';
-		$tracker .= '<script type="text/javascript" >';
+		$tracker .= '<script >';
 		$tracker .= ' (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; ';
 		$tracker .= 'm[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) ';
 		$tracker .= '(window, document, "script", "' . $yandexcdn . '", "ym");';
@@ -131,7 +131,7 @@ class YMC {
 		$tracker = '';
 		$tracker .= '<!-- Yandex.Metrika counter --> ';
 		if( $options['ymc_option_async'] === false ) { $tracker .= '<script src="' . $yandexcdn . '" type="text/javascript"></script>';} 
-		$tracker .= '<script type="text/javascript" >';
+		$tracker .= '<script >';
 		if( $options['ymc_option_async'] === true ) { $tracker .= ' (function (d, w, c) { (w[c] = w[c] || []).push(function() {'; }
 
 		$tracker .= ' try {';

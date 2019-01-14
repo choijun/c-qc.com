@@ -100,7 +100,7 @@ class WPForms_Preview {
 		<meta name="robots" content="noindex,nofollow,noarchive">
 		<link rel="stylesheet" href="<?php echo includes_url( 'css/buttons.min.css' ); ?>" type="text/css">
 		<link rel="stylesheet" href="<?php echo WPFORMS_PLUGIN_URL; ?>assets/css/wpforms-preview.css" type="text/css">
-		<script type="text/javascript" src="<?php echo includes_url( 'js/jquery/jquery.js' ); ?>"></script>
+		<script src="<?php echo includes_url( 'js/jquery/jquery.js' ); ?>"></script>
 		<script>
 		jQuery(function($){
 				var showEmpty   = false,

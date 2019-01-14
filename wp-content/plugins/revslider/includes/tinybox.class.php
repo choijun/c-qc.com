@@ -406,7 +406,7 @@ class RevSliderTinyBox {
 
 			</ul>
 			<span style="clear:both;width:100%;display:block"></span>
-			<script type="text/javascript">
+			<script>
 				var rev_sliders_info = jQuery.parseJSON(<?php echo RevSliderFunctions::jsonEncodeForClientSide($sliders_info); ?>);
 			</script>
 		</div>

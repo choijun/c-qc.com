@@ -609,7 +609,7 @@ class WPAlchemy_MetaBox
         ob_start();
 
         ?>
-        <style type="text/css">
+        <style>
             <?php if ($this->hide_editor) { ?> #wp-content-editor-container, #post-status-info, <?php if ($this->use_media_buttons) { ?> #content-html, #content-tmce<?php } else { ?> #wp-content-wrap<?php } ?> { display:none; } <?php } ?>
         </style>
         <?php
@@ -655,7 +655,7 @@ class WPAlchemy_MetaBox
             ob_start();
 
             ?>
-            <script type="text/javascript">
+            <script>
             /* <![CDATA[ */
             (function($){ /* not using jQuery ondomready, code runs right away in footer */
 
@@ -1304,8 +1304,8 @@ class WPAlchemy_MetaBox
         // consider giving a developer access to change this via hooks/callbacks
 
         // include javascript for special functionality
-        ?><style type="text/css"> .wpa_group.tocopy { display:none; } </style>
-        <script type="text/javascript">
+        ?><style> .wpa_group.tocopy { display:none; } </style>
+        <script>
         /* <![CDATA[ */
         jQuery(function($)
         {
@@ -1463,7 +1463,7 @@ class WPAlchemy_MetaBox
         if ( ! self::_is_post() AND ! self::_is_page()) return;
 
         ?>
-        <script type="text/javascript">
+        <script>
         /* <![CDATA[ */
         (function($){ /* not using jQuery ondomready, code runs right away in footer */
 

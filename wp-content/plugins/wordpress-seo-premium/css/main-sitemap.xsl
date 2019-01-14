@@ -10,7 +10,7 @@
 		<head>
 			<title>XML Sitemap</title>
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-			<style type="text/css">
+			<style>
 				body {
 					font-family: Helvetica, Arial, sans-serif;
 					font-size: 13px;

@@ -274,7 +274,7 @@ User Mark Szoldan shared a neat trick how to do this:
 1. Finally paste the code below into a Custom HTML widget that will live in your sidebar or footer bar, or you can hard-code it into your theme but make sure it come before the `wp_footer()` call...
 
 `
-<script type="text/javascript">
+<script>
 jQuery('.fancybox [title*="www.youtube.com"]').each(function() {
   var title = jQuery(this).attr('title');
   var desc = jQuery(this).parent().attr('title');

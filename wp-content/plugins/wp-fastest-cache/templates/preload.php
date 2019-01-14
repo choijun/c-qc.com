@@ -1,4 +1,4 @@
-<style type="text/css">
+<style>
 	div[id^="wpfc-modal-preload"] .wiz-input-cont{
 		margin-top: 0 !important;
 		margin-bottom: 10px !important;

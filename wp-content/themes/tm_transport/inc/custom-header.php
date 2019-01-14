@@ -53,7 +53,7 @@ if ( ! function_exists( 'infinity_header_style' ) ) :
 
 		// If we get this far, we have custom styles. Let's do this.
 		?>
-		<style type="text/css">
+		<style>
 			<?php
 				// Has the text been hidden?
 				if ( 'blank' == $header_text_color ) :
@@ -87,7 +87,7 @@ if ( ! function_exists( 'infinity_admin_header_style' ) ) :
 	 */
 	function infinity_admin_header_style() {
 		?>
-		<style type="text/css">
+		<style>
 			.appearance_page_custom-header #headimg {
 				border: none;
 			}

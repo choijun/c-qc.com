@@ -110,7 +110,7 @@ class N2SS3Shortcode {
         }
 
         if (isset($slideTo)) {
-            echo "<script type=\"text/javascript\">window['ss" . $parameters['slider'] . "'] = " . ($slideTo - 1) . ";</script>";
+            echo "<script>window['ss" . $parameters['slider'] . "'] = " . ($slideTo - 1) . ";</script>";
         }
 
         if (isset($parameters['page'])) {

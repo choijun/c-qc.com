@@ -508,7 +508,7 @@ class WPSEO_Premium {
 	 * Output admin css in admin head
 	 */
 	public function admin_css() {
-		echo "<style type='text/css'>#wpseo_content_top{ padding-left: 0; margin-left: 0; }</style>";
+		echo "<style>#wpseo_content_top{ padding-left: 0; margin-left: 0; }</style>";
 	}
 
 	/**

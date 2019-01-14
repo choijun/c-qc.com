@@ -56,7 +56,7 @@ function wpcf7_recaptcha_onload_script() {
 	}
 
 ?>
-<script type="text/javascript">
+<script>
 ( function( grecaptcha, sitekey ) {
 
 	var wpcf7recaptcha = {

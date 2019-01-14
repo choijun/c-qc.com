@@ -22,7 +22,7 @@
 	}
 ?>
 
-<script type="text/javascript">
+<script>
 	var bncHasLicense = 0;
 </script>
 

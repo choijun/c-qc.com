@@ -55,7 +55,7 @@ class Compatibility {
 			return;
 		}
 		?>
-		<script type="text/javascript">
+		<script>
 			document.addEventListener( 'DOMContentLoaded', function() {
 				var dropdown = document.querySelector( '#split-page-title-action .dropdown' );
 

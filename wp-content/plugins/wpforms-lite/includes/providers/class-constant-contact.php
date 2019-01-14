@@ -685,7 +685,7 @@ class WPForms_Constant_Contact extends WPForms_Provider {
 				?>
 			</p>
 		</div>
-		<style type="text/css">
+		<style>
 			.wpforms-constant-contact-notice {
 				border-left-color: #1a5285;
 			}
@@ -704,7 +704,7 @@ class WPForms_Constant_Contact extends WPForms_Provider {
 				margin: 0 10px 0 0;
 			}
 		</style>
-		<script type="text/javascript">
+		<script>
 			jQuery( function ( $ ) {
 				$( document ).on( 'click', '.wpforms-constant-contact-notice button', function ( event ) {
 					event.preventDefault();
@@ -828,7 +828,7 @@ class WPForms_Constant_Contact extends WPForms_Provider {
 			<p><?php esc_html_e( 'It doesn&#39;t matter what kind of business you run, what kind of website you have, or what industry you are in - you need to start building your email list today.', 'wpforms-lite' ); ?></p>
 			<p><?php esc_html_e( 'With Constant Contact + WPForms, growing your list is easy.', 'wpforms-lite' ); ?></p>
 		</div>
-		<style type="text/css">
+		<style>
 			.notice {
 				display: none;
 			}

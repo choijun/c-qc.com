@@ -1130,7 +1130,7 @@ class SimplePie_Enclosure
 			}
 			else
 			{
-				$embed .= "<script type='text/javascript'>embed_flash('$bgcolor', '$width', '$height', '" . $this->get_link() . "', '$loop', '$type');</script>";
+				$embed .= "<script>embed_flash('$bgcolor', '$width', '$height', '" . $this->get_link() . "', '$loop', '$type');</script>";
 			}
 		}
 
@@ -1145,7 +1145,7 @@ class SimplePie_Enclosure
 			}
 			else
 			{
-				$embed .= "<script type='text/javascript'>embed_flv('$width', '$height', '" . rawurlencode($this->get_link().'?file_extension=.'.$this->get_extension()) . "', '$placeholder', '$loop', '$mediaplayer');</script>";
+				$embed .= "<script>embed_flv('$width', '$height', '" . rawurlencode($this->get_link().'?file_extension=.'.$this->get_extension()) . "', '$placeholder', '$loop', '$mediaplayer');</script>";
 			}
 		}
 
@@ -1167,7 +1167,7 @@ class SimplePie_Enclosure
 			}
 			else
 			{
-				$embed .= "<script type='text/javascript'>embed_quicktime('$type', '$bgcolor', '$width', '$height', '" . $this->get_link() . "', '$placeholder', '$loop');</script>";
+				$embed .= "<script>embed_quicktime('$type', '$bgcolor', '$width', '$height', '" . $this->get_link() . "', '$placeholder', '$loop');</script>";
 			}
 		}
 
@@ -1181,7 +1181,7 @@ class SimplePie_Enclosure
 			}
 			else
 			{
-				$embed .= "<script type='text/javascript'>embed_wmedia('$width', '$height', '" . $this->get_link() . "');</script>";
+				$embed .= "<script>embed_wmedia('$width', '$height', '" . $this->get_link() . "');</script>";
 			}
 		}
 

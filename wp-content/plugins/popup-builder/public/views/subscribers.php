@@ -124,7 +124,7 @@ $subscribersSelectbox = AdminHelper::createSelectBox(
 	</div>
 </div>
 
-<style type="text/css">
+<style>
 	.select2-container {
 		z-index: 9999;
 	}

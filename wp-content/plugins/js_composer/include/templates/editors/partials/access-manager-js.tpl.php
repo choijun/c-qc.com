@@ -4,7 +4,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 ?>
-<script type="text/javascript" id="vc_role_access_manager_script">
+<script id="vc_role_access_manager_script">
 	(function ( $ ) {
 		var _localCapabilities, _check, _groupAccessRules, _shortcodesPartSet, _mergedCaps;
 		_localCapabilities = <?php echo json_encode( vc_user_roles_get_all() ); ?>;

@@ -4,7 +4,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 ?>
-<script type="text/javascript">
+<script>
 	window.vc_post_shortcodes = JSON.parse( decodeURIComponent( ("<?php echo rawurlencode( json_encode( $editor->post_shortcodes ) ); ?>" + '') ) );
 </script>
 

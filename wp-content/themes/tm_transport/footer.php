@@ -57,7 +57,7 @@ $infinity_back_to_top = Kirki::get_option( 'infinity', 'site_general_backtotop_e
 <nav id="menu">
 	<?php Transport::top_menu() ?>
 </nav>
-<script type="text/javascript">
+<script>
 	jQuery(document).ready(function ($) {
 		$(function() {
 			$('nav#menu').mmenu();

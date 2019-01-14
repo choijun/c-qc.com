@@ -1,6 +1,6 @@
 <?php $link = "<a href='" . admin_url( 'upload.php?page=tiny-bulk-optimization' ) . "'>" . esc_html__( 'bulk optimization', 'tiny-compress-images' ) . '</a>'; ?>
 
-<style type="text/css" >
+<style >
 div#tinypng_dashboard_widget div.description {
 	display: none;
 }

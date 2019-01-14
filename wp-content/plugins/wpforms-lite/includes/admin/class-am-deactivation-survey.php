@@ -140,7 +140,7 @@ if ( ! class_exists( 'AM_Deactivation_Survey', false ) ) {
 				return;
 			}
 			?>
-			<script type="text/javascript">
+			<script>
 			jQuery(function($){
 				var $deactivateLink = $('#the-list').find('[data-slug="<?php echo $this->plugin; ?>"] span.deactivate a'),
 					$overlay        = $('#am-deactivate-survey-<?php echo $this->plugin; ?>'),
@@ -208,7 +208,7 @@ if ( ! class_exists( 'AM_Deactivation_Survey', false ) ) {
 				return;
 			}
 			?>
-			<style type="text/css">
+			<style>
 			.am-deactivate-survey-modal {
 				display: none;
 				table-layout: fixed;

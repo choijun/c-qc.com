@@ -2438,7 +2438,7 @@ module.exports = elementor.modules.Module.extend({
 			},
 			success: function success(data) {
 				if (data.font_face) {
-					elementor.$previewContents.find('style:last').after('<style type="text/css">' + data.font_face + '</style>');
+					elementor.$previewContents.find('style:last').after('<style>' + data.font_face + '</style>');
 				}
 
 				if (data.font_url) {

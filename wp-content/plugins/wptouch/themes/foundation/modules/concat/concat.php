@@ -10,7 +10,7 @@ function foundation_setup_concat() {
 }
 
 function foundation_do_concat( $contents ) {
-	$expression = "#" . preg_quote( "<script type='text/javascript' src='" . WPTOUCH_URL ) . "(.*)" . preg_quote( "'></script>" ) . "#i";
+	$expression = "#" . preg_quote( "<script src='" . WPTOUCH_URL ) . "(.*)" . preg_quote( "'></script>" ) . "#i";
 	$result = preg_match_all( $expression, $contents, $matches );
 	if ( $result ) {
 		$actual_files = array();
@@ -58,7 +58,7 @@ function foundation_do_concat( $contents ) {
 			$contents = str_replace( $matches[0][$i], '', $contents );
 		}
 
-		$contents = str_replace( $matches[0][ count( $matches[0] ) - 1 ], "<script type='text/javascript' src='" . WPTOUCH_BASE_CONTENT_URL . $cache_file_suffix . "' defer='defer'></script>", $contents );
+		$contents = str_replace( $matches[0][ count( $matches[0] ) - 1 ], "<script src='" . WPTOUCH_BASE_CONTENT_URL . $cache_file_suffix . "' defer='defer'></script>", $contents );
 	}
 
 	return $contents;

@@ -64,7 +64,7 @@ $layouts = array(
 		<?php endforeach ?>
 	</table>
 </div>
-<script type="text/javascript">
+<script>
 	window.VcI8nColumnOffsetParam = <?php echo json_encode( array(
 		'inherit' => __( 'Inherit: ', 'js_composer' ),
 		'inherit_default' => __( 'Inherit from default', 'js_composer' ),

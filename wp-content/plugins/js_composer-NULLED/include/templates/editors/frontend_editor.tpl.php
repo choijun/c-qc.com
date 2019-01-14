@@ -22,7 +22,7 @@ vc_include_template( 'editors/partials/access-manager-js.tpl.php' );
 
 ?>
 	<div id="vc_preloader"></div>
-	<script type="text/javascript">
+	<script>
 		document.getElementById( 'vc_preloader' ).style.height = window.screen.availHeight;
 		var vc_mode = '<?php echo vc_mode() ?>',
 			vc_iframe_src = '<?php echo esc_attr( $editor->url ); ?>';
@@ -90,7 +90,7 @@ if ( vc_user_access()->part( 'presets' )->can()->get() ) {
 ?>
 	<input type="hidden" name="vc_post_custom_css" id="vc_post-custom-css"
 	       value="<?php echo esc_attr( $editor->post_custom_css ); ?>" autocomplete="off"/>
-	<script type="text/javascript">
+	<script>
 		var vc_user_mapper = <?php echo json_encode( WPBMap::getUserShortCodes() ) ?>,
 			vc_mapper = <?php echo json_encode( WPBMap::getShortCodes() ) ?>,
 			vc_vendor_settings_presets = <?php echo json_encode( $vc_vendor_settings_presets ) ?>,

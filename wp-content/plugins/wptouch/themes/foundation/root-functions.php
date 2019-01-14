@@ -1383,7 +1383,7 @@ function foundation_inline_styles() {
 	$style_data = apply_filters( 'foundation_inline_style', '' );
 	if ( strlen( $style_data ) ) {
 		echo "\n<!-- Foundation Styles -->\n";
-		echo "<style type='text/css'>\n" . $style_data . "</style>\n";
+		echo "<style>\n" . $style_data . "</style>\n";
 	}
 }
 

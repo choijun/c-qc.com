@@ -1331,7 +1331,7 @@ class RevSliderOperations extends RevSliderElementsBase{
 				$styles = RevSliderCssParser::parseDbArrayToCss($styles, "\n");
 				$styles = RevSliderCssParser::compress_css($styles);
 
-				echo '<style type="text/css">'.$styles.'</style>'; //.$stylesinnerlayers
+				echo '<style>'.$styles.'</style>'; //.$stylesinnerlayers
 
 				$http = (is_ssl()) ? 'https' : 'http';
 				
@@ -1346,7 +1346,7 @@ class RevSliderOperations extends RevSliderElementsBase{
 				}
 
 				$custom_css = RevSliderOperations::getStaticCss();
-				echo '<style type="text/css">'.RevSliderCssParser::compress_css($custom_css).'</style>';
+				echo '<style>'.RevSliderCssParser::compress_css($custom_css).'</style>';
 				
 				$gfonts = '';
 				$googleFont = $slider->getParam("google_font");
@@ -1386,10 +1386,10 @@ class RevSliderOperations extends RevSliderElementsBase{
 				//echo $gfonts;
 				?>
 
-				<script type='text/javascript' src='<?php echo $setBase; ?>code.jquery.com/jquery-latest.min.js'></script>
+				<script src='<?php echo $setBase; ?>code.jquery.com/jquery-latest.min.js'></script>
 
-				<script type='text/javascript' src='<?php echo $urlPlugin; ?>js/jquery.themepunch.tools.min.js?rev=<?php echo RevSliderGlobals::SLIDER_REVISION; ?>'></script>
-				<script type='text/javascript' src='<?php echo $urlPlugin; ?>js/jquery.themepunch.revolution.min.js?rev=<?php echo RevSliderGlobals::SLIDER_REVISION; ?>'></script>
+				<script src='<?php echo $urlPlugin; ?>js/jquery.themepunch.tools.min.js?rev=<?php echo RevSliderGlobals::SLIDER_REVISION; ?>'></script>
+				<script src='<?php echo $urlPlugin; ?>js/jquery.themepunch.revolution.min.js?rev=<?php echo RevSliderGlobals::SLIDER_REVISION; ?>'></script>
 				<?php
 				$setRevStartSize = RevSliderFront::add_setREVStartSize();
 				echo $setRevStartSize;
@@ -1406,7 +1406,7 @@ class RevSliderOperations extends RevSliderElementsBase{
 					<?php _e("Choose language",'revslider'); ?>: <?php echo $selectLangChoose; ?>
 					</div>
 
-					<script type="text/javascript">
+					<script>
 						var g_previewPattern = '<?php echo $urlPreviewPattern; ?>';
 						jQuery("#select_langs").change(function(){
 							var lang = this.value;
@@ -1567,7 +1567,7 @@ class RevSliderOperations extends RevSliderElementsBase{
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- LOAD JQUERY LIBRARY -->
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
 		
 		<!-- LOADING FONTS AND ICONS -->
 		<?php echo $fonts; ?>
@@ -1583,7 +1583,7 @@ class RevSliderOperations extends RevSliderElementsBase{
 			echo $styles;
 			
 			if($static_css !== ''){
-				echo '<style type="text/css">';
+				echo '<style>';
 				echo RevSliderCssParser::compress_css($static_css);
 				echo '</style>'."\n";
 			}
@@ -1603,19 +1603,19 @@ class RevSliderOperations extends RevSliderElementsBase{
 		}
 		?>
 		<!-- REVOLUTION JS FILES -->
-		<script type="text/javascript" src="<?php echo $path_js; ?>jquery.themepunch.tools.min.js"></script>
-		<script type="text/javascript" src="<?php echo $path_js; ?>jquery.themepunch.revolution.min.js"></script>
+		<script src="<?php echo $path_js; ?>jquery.themepunch.tools.min.js"></script>
+		<script src="<?php echo $path_js; ?>jquery.themepunch.revolution.min.js"></script>
 
 		<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->	
-		<script type="text/javascript" src="<?php echo $path_js; ?>extensions/revolution.extension.actions.min.js"></script>
-		<script type="text/javascript" src="<?php echo $path_js; ?>extensions/revolution.extension.carousel.min.js"></script>
-		<script type="text/javascript" src="<?php echo $path_js; ?>extensions/revolution.extension.kenburn.min.js"></script>
-		<script type="text/javascript" src="<?php echo $path_js; ?>extensions/revolution.extension.layeranimation.min.js"></script>
-		<script type="text/javascript" src="<?php echo $path_js; ?>extensions/revolution.extension.migration.min.js"></script>
-		<script type="text/javascript" src="<?php echo $path_js; ?>extensions/revolution.extension.navigation.min.js"></script>
-		<script type="text/javascript" src="<?php echo $path_js; ?>extensions/revolution.extension.parallax.min.js"></script>
-		<script type="text/javascript" src="<?php echo $path_js; ?>extensions/revolution.extension.slideanims.min.js"></script>
-		<script type="text/javascript" src="<?php echo $path_js; ?>extensions/revolution.extension.video.min.js"></script>
+		<script src="<?php echo $path_js; ?>extensions/revolution.extension.actions.min.js"></script>
+		<script src="<?php echo $path_js; ?>extensions/revolution.extension.carousel.min.js"></script>
+		<script src="<?php echo $path_js; ?>extensions/revolution.extension.kenburn.min.js"></script>
+		<script src="<?php echo $path_js; ?>extensions/revolution.extension.layeranimation.min.js"></script>
+		<script src="<?php echo $path_js; ?>extensions/revolution.extension.migration.min.js"></script>
+		<script src="<?php echo $path_js; ?>extensions/revolution.extension.navigation.min.js"></script>
+		<script src="<?php echo $path_js; ?>extensions/revolution.extension.parallax.min.js"></script>
+		<script src="<?php echo $path_js; ?>extensions/revolution.extension.slideanims.min.js"></script>
+		<script src="<?php echo $path_js; ?>extensions/revolution.extension.video.min.js"></script>
 		<?php
 		$setRevStartSize = RevSliderFront::add_setREVStartSize();
 		echo $setRevStartSize;
@@ -1736,7 +1736,7 @@ class RevSliderOperations extends RevSliderElementsBase{
             <div class="clearfix"></div>
         </div>
     </footer>
- 	<script type="text/javascript" src="../../assets/warning.js"></script>
+ 	<script src="../../assets/warning.js"></script>
 	<?php } ?>
 	</body>
 </html>

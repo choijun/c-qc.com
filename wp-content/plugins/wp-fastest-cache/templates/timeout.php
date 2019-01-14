@@ -1,4 +1,4 @@
-<style type="text/css">
+<style>
 	.wpfc-timeout-item:hover{
 		background-color: #E5E5E5;
 	}
@@ -213,7 +213,7 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script>
 	var WpFcTimeout = {
 		rules: [],
 		schedules: {},

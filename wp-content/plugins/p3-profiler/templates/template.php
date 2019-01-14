@@ -12,7 +12,7 @@ if ( 'current-scan' == self::$action || !empty( $_REQUEST['current_scan'] ) ) {
 }
 
 ?>
-<script type="text/javascript">
+<script>
 	jQuery( document ).ready( function( $) {
 		$( "#button-current-scan" ).click( function() {
 			location.href = "<?php echo esc_url_raw( add_query_arg( array( 'p3_action' => 'current-scan', 'name' => null, 'current_scan' => null ) ) ); ?>";

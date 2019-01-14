@@ -59,7 +59,7 @@
                             </div>
                         </div>
                     </div>
-                    <script type="text/javascript">
+                    <script>
                     N2R('documentReady', function ($) {
                         new N2Classes.NextendHeadingPane($('#n2-ss-layers-switcher'), $('#n2-ss-layers-switcher > .n2-labels .n2-td'), $('#n2-ss-layers-switcher > .n2-tabs > div'));
                     });

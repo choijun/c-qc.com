@@ -37,7 +37,7 @@
     ?>
 </div>
 
-<script type="text/javascript">
+<script>
     N2R('documentReady', function ($) {
         var label = $('.n2-heading-actions-label');
         $('.n2-heading-actions > a').on({
@@ -54,7 +54,7 @@
 <?php
 if ($snap !== false) :
     ?>
-    <script type="text/javascript">
+    <script>
         N2R('documentReady', function ($) {
             var topOffset = $('#wpadminbar, .navbar-fixed-top').height() + $('.n2-top-bar').height() + 2 <?php echo $snap; ?>;
             $('.<?php echo $snapClass; ?>').each(function () {

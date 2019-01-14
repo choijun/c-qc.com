@@ -103,7 +103,7 @@ add_action( 'wp_head', 'do_activate_header' );
  */
 function wpmu_activate_stylesheet() {
 	?>
-	<style type="text/css">
+	<style>
 		form { margin-top: 2em; }
 		#submit, #key { width: 90%; font-size: 24px; }
 		#language { margin-top: .5em; }
@@ -198,7 +198,7 @@ get_header( 'wp-activate' );
 	?>
 	</div>
 </div>
-<script type="text/javascript">
+<script>
 	var key_input = document.getElementById('key');
 	key_input && key_input.focus();
 </script>

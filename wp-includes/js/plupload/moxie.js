@@ -3690,7 +3690,7 @@ define('moxie/file/FileDrop', [
 		<br />
 		<div id="filelist"></div>
 
-		<script type="text/javascript">
+		<script>
 			var fileDrop = new mOxie.FileDrop('drop_zone'), fileList = mOxie.get('filelist');
 
 			fileDrop.ondrop = function() {

@@ -13,7 +13,7 @@ $query_chart_id               = 'query_'     . substr( md5( uniqid() ), -8 );
 $component_breakdown_chart_id = 'breakdown_' . substr( md5( uniqid() ), -8 );
 $component_runtime_chart_id   = 'runtime2_'  . substr( md5( uniqid() ), -8 );
 ?>
-<script type="text/javascript">
+<script>
 
 	/**************************************************************/
 	/**  Init                                                    **/

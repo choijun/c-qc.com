@@ -810,7 +810,7 @@ class WMAC_PluginStyles extends WMAC_PluginBase
 
         if ( $this->inline ) {
             foreach ( $this->csscode as $media => $code ) {
-                $this->injectInHtml( '<style type="text/css" media="' . $media . '">' . $code . '</style>', $replaceTag );
+                $this->injectInHtml( '<style media="' . $media . '">' . $code . '</style>', $replaceTag );
             }
         } else {
             if ( $this->defer ) {
@@ -836,7 +836,7 @@ class WMAC_PluginStyles extends WMAC_PluginBase
                             }
                         }
                     }
-                    $code_out = '<style type="text/css" id="aoatfcss" media="all">' . $defer_inline_code . '</style>';
+                    $code_out = '<style id="aoatfcss" media="all">' . $defer_inline_code . '</style>';
                     $this->injectInHtml( $code_out, $replaceTag );
                 }*/
             }
@@ -853,7 +853,7 @@ class WMAC_PluginStyles extends WMAC_PluginBase
                     if ( strlen( $this->csscode[$media] ) > $this->cssinlinesize ) {
                         $this->injectInHtml( '<link type="text/css" media="' . $media . '" href="' . $url . '" rel="stylesheet" />', $replaceTag );
                     } elseif ( strlen( $this->csscode[$media] ) > 0 ) {
-                        $this->injectInHtml( '<style type="text/css" media="' . $media . '">' . $this->csscode[$media] . '</style>', $replaceTag );
+                        $this->injectInHtml( '<style media="' . $media . '">' . $this->csscode[$media] . '</style>', $replaceTag );
                     }
                 }
             }

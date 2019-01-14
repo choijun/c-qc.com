@@ -7,7 +7,7 @@ if ( !defined( 'W3TC' ) )
 ?>
 <?php include W3TC_INC_DIR . '/options/common/header.php'; ?>
 
-<script type="text/javascript">/*<![CDATA[*/
+<script>/*<![CDATA[*/
     var minify_templates = {};
     <?php foreach ( $templates as $theme_key => $theme_templates ): ?>
     minify_templates['<?php echo addslashes( $theme_key ); ?>'] = {};

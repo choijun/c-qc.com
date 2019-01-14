@@ -580,7 +580,7 @@ do_action( "after-{$taxonomy}-table", $taxonomy );
 </div><!-- /wrap -->
 
 <?php if ( ! wp_is_mobile() ) : ?>
-<script type="text/javascript">
+<script>
 try{document.forms.addtag['tag-name'].focus();}catch(e){}
 </script>
 <?php

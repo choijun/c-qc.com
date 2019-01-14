@@ -3,7 +3,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
 ?>
-<script type="text/javascript">
+<script>
 	var vcAdminNonce = '<?php echo vc_generate_nonce( 'vc-admin-nonce' ); ?>';
 </script>
 <form action="options.php" method="post" id="vc_settings-automapper"

@@ -4643,7 +4643,7 @@ class RevSliderOutput {
 			echo '<!-- SCRIPT -->';
 		}
 		?>
-		<script type="text/javascript">
+		<script>
 <?php if(!$markup_export){ //not needed for html markup export ?>
 setREVStartSize(<?php 
 			echo "{c: jQuery('#". $this->sliderHtmlID ."'),";
@@ -5292,7 +5292,7 @@ var revapi<?php echo $sliderID; ?>,
 					if($markup_export === true){
 						echo '<!-- STYLE -->';
 					}
-					echo '<style type="text/css">	#'.$this->sliderHtmlID_wrapper.' .tp-loader.spinner'.$use_spinner.'{ background-color: '.$spinner_color.' !important; } </style>';
+					echo '<style>	#'.$this->sliderHtmlID_wrapper.' .tp-loader.spinner'.$use_spinner.'{ background-color: '.$spinner_color.' !important; } </style>';
 					if($markup_export === true){
 						echo '<!-- /STYLE -->';
 					}
@@ -5317,7 +5317,7 @@ var revapi<?php echo $sliderID; ?>,
 					if($markup_export === true){
 						echo '<!-- STYLE -->';
 					}
-					echo '<style type="text/css">	#'.$this->sliderHtmlID_wrapper.' .tp-loader.spinner'.$use_spinner.'{ background-color: '.$spinner_color.' !important; } </style>';
+					echo '<style>	#'.$this->sliderHtmlID_wrapper.' .tp-loader.spinner'.$use_spinner.'{ background-color: '.$spinner_color.' !important; } </style>';
 					if($markup_export === true){
 						echo '<!-- /STYLE -->';
 					}
@@ -5348,7 +5348,7 @@ var revapi<?php echo $sliderID; ?>,
 				if($markup_export === true){
 					echo '<!-- STYLE -->';
 				}
-				?><style type="text/css"><?php echo RevSliderCssParser::compress_css(stripslashes($this->slider->getParam('custom_css', '')));?></style><?php	
+				?><style><?php echo RevSliderCssParser::compress_css(stripslashes($this->slider->getParam('custom_css', '')));?></style><?php
 				if($markup_export === true){
 					echo '<!-- /STYLE -->';
 				}
@@ -5378,7 +5378,7 @@ var revapi<?php echo $sliderID; ?>,
 					echo '<!-- STYLE -->';
 				}
 				?>
-				<style type="text/css"><?php echo RevSliderCssParser::compress_css(($nav_css));?></style>
+				<style><?php echo RevSliderCssParser::compress_css(($nav_css));?></style>
 				<?php
 				if($markup_export === true){
 					echo '<!-- /STYLE -->';
@@ -5409,7 +5409,7 @@ var revapi<?php echo $sliderID; ?>,
 		global $rs_double_jquery_script;
 		if($rs_double_jquery_script === false){
 			?>
-			<script type="text/javascript">
+			<script>
 				function revslider_showDoubleJqueryError(sliderID) {
 					var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
 					errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
@@ -5472,7 +5472,7 @@ var revapi<?php echo $sliderID; ?>,
 				<?php _e("Revolution Slider Error",'revslider'); ?>: <?php echo $message; ?>
 			</div>
 		</div>
-		<script type="text/javascript">
+		<script>
 			jQuery(document).ready(function(){
 				jQuery(".rev_slider").show();
 			});
@@ -5615,13 +5615,13 @@ var revapi<?php echo $sliderID; ?>,
 				
 				if($enable_logs == 'on'){
 					$urlIncludeJS = RS_PLUGIN_URL.'public/assets/js/jquery.themepunch.enablelog.js?rev='. $slver;
-					$htmlBeforeSlider .= '<script type="text/javascript" src="'.$urlIncludeJS.'"></script>';
+					$htmlBeforeSlider .= '<script src="'.$urlIncludeJS.'"></script>';
 				}
 
 				$urlIncludeJS = RS_PLUGIN_URL.'public/assets/js/jquery.themepunch.tools.min.js?rev='. $slver;
-				$htmlBeforeSlider .= '<script type="text/javascript" src="'.$urlIncludeJS.'"></script>';
+				$htmlBeforeSlider .= '<script src="'.$urlIncludeJS.'"></script>';
 				$urlIncludeJS = RS_PLUGIN_URL.'public/assets/js/jquery.themepunch.revolution.min.js?rev='. $slver;
-				$htmlBeforeSlider .= '<script type="text/javascript" src="'.$urlIncludeJS.'"></script>';
+				$htmlBeforeSlider .= '<script src="'.$urlIncludeJS.'"></script>';
 				
 				if($markup_export === true){
 					$htmlBeforeSlider .= '<!-- /SCRIPTINCLUDE -->';

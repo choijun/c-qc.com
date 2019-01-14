@@ -52,7 +52,7 @@
 
 <?php require self::getPathTemplate("../system/dialog-copy-move"); ?>
 
-<script type="text/javascript">
+<script>
 
 	jQuery(document).ready(function() {
 

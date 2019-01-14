@@ -45,7 +45,7 @@ class PluginUpdater {
 
 	public function after_plugin_row($plugin_file, $plugin_data) {
 		?>
-		<script type="text/javascript">
+		<script>
 			jQuery(document).ready(function() {
 				mateffyPluginUpdater100.setupLicenseUI({
 					slug: '<?php echo $this->plugin_slug; ?>',

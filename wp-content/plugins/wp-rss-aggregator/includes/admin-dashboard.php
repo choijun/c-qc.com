@@ -78,7 +78,7 @@
 	function wprss_admin_head() {
 		remove_submenu_page( 'index.php', 'wprss-welcome' );
 		?>
-		<style type="text/css" media="screen">
+		<style media="screen">
 		/*<![CDATA[*/
 
 			/*.wprss-welcome-table > tbody > tr > td {

@@ -16,7 +16,7 @@ return array(
 			'holder' => 'div',
 			'heading' => __( 'JavaScript Code', 'js_composer' ),
 			'param_name' => 'content',
-			'value' => __( base64_encode( '<script type="text/javascript"> alert("Enter your js here!" ); </script>' ), 'js_composer' ),
+			'value' => __( base64_encode( '<script> alert("Enter your js here!" ); </script>' ), 'js_composer' ),
 			'description' => __( 'Enter your JavaScript code.', 'js_composer' ),
 		),
 		array(

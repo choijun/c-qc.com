@@ -420,7 +420,7 @@ class SubscriptionPopup extends SGPopup
 
 	private function getSubscriptionValidationScripts($validateObj)
 	{
-		$script = '<script type="text/javascript">';
+		$script = '<script>';
 		$script .= $validateObj;
 		$script .= '</script>';
 
@@ -447,7 +447,7 @@ class SubscriptionPopup extends SGPopup
 
 		ob_start();
 		?>
-			<style type="text/css">
+			<style>
 				.sgpb-subs-form-<?php echo $popupId; ?> {background-color: <?php echo $formBackgroundColor; ?>;padding: <?php echo $formPadding.'px'; ?>}
 				.sgpb-subs-form-<?php echo $popupId; ?> .js-subs-text-inputs::-webkit-input-placeholder {color: <?php echo $placeholderColor; ?>;font-weight: lighter;}
 				.sgpb-subs-form-<?php echo $popupId; ?> .js-subs-text-inputs::-moz-placeholder {color:<?php echo $placeholderColor; ?>;font-weight: lighter;}

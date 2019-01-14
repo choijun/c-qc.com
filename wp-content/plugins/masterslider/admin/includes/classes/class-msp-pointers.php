@@ -106,7 +106,7 @@ class MSP_Pointers {
             // display pointer for specified theme version and above
             if( version_compare( $info["Version"], $pointer_data["version"], '<' ) ) continue;
 ?>
-    <script type="text/javascript">
+    <script>
         jQuery(document).ready(function($) {
             if( typeof(jQuery().pointer) != 'undefined' ) {
                 $('<?php echo $pointer_data["target"]; ?>').pointer({

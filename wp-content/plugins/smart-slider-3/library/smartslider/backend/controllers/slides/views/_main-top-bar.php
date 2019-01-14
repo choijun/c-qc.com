@@ -90,7 +90,7 @@ N2Html::topBar(array(
 ));
 ?>
 
-<script type="text/javascript">
+<script>
     nextend.isPreview = false;
     N2R('documentReady', function ($) {
 

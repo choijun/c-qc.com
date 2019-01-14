@@ -101,7 +101,7 @@ class WPForms_Review {
 				<a href="#" class="wpforms-dismiss-review-notice" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'I already did', 'wpforms-lite' ); ?></a>
 			</p>
 		</div>
-		<script type="text/javascript">
+		<script>
 			jQuery( document ).ready( function ( $ ) {
 				$( document ).on( 'click', '.wpforms-dismiss-review-notice, .wpforms-review-notice button', function ( event ) {
 					if ( ! $( this ).hasClass( 'wpforms-review-out' ) ) {
@@ -165,7 +165,7 @@ class WPForms_Review {
 				<a href="#" class="wpforms-dismiss-review-notice" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'I already did', 'wpforms-lite' ); ?></a>
 			</p>
 		</div>
-		<script type="text/javascript">
+		<script>
 			jQuery( document ).ready( function ( $ ) {
 				$( document ).on( 'click', '.wpforms-dismiss-review-notice, .wpforms-review-notice button', function ( event ) {
 					if ( ! $( this ).hasClass( 'wpforms-review-out' ) ) {

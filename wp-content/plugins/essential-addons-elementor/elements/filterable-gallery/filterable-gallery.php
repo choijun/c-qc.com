@@ -2015,7 +2015,7 @@ class Widget_Eael_Filterable_Gallery extends Widget_Base {
 	 * @access protected
 	 */
 	protected function render_editor_script() { ?>
-		<script type="text/javascript">
+		<script>
 			jQuery( document ).ready(function( $ ) {
 				$('.eael-filter-gallery-container').each(function() {
 					var $node_id = '<?php echo $this->get_id(); ?>',

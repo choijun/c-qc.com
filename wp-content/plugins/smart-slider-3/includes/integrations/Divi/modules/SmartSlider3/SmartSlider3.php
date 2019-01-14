@@ -26,7 +26,7 @@ class Nextend_SmartSlider3 extends ET_Builder_Module {
 
     public function add_styles_scripts() {
         ?>
-        <script type="text/javascript">
+        <script>
             <?php
             echo file_get_contents(NEXTEND_SMARTSLIDER_3 . '/includes/iframe.min.js');
         

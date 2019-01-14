@@ -1156,7 +1156,7 @@ final class WP_Customize_Widgets {
 		}
 
 		?>
-		<script type="text/javascript">
+		<script>
 			var _wpWidgetCustomizerPreviewSettings = <?php echo wp_json_encode( $settings ); ?>;
 		</script>
 		<?php

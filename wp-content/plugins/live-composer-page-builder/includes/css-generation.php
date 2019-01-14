@@ -202,7 +202,7 @@ function dslc_custom_css( $dslc_code = '' ) {
 
 	$fonts_to_output = array();
 
-	echo '<style type="text/css">';
+	echo '<style>';
 
 	$output_css = false;
 	$post_id = get_the_ID();

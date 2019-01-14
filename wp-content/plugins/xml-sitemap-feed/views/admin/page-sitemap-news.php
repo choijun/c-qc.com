@@ -1,4 +1,4 @@
-<style type="text/css">
+<style>
 <?php include XMLSF_DIR . '/views/styles/admin.css'; ?>
 </style>
 <div class="wrap">

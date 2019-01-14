@@ -1101,7 +1101,7 @@ class Source_Local extends Source_Base {
 
 		$current_type_label = $this->get_template_label_by_type( $current_type );
 		?>
-		<style type="text/css"><?php echo $inline_style; ?></style>
+		<style><?php echo $inline_style; ?></style>
 		<div class="elementor-template_library-blank_state">
 			<div class="elementor-blank_state">
 				<i class="eicon-folder"></i>

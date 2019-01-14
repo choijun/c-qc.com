@@ -149,7 +149,7 @@ class A3_Lazy_Load_Less
 		include( $this->plugin_dir. '/includes/customized_style.php' );
 		$sass = ob_get_clean();
 		$sass = str_replace( '<style>', '', str_replace( '</style>', '', $sass ) );
-		$sass = str_replace( '<style type="text/css">', '', str_replace( '</style>', '', $sass ) );
+		$sass = str_replace( '<style>', '', str_replace( '</style>', '', $sass ) );
 
         // Start Less
         $sass_ext = '';

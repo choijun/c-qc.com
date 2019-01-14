@@ -42,7 +42,7 @@ style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" tit
 <!-- /Yandex.Metrika informer -->
 
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
+<script >
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {

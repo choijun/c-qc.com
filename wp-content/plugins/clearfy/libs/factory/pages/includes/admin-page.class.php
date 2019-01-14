@@ -418,7 +418,7 @@
 				
 				if( version_compare($wp_version, '3.7.3', '>') ) {
 					?>
-					<style type="text/css" media="screen">
+					<style media="screen">
 						<?php if ( !empty($icon_url) ) { ?>
 						
 						a.toplevel_page_<?php echo $result_id ?> .wp-menu-image {
@@ -438,7 +438,7 @@
 						}
 					</style>
 				<?php } else { ?>
-					<style type="text/css" media="screen">
+					<style media="screen">
 						a.toplevel_page_<?php echo $result_id ?> .wp-menu-image {
 							background: url('<?php echo $icon_url ?>') no-repeat 6px -33px !important;
 						}
@@ -453,7 +453,7 @@
 				
 				if( $this->internal ) {
 					?>
-					<style type="text/css" media="screen">
+					<style media="screen">
 						li.toplevel_page_<?php echo $result_id ?> {
 							display: none;
 						}

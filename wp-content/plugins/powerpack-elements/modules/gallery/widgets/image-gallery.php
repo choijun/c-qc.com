@@ -2601,7 +2601,7 @@ class Image_Gallery extends Powerpack_Widget {
 	 */
 	protected function render_editor_script() {
 
-		?><script type="text/javascript">
+		?><script>
 			jQuery( document ).ready( function( $ ) {
                 $( '.pp-image-gallery' ).each( function() {
                     

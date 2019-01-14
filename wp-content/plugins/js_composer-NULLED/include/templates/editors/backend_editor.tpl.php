@@ -12,7 +12,7 @@ if ( vc_user_access()->part( 'presets' )->can()->get() ) {
 // [/shortcodes presets data]
 
 ?>
-	<script type="text/javascript">
+	<script>
 		var vc_all_presets = <?php echo json_encode( $vc_all_presets ) ?>
 	</script>
 

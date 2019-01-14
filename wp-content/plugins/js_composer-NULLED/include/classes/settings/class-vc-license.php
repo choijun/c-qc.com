@@ -394,7 +394,7 @@ class Vc_License {
 				position: relative;
 			}
 		</style>
-		<script type="text/javascript">
+		<script>
 			(function ( $ ) {
 				var setCookie = function ( c_name, value, exdays ) {
 					var exdate = new Date();

@@ -898,7 +898,7 @@ class Modal extends Widget_Base {
 		$splash_after = ($settings['splash_after']) ?  ($settings['splash_after']['size'] * 1000) : 500;
 
 		?>
-		<script type="text/javascript">
+		<script>
 
 			<?php if ('splash' === $settings['layout']) : ?>
 			document.addEventListener('DOMContentLoaded', function(){

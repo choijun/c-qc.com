@@ -1,6 +1,6 @@
 <!-- ms_admin_page.php -->
 
-<script type="text/javascript">
+<script>
 	if (typeof ajax_url === 'undefined') {
 		ajax_url = '<?php echo admin_url() ?>admin-ajax.php';
 	}
@@ -173,7 +173,7 @@
 		</div>
 	</div>
 
-	<script type="text/javascript">
+	<script>
 		last_site_key = '<?php echo (isset($last_key) && $last_key) ? $last_key : '' ?>';
 	</script>
 

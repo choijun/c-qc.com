@@ -13,7 +13,7 @@ $is_edit = false;
 require self::getPathTemplate('slider-main-options');
 ?>
 
-<script type="text/javascript">
+<script>
 	var g_jsonTaxWithCats = <?php echo $jsonTaxWithCats?>;
 
 	jQuery(document).ready(function(){

@@ -59,7 +59,7 @@ class N2TabTabbedSidebar extends N2Tab {
                 ?>
             </div>
         </div>
-        <script type="text/javascript">
+        <script>
             N2R('documentReady', function ($) {
                 new N2Classes.NextendHeadingPane($('#<?php echo $id; ?>'), $('#<?php echo $id; ?> > .n2-labels .n2-td'), [
                     <?php echo implode(',', $tabs); ?>

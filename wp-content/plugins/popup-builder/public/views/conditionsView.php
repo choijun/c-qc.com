@@ -141,7 +141,7 @@ $defaultConditions = $defaultData['freeConditions'];
 		</div>
 	</div>
 </div>
-<style type="text/css">
+<style>
 	.sgpb-conditions-description-wrapper + .sgpb-other-pro-options {
 		z-index: 9999;
 	}

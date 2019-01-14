@@ -1259,7 +1259,7 @@ class Widget_Eael_Dynamic_Filterable_Gallery extends Widget_Base {
 	 * Render editor script
 	 */
 	protected function render_editor_script() { ?>
-		<script type="text/javascript">
+		<script>
 			jQuery(document).ready(function($) {
 				$('.eael-filter-gallery-container').each(function() {
 

@@ -1439,7 +1439,7 @@ N2D('SmartSliderBackgroundAnimationFluxAbstract', ['SmartSliderBackgroundAnimati
             ];
 
 
-            $('<style type="text/css">' + rules.join('') + '</style>')
+            $('<style>' + rules.join('') + '</style>')
                 .appendTo('head');
             inited = true;
         }

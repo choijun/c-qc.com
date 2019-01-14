@@ -696,8 +696,8 @@ class Tablepress extends Widget_Base {
 
 		if ( Element_Pack_Loader::elementor()->editor->is_edit_mode() ) {
 			?>
-			<script type="text/javascript" src="<?php echo plugins_url(); ?>/tablepress/js/jquery.datatables.min.js"></script>
-			<script type="text/javascript">
+			<script src="<?php echo plugins_url(); ?>/tablepress/js/jquery.datatables.min.js"></script>
+			<script>
 				jQuery(document).ready(function($){
 					$('#tablepress-<?php echo esc_attr($settings['table_id']); ?>').dataTable({"order":[],"orderClasses":false,"stripeClasses":["even","odd"],"pagingType":"simple"});
 				});

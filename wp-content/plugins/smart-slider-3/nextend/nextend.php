@@ -29,7 +29,7 @@ class N2WP {
         add_submenu_page(null, 'Nextend', 'Nextend', 'nextend', 'nextend', 'N2WP::nextendApplication');
 
         function nextend_admin_menu() {
-            echo '<style type="text/css">#adminmenu .toplevel_page_nextend .wp-menu-image img{opacity: 1;}</style>';
+            echo '<style>#adminmenu .toplevel_page_nextend .wp-menu-image img{opacity: 1;}</style>';
         }
 
         add_action('admin_head', 'nextend_admin_menu');

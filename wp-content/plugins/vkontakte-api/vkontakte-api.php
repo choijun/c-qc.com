@@ -715,7 +715,7 @@
 			$vkapi_divId .= "_wrapper";
 			echo $before_widget . $before_title . $instance['title'] . $after_title . '<div id="' . $vkapi_divId . '">';
 			echo "
- 			<script type=\"text/javascript\"> 
+ 			<script>
  				darx.addEvent(document, 'vk', function() {
 VK.Widgets.Group('{$vkapi_divId}', {mode: {$vkapi_mode}, width: {$vkapi_width}, height: {$vkapi_height}}, {$vkapi_gid});
 		    	});
@@ -824,7 +824,7 @@ VK.Widgets.Group('{$vkapi_divId}', {mode: {$vkapi_mode}, width: {$vkapi_width}, 
 			}
 			echo '<div id="' . $vkapi_divId . '">';
 			echo "
-			<script type=\"text/javascript\">
+			<script>
 				darx.addEvent(document, 'vk', function () {
 VK.Widgets.Recommended('{$vkapi_divId}', {limit: {$vkapi_limit}, period: '{$vkapi_period}', verb: {$vkapi_verb}, target: 'blank'});
 				});
@@ -1001,7 +1001,7 @@ VK.Widgets.Recommended('{$vkapi_divId}', {limit: {$vkapi_limit}, period: '{$vkap
 			echo "
 			<div class=\"vkapi_widget_wrap\">
 				<div id=\"vkapi_comments_browse\"></div>
-				<script type=\"text/javascript\">
+				<script>
 					darx.addEvent(document, 'vk', function () {
 						VK.Widgets.CommentsBrowse('vkapi_comments_browse', {
                             {$vkapi_width}limit: '{$vkapi_limit}',
@@ -1119,8 +1119,8 @@ VK.Widgets.Recommended('{$vkapi_divId}', {limit: {$vkapi_limit}, period: '{$vkap
         {$cats}
     </div>
 </div>
-<script type='text/javascript' src='{$path}/tagcanvas.min.js'></script>
-<script type='text/javascript'>
+<script src='{$path}/tagcanvas.min.js'></script>
+<script>
 	darx.addEvent(document, 'DOMContentLoaded', function() {
     	try {
       		TagCanvas.Start('vkapi_cloud', 'vkapi_tags', {

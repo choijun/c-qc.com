@@ -52,7 +52,7 @@ class CackleCounter{
             }
 
             ?>
-            <script type="text/javascript">
+            <script>
                 // <![CDATA[
                 var nodes = document.getElementsByTagName('span');
                 for (var i = 0, url; i < nodes.length; i++) {

@@ -440,7 +440,7 @@
 
 			$defer = apply_filters('wmac_filter_js_defer', $defer);
 
-			$bodyreplacementpayload = '<script type="text/javascript" ' . $defer . 'src="' . $this->url . '"></script>';
+			$bodyreplacementpayload = '<script ' . $defer . 'src="' . $this->url . '"></script>';
 			$bodyreplacementpayload = apply_filters('wmac_filter_js_bodyreplacementpayload', $bodyreplacementpayload);
 
 			$bodyreplacement = implode('', $this->move['first']);

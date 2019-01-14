@@ -7,7 +7,7 @@ if ( !defined('P3_PATH') )
 	<?php echo wp_nonce_field( 'delete_scans', 'p3_nonce' ); ?>
 	<?php self::$scan_table->display(); ?>
 </form>
-<script type="text/javascript">
+<script>
 	jQuery(document).ready(function($) {
 		$("input:submit", "#scans-filter").click(function(evt) {
 			if (0 == $("input:checked", $("#scans-filter")).length) {

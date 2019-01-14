@@ -27,7 +27,7 @@
 
 		public function print_my_inline_script() {
 			?>
-			<script type="text/javascript">var wpfc_ajaxurl = "<?php echo admin_url( 'admin-ajax.php' );?>";</script>
+			<script>var wpfc_ajaxurl = "<?php echo admin_url( 'admin-ajax.php' );?>";</script>
 			<?php
 		}
 

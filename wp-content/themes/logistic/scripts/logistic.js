@@ -408,7 +408,7 @@ jQuery(document).ready(function($) {
 		custom_css_for_menu_item_counter++;
 		custom_css_for_menu_item_delay = custom_css_for_menu_item_delay + .10;
     });
-	$('<style type="text/css">'+ custom_css_for_menu_items +'</style>').appendTo('head');	
+	$('<style>'+ custom_css_for_menu_items +'</style>').appendTo('head');	
 	
 	/* Menu Item Handler */
 	$('body.overlay-menu .primary-menu-bar-wrapper .menu li a:not(#wpml-language-switcher)').click(function (e) {		

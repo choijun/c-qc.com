@@ -622,7 +622,7 @@ N2D('SmartSliderAbstract', function ($, undefined) {
     SmartSliderAbstract.prototype.initCSS = function () {
 
         if (this.parameters.css) {
-            $('<style type="text/css">' + this.parameters.css + '</style>')
+            $('<style>' + this.parameters.css + '</style>')
                 .appendTo('head');
         }
     };

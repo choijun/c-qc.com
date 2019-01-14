@@ -1,0 +1,1550 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Transport\n"
+"POT-Creation-Date: 2016-01-28 10:19+0700\n"
+"PO-Revision-Date: 2016-01-28 10:19+0700\n"
+"Last-Translator: \n"
+"Language-Team: ThemeMove <contact@thememove.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../comments.php:93
+msgid "Name *"
+msgstr ""
+
+#: ../comments.php:94
+msgid "Email *"
+msgstr ""
+
+#: ../comments.php:95
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:106
+msgid "Comment *"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:52
+msgid "Background Color"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:53
+#: ../inc/customizer/setups/page-bg.php:49
+#: ../inc/customizer/setups/post-bg.php:49
+msgid "Background Image"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:54
+msgid "No Repeat"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:55
+msgid "Repeat All"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:56
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:57
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:58
+msgid "Inherit"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:59
+msgid "Background Repeat"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:60
+msgid "Cover"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:61
+msgid "Contain"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:62
+msgid "Background Size"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:63
+msgid "Fixed"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:64
+msgid "Scroll"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:65
+msgid "Background Attachment"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:66
+msgid "Left Top"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:67
+msgid "Left Center"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:68
+msgid "Left Bottom"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:69
+msgid "Right Top"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:70
+msgid "Right Center"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:71
+msgid "Right Bottom"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:72
+msgid "Center Top"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:73
+msgid "Center Center"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:74
+msgid "Center Bottom"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:75
+msgid "Background Position"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:76
+msgid "Background Opacity"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:77
+msgid "ON"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:78
+msgid "OFF"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:79
+msgid "All"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:80
+msgid "Cyrillic"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:81
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:82
+msgid "Devanagari"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:83
+msgid "Greek"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:84
+msgid "Greek Extended"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:85
+msgid "Khmer"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:86
+msgid "Latin"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:87
+msgid "Latin Extended"
+msgstr ""
+
+#: ../core/customizer/kirki/includes/class-kirki-toolkit.php:88
+msgid "Vietnamese"
+msgstr ""
+
+#: ../functions.php:48
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:49
+msgid "Social Profile Menu"
+msgstr ""
+
+#: ../functions.php:50
+msgid "Top Menu"
+msgstr ""
+
+#: ../functions.php:104
+msgid "Sidebar"
+msgstr ""
+
+#: ../functions.php:114
+msgid "Top Slider"
+msgstr ""
+
+#: ../functions.php:124
+msgid "Header Right"
+msgstr ""
+
+#: ../functions.php:134
+msgid "Top Right"
+msgstr ""
+
+#: ../functions.php:145
+msgid "Sidebar for shop"
+msgstr ""
+
+#: ../functions.php:155
+msgid "Footer 1 Widget Area"
+msgstr ""
+
+#: ../functions.php:165
+msgid "Footer 2 Widget Area"
+msgstr ""
+
+#: ../functions.php:175
+msgid "Footer 3 Widget Area"
+msgstr ""
+
+#: ../inc/back-compat.php:38 ../inc/back-compat.php:48
+#: ../inc/back-compat.php:62
+#, php-format
+msgid ""
+"ThemeMove requires at least WordPress version 3.9. You are running version "
+"%s. Please upgrade and try again."
+msgstr ""
+
+#: ../inc/customizer/customizer.php:75
+msgid "Site"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:76 ../inc/customizer/customizer.php:82
+#: ../inc/customizer/customizer.php:88 ../inc/customizer/customizer.php:94
+#: ../inc/customizer/customizer.php:100 ../inc/customizer/customizer.php:106
+#: ../inc/customizer/customizer.php:112 ../inc/customizer/customizer.php:118
+#: ../inc/customizer/customizer.php:124 ../inc/customizer/customizer.php:130
+#: ../inc/customizer/customizer.php:136
+msgid "My Description"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:81
+msgid "Top Area"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:87
+msgid "Header"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:93
+msgid "Navigation"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:99 ../inc/vc-maps/button.php:3
+msgid "Button"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:105
+msgid "Footer"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:111
+#: ../inc/customizer/setups/copyright-layout.php:12
+msgid "Copyright"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:117
+msgid "Page"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:123
+msgid "Post"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:129
+msgid "Woocommerce"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:135
+msgid "Custom code"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:142
+msgid "General"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:143
+msgid "In this section you can control all general settings of your site"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:149
+msgid "Layouts"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:150
+msgid "In this section you can control all layouts settings of your site"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:156
+#: ../inc/customizer/setups/site-logo.php:12
+msgid "Logo"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:157
+msgid "In this section you can control all logo settings of your site"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:163
+#: ../inc/customizer/setups/site-favicon.php:20
+msgid "Favicon"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:164
+msgid "In this section you can control all favicon settings of your site"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:170 ../inc/customizer/customizer.php:475
+#: ../inc/customizer/setups/footer-style.php:135
+#: ../inc/customizer/setups/nav-border.php:47
+#: ../inc/customizer/setups/nav-border.php:101
+msgid "Color"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:171
+msgid "In this section you can control all color settings of your site"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:177 ../inc/customizer/customizer.php:200
+#: ../inc/customizer/customizer.php:237 ../inc/customizer/customizer.php:274
+#: ../inc/customizer/customizer.php:311 ../inc/customizer/customizer.php:348
+#: ../inc/customizer/customizer.php:385 ../inc/customizer/customizer.php:401
+#: ../inc/customizer/customizer.php:438
+msgid "Style"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:178
+msgid "In this section you can control all style settings of your site"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:184 ../inc/customizer/customizer.php:221
+#: ../inc/customizer/customizer.php:258 ../inc/customizer/customizer.php:295
+#: ../inc/customizer/customizer.php:332 ../inc/customizer/customizer.php:369
+#: ../inc/customizer/customizer.php:422 ../inc/customizer/customizer.php:459
+#: ../inc/customizer/customizer.php:496
+msgid "Background"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:185
+msgid "In this section you can control all background settings of your site"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:193 ../inc/customizer/customizer.php:230
+#: ../inc/customizer/customizer.php:267 ../inc/customizer/customizer.php:304
+#: ../inc/customizer/customizer.php:341 ../inc/customizer/customizer.php:378
+#: ../inc/customizer/customizer.php:394 ../inc/customizer/customizer.php:431
+#: ../inc/customizer/customizer.php:468
+msgid "Layout"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:194
+msgid "In this section you can control all layout settings of navigation"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:201
+msgid "In this section you can control all style settings of navigation"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:207 ../inc/customizer/customizer.php:244
+#: ../inc/customizer/customizer.php:281 ../inc/customizer/customizer.php:318
+#: ../inc/customizer/customizer.php:355 ../inc/customizer/customizer.php:408
+#: ../inc/customizer/customizer.php:445 ../inc/customizer/customizer.php:482
+msgid "Spacing"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:208
+msgid "In this section you can control all spacing settings of navigation"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:214 ../inc/customizer/customizer.php:251
+#: ../inc/customizer/customizer.php:288 ../inc/customizer/customizer.php:325
+#: ../inc/customizer/customizer.php:362 ../inc/customizer/customizer.php:415
+#: ../inc/customizer/customizer.php:452 ../inc/customizer/customizer.php:489
+msgid "Border"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:215
+msgid "In this section you can control all border settings of navigation"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:222
+msgid "In this section you can control all background settings of navigation"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:231
+msgid "In this section you can control all layout settings of buttons"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:238
+msgid "In this section you can control all style settings of buttons"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:245
+msgid "In this section you can control all spacing settings of buttons"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:252
+msgid "In this section you can control all border settings of buttons"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:259
+msgid "In this section you can control all background settings of buttons"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:268
+msgid "In this section you can control all layout settings of top area"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:275
+msgid "In this section you can control all style settings of top area"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:282
+msgid "In this section you can control all spacing settings of top area"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:289
+msgid "In this section you can control all border settings of top area"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:296
+msgid "In this section you can control all background settings of top area"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:305
+msgid "In this section you can control all layout settings of header"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:312
+msgid "In this section you can control all style settings of header"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:319
+msgid "In this section you can control all spacing settings of header"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:326
+msgid "In this section you can control all border settings of header"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:333
+msgid "In this section you can control all background settings of header"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:342
+msgid "In this section you can control all layout settings of footer"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:349
+msgid "In this section you can control all style settings of footer"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:356
+msgid "In this section you can control all spacing settings of footer"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:363
+msgid "In this section you can control all border settings of footer"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:370
+msgid "In this section you can control all background settings of footer"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:379
+msgid "In this section you can control all layout settings of copyright"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:386
+msgid "In this section you can control all style settings of copyright"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:395
+msgid "In this section you can control all layout settings of pages"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:402
+msgid "In this section you can control all style settings of pages"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:409
+msgid "In this section you can control all spacing settings of pages"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:416
+msgid "In this section you can control all border settings of pages"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:423
+msgid "In this section you can control all background settings of pages"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:432
+msgid "In this section you can control all layout settings of posts"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:439
+msgid "In this section you can control all style settings of posts"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:446
+msgid "In this section you can control all spacing settings of posts"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:453
+msgid "In this section you can control all border settings of posts"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:460
+msgid "In this section you can control all background settings of posts"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:469
+msgid "In this section you can control all layout settings of woocommerce"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:476
+msgid "In this section you can control all color settings of woocommerce"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:483
+msgid "In this section you can control all spacing settings of woocommerce"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:490
+msgid "In this section you can control all border settings of woocommerce"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:497
+msgid "In this section you can control all background settings of woocommerce"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:505
+#: ../inc/customizer/setups/custom-css.php:21
+msgid "Custom CSS"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:506
+msgid "In this section you can control custom css"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:512
+#: ../inc/customizer/setups/custom-js.php:21
+msgid "Custom JS"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:513
+msgid "In this section you can control custom javascript"
+msgstr ""
+
+#: ../inc/customizer/io.php:12 ../inc/customizer/io.php:18
+msgid "Export"
+msgstr ""
+
+#: ../inc/customizer/io.php:15
+msgid ""
+"Click the button below to export the customization settings for this theme."
+msgstr ""
+
+#: ../inc/customizer/io.php:20 ../inc/customizer/io.php:25
+msgid "Import"
+msgstr ""
+
+#: ../inc/customizer/io.php:23
+msgid "Upload a file to import customization settings for this theme."
+msgstr ""
+
+#: ../inc/customizer/setups/button-bg.php:12
+#: ../inc/customizer/setups/footer-bg.php:12
+#: ../inc/customizer/setups/footer-bg.php:38
+#: ../inc/customizer/setups/header-bg.php:20
+#: ../inc/customizer/setups/page-bg.php:20
+#: ../inc/customizer/setups/post-bg.php:20
+#: ../inc/customizer/setups/site-bg.php:12
+#: ../inc/customizer/setups/top-bg.php:12
+msgid "Background color"
+msgstr ""
+
+#: ../inc/customizer/setups/button-bg.php:13
+#: ../inc/customizer/setups/button-bg.php:28
+msgid "Setup background color for your button"
+msgstr ""
+
+#: ../inc/customizer/setups/button-bg.php:27
+msgid "Background color on hover"
+msgstr ""
+
+#: ../inc/customizer/setups/button-border.php:12
+#: ../inc/customizer/setups/footer-border.php:12
+#: ../inc/customizer/setups/header-border.php:12
+#: ../inc/customizer/setups/nav-border.php:74
+#: ../inc/customizer/setups/top-border.php:12
+msgid "Border width"
+msgstr ""
+
+#: ../inc/customizer/setups/button-border.php:28
+#: ../inc/customizer/setups/footer-border.php:26
+#: ../inc/customizer/setups/header-border.php:26
+#: ../inc/customizer/setups/nav-border.php:31
+#: ../inc/customizer/setups/nav-border.php:85
+#: ../inc/customizer/setups/top-border.php:33
+msgid "Border style"
+msgstr ""
+
+#: ../inc/customizer/setups/button-border.php:34
+#: ../inc/customizer/setups/footer-border.php:32
+#: ../inc/customizer/setups/header-border.php:32
+#: ../inc/customizer/setups/nav-border.php:37
+#: ../inc/customizer/setups/nav-border.php:91
+#: ../inc/customizer/setups/top-border.php:39
+msgid "Solid"
+msgstr ""
+
+#: ../inc/customizer/setups/button-border.php:35
+#: ../inc/customizer/setups/footer-border.php:33
+#: ../inc/customizer/setups/header-border.php:33
+#: ../inc/customizer/setups/nav-border.php:38
+#: ../inc/customizer/setups/nav-border.php:92
+#: ../inc/customizer/setups/top-border.php:40
+msgid "Dashed"
+msgstr ""
+
+#: ../inc/customizer/setups/button-border.php:36
+#: ../inc/customizer/setups/footer-border.php:34
+#: ../inc/customizer/setups/header-border.php:34
+#: ../inc/customizer/setups/nav-border.php:39
+#: ../inc/customizer/setups/nav-border.php:93
+#: ../inc/customizer/setups/top-border.php:41
+msgid "Dotted"
+msgstr ""
+
+#: ../inc/customizer/setups/button-border.php:37
+#: ../inc/customizer/setups/footer-border.php:35
+#: ../inc/customizer/setups/header-border.php:35
+#: ../inc/customizer/setups/nav-border.php:40
+#: ../inc/customizer/setups/nav-border.php:94
+#: ../inc/customizer/setups/top-border.php:42
+msgid "Double"
+msgstr ""
+
+#: ../inc/customizer/setups/button-border.php:48
+#: ../inc/customizer/setups/button-border.php:49
+#: ../inc/customizer/setups/button-border.php:63
+#: ../inc/customizer/setups/footer-border.php:46
+#: ../inc/customizer/setups/header-border.php:46
+#: ../inc/customizer/setups/nav-border.php:48
+#: ../inc/customizer/setups/nav-border.php:102
+#: ../inc/customizer/setups/top-border.php:60
+msgid "Border color"
+msgstr ""
+
+#: ../inc/customizer/setups/button-spacing.php:12
+#: ../inc/customizer/setups/footer-spacing.php:12
+#: ../inc/customizer/setups/header-spacing.php:12
+#: ../inc/customizer/setups/page-spacing.php:20
+#: ../inc/customizer/setups/post-spacing.php:20
+#: ../inc/customizer/setups/top-spacing.php:12
+msgid "Padding"
+msgstr ""
+
+#: ../inc/customizer/setups/button-spacing.php:26
+#: ../inc/customizer/setups/footer-spacing.php:26
+#: ../inc/customizer/setups/header-spacing.php:26
+#: ../inc/customizer/setups/top-spacing.php:26
+msgid "Margin"
+msgstr ""
+
+#: ../inc/customizer/setups/button-style.php:12
+#: ../inc/customizer/setups/footer-style.php:21
+#: ../inc/customizer/setups/header-style.php:20
+#: ../inc/customizer/setups/nav-style.php:45
+#: ../inc/customizer/setups/nav-style.php:142
+#: ../inc/customizer/setups/page-style.php:21
+#: ../inc/customizer/setups/post-style.php:21
+#: ../inc/customizer/setups/site-style.php:21
+#: ../inc/customizer/setups/site-style.php:98
+#: ../inc/customizer/setups/top-style.php:125
+msgid "Font Family"
+msgstr ""
+
+#: ../inc/customizer/setups/button-style.php:26
+#: ../inc/customizer/setups/footer-style.php:35
+#: ../inc/customizer/setups/header-style.php:34
+#: ../inc/customizer/setups/nav-style.php:78
+#: ../inc/customizer/setups/nav-style.php:175
+#: ../inc/customizer/setups/page-style.php:90
+#: ../inc/customizer/setups/post-style.php:90
+#: ../inc/customizer/setups/site-style.php:54
+#: ../inc/customizer/setups/top-style.php:146
+msgid "Font Size"
+msgstr ""
+
+#: ../inc/customizer/setups/button-style.php:46
+#: ../inc/customizer/setups/footer-style.php:55
+#: ../inc/customizer/setups/header-style.php:54
+#: ../inc/customizer/setups/nav-style.php:59
+#: ../inc/customizer/setups/nav-style.php:156
+#: ../inc/customizer/setups/page-style.php:35
+#: ../inc/customizer/setups/post-style.php:35
+#: ../inc/customizer/setups/site-style.php:35
+#: ../inc/customizer/setups/site-style.php:112
+#: ../inc/customizer/setups/top-style.php:173
+msgid "Font Weight"
+msgstr ""
+
+#: ../inc/customizer/setups/button-style.php:65
+#: ../inc/customizer/setups/button-style.php:66
+#: ../inc/customizer/setups/copyright-style.php:33
+#: ../inc/customizer/setups/copyright-style.php:34
+#: ../inc/customizer/setups/footer-style.php:97
+#: ../inc/customizer/setups/footer-style.php:98
+#: ../inc/customizer/setups/top-style.php:199
+#: ../inc/customizer/setups/top-style.php:200
+msgid "Link Color"
+msgstr ""
+
+#: ../inc/customizer/setups/button-style.php:80
+msgid "Link Color on hover"
+msgstr ""
+
+#: ../inc/customizer/setups/copyright-layout.php:13
+msgid "Enabling this option will display copyright area"
+msgstr ""
+
+#: ../inc/customizer/setups/copyright-layout.php:22
+msgid "Left Text"
+msgstr ""
+
+#: ../inc/customizer/setups/copyright-layout.php:23
+#: ../inc/customizer/setups/copyright-layout.php:45
+msgid "Entry the text for left block"
+msgstr ""
+
+#: ../inc/customizer/setups/copyright-layout.php:44
+msgid "Right Text"
+msgstr ""
+
+#: ../inc/customizer/setups/copyright-style.php:12
+#: ../inc/customizer/setups/footer-style.php:74
+msgid "Text Color"
+msgstr ""
+
+#: ../inc/customizer/setups/copyright-style.php:55
+#: ../inc/customizer/setups/footer-style.php:112
+#: ../inc/customizer/setups/nav-style.php:210
+#: ../inc/customizer/setups/site-color.php:133
+#: ../inc/customizer/setups/site-color.php:170
+#: ../inc/customizer/setups/top-style.php:221
+msgid "Link color on hover"
+msgstr ""
+
+#: ../inc/customizer/setups/custom-css.php:12
+msgid "Enable custom css"
+msgstr ""
+
+#: ../inc/customizer/setups/custom-js.php:12
+msgid "Enable custom JS"
+msgstr ""
+
+#: ../inc/customizer/setups/footer-bg.php:13
+#: ../inc/customizer/setups/footer-bg.php:39
+msgid "Setup background color for your footer"
+msgstr ""
+
+#: ../inc/customizer/setups/footer-bg.php:31
+#: ../inc/customizer/setups/footer-style.php:14
+#: ../inc/customizer/setups/footer-style.php:90
+#: ../inc/customizer/setups/footer-style.php:128
+#: ../inc/customizer/setups/nav-bg.php:14
+#: ../inc/customizer/setups/nav-bg.php:22
+#: ../inc/customizer/setups/nav-bg.php:53
+#: ../inc/customizer/setups/nav-border.php:14
+#: ../inc/customizer/setups/nav-border.php:68
+#: ../inc/customizer/setups/nav-spacing.php:14
+#: ../inc/customizer/setups/nav-spacing.php:37
+#: ../inc/customizer/setups/nav-style.php:14
+#: ../inc/customizer/setups/nav-style.php:38
+#: ../inc/customizer/setups/nav-style.php:135
+#: ../inc/customizer/setups/page-style.php:14
+#: ../inc/customizer/setups/post-style.php:14
+#: ../inc/customizer/setups/site-color.php:13
+#: ../inc/customizer/setups/site-color.php:68
+#: ../inc/customizer/setups/site-style.php:14
+#: ../inc/customizer/setups/site-style.php:75
+#: ../inc/customizer/setups/site-style.php:91
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci earum "
+"est, explicabo id illo quae!"
+msgstr ""
+
+#: ../inc/customizer/setups/header-bg.php:21
+#: ../inc/customizer/setups/page-bg.php:21
+#: ../inc/customizer/setups/post-bg.php:21
+#: ../inc/customizer/setups/site-bg.php:13
+msgid "Setup background color for your header"
+msgstr ""
+
+#: ../inc/customizer/setups/header-bg.php:50
+msgid "Number Background Color"
+msgstr ""
+
+#: ../inc/customizer/setups/header-layout.php:12
+msgid "Header Type"
+msgstr ""
+
+#: ../inc/customizer/setups/header-layout.php:13
+msgid "Choose the header type you want"
+msgstr ""
+
+#: ../inc/customizer/setups/header-layout.php:32
+msgid "Search box"
+msgstr ""
+
+#: ../inc/customizer/setups/header-layout.php:33
+msgid "Turn on this option if you want to enable search box on your site"
+msgstr ""
+
+#: ../inc/customizer/setups/header-layout.php:43
+msgid "Mini Cart"
+msgstr ""
+
+#: ../inc/customizer/setups/header-layout.php:44
+msgid "Turn on this option if you want to enable mini cart for header"
+msgstr ""
+
+#: ../inc/customizer/setups/header-style.php:73
+#: ../inc/customizer/setups/page-style.php:74
+#: ../inc/customizer/setups/post-style.php:74
+#: ../inc/customizer/setups/site-style.php:74
+#: ../inc/customizer/setups/site-style.php:151
+msgid "Font Color"
+msgstr ""
+
+#: ../inc/customizer/setups/header-style.php:102
+msgid "Cart Icon Color"
+msgstr ""
+
+#: ../inc/customizer/setups/header-style.php:123
+msgid "Cart Number Color"
+msgstr ""
+
+#: ../inc/customizer/setups/nav-bg.php:21
+msgid "Main Background"
+msgstr ""
+
+#: ../inc/customizer/setups/nav-bg.php:36
+#: ../inc/customizer/setups/nav-bg.php:37
+#: ../inc/customizer/setups/nav-bg.php:60
+#: ../inc/customizer/setups/nav-bg.php:61
+msgid "Link background"
+msgstr ""
+
+#: ../inc/customizer/setups/nav-bg.php:75
+msgid "Link background on hover"
+msgstr ""
+
+#: ../inc/customizer/setups/nav-bg.php:96
+msgid "Mobile menu background"
+msgstr ""
+
+#: ../inc/customizer/setups/nav-border.php:20
+msgid "Boder width"
+msgstr ""
+
+#: ../inc/customizer/setups/nav-border.php:57
+#: ../inc/customizer/setups/nav-border.php:111
+msgid "Border color on hover"
+msgstr ""
+
+#: ../inc/customizer/setups/nav-layout.php:12
+msgid "Sticky Menu"
+msgstr ""
+
+#: ../inc/customizer/setups/nav-layout.php:13
+msgid "Turn on this option if you want to enable sticky header on your site"
+msgstr ""
+
+#: ../inc/customizer/setups/nav-spacing.php:20
+#: ../inc/customizer/setups/nav-spacing.php:43
+msgid "Link padding"
+msgstr ""
+
+#: ../inc/customizer/setups/nav-style.php:21
+#: ../inc/customizer/setups/nav-style.php:22
+#: ../inc/customizer/setups/nav-style.php:98
+#: ../inc/customizer/setups/nav-style.php:99
+#: ../inc/customizer/setups/nav-style.php:195
+#: ../inc/customizer/setups/nav-style.php:196
+#: ../inc/customizer/setups/site-color.php:119
+#: ../inc/customizer/setups/site-color.php:156
+msgid "Link color"
+msgstr ""
+
+#: ../inc/customizer/setups/nav-style.php:113
+msgid "Link color hover"
+msgstr ""
+
+#: ../inc/customizer/setups/page-bg.php:35
+#: ../inc/customizer/setups/post-bg.php:35
+msgid "Overlay color"
+msgstr ""
+
+#: ../inc/customizer/setups/page-bg.php:36
+#: ../inc/customizer/setups/post-bg.php:36
+msgid "Setup overlay color for your header"
+msgstr ""
+
+#: ../inc/customizer/setups/page-bg.php:50
+#: ../inc/customizer/setups/post-bg.php:50
+msgid "Default background image for your header"
+msgstr ""
+
+#: ../inc/customizer/setups/page-layout.php:12
+msgid "Page layout"
+msgstr ""
+
+#: ../inc/customizer/setups/page-layout.php:13
+#: ../inc/customizer/setups/page-layout.php:14
+#: ../inc/customizer/setups/site-layouts.php:21
+msgid "Choose the site layout you want"
+msgstr ""
+
+#: ../inc/customizer/setups/page-style.php:54
+#: ../inc/customizer/setups/post-style.php:54
+#: ../inc/customizer/setups/site-style.php:131
+msgid "Letter Spacing"
+msgstr ""
+
+#: ../inc/customizer/setups/page-style.php:76
+#: ../inc/customizer/setups/post-style.php:76
+#: ../inc/customizer/setups/site-style.php:153
+msgid "This is some extra help text."
+msgstr ""
+
+#: ../inc/customizer/setups/post-layout.php:12
+msgid "Post layout"
+msgstr ""
+
+#: ../inc/customizer/setups/post-layout.php:13
+#: ../inc/customizer/setups/post-layout.php:14
+msgid "Choose the post layout you want"
+msgstr ""
+
+#: ../inc/customizer/setups/site-color.php:12
+#: ../inc/customizer/setups/woo-color.php:12
+msgid "Primary color"
+msgstr ""
+
+#: ../inc/customizer/setups/site-color.php:67
+#: ../inc/customizer/setups/woo-color.php:37
+msgid "Secondary color"
+msgstr ""
+
+#: ../inc/customizer/setups/site-color.php:118
+msgid "Link setting"
+msgstr ""
+
+#: ../inc/customizer/setups/site-color.php:155
+msgid "Breadcrumb Link Color"
+msgstr ""
+
+#: ../inc/customizer/setups/site-favicon.php:21
+msgid "File must be .png or .ico format. Optimal dimensions: 32px x 32px"
+msgstr ""
+
+#: ../inc/customizer/setups/site-favicon.php:38
+msgid "Apple Touch Icon"
+msgstr ""
+
+#: ../inc/customizer/setups/site-favicon.php:39
+msgid "File must be .png format. Optimal dimensions: 152px x 152px"
+msgstr ""
+
+#: ../inc/customizer/setups/site-general.php:23
+msgid "Skin"
+msgstr ""
+
+#: ../inc/customizer/setups/site-general.php:51
+msgid "Breadcrumb"
+msgstr ""
+
+#: ../inc/customizer/setups/site-general.php:52
+msgid "Enabling this option will display breadcrumb on every page"
+msgstr ""
+
+#: ../inc/customizer/setups/site-general.php:76
+msgid "\"Home\" text"
+msgstr ""
+
+#: ../inc/customizer/setups/site-general.php:107
+msgid "\"You are here\" text"
+msgstr ""
+
+#: ../inc/customizer/setups/site-general.php:131
+msgid "Boxed mode"
+msgstr ""
+
+#: ../inc/customizer/setups/site-general.php:132
+msgid "Turn on this option if you want to enable box mode for content"
+msgstr ""
+
+#: ../inc/customizer/setups/site-layouts.php:20
+msgid "Site layout"
+msgstr ""
+
+#: ../inc/customizer/setups/site-layouts.php:43
+msgid "Archive layout"
+msgstr ""
+
+#: ../inc/customizer/setups/site-layouts.php:44
+msgid "Choose the archive layout you want"
+msgstr ""
+
+#: ../inc/customizer/setups/site-layouts.php:66
+msgid "Search layout"
+msgstr ""
+
+#: ../inc/customizer/setups/site-layouts.php:67
+msgid "Choose the search layout you want"
+msgstr ""
+
+#: ../inc/customizer/setups/site-logo.php:13
+msgid "Choose a default logo image to display"
+msgstr ""
+
+#: ../inc/customizer/setups/site-logo.php:22
+msgid "Retina Logo"
+msgstr ""
+
+#: ../inc/customizer/setups/site-logo.php:23
+msgid "Choose a image for retina logo"
+msgstr ""
+
+#: ../inc/customizer/setups/site-logo.php:40
+msgid "Logo Padding"
+msgstr ""
+
+#: ../inc/customizer/setups/site-style.php:175
+msgid "H1 Font Size"
+msgstr ""
+
+#: ../inc/customizer/setups/site-style.php:195
+msgid "H2 Font Size"
+msgstr ""
+
+#: ../inc/customizer/setups/site-style.php:215
+msgid "H3 Font Size"
+msgstr ""
+
+#: ../inc/customizer/setups/site-style.php:235
+msgid "H4 Font Size"
+msgstr ""
+
+#: ../inc/customizer/setups/top-bg.php:13
+msgid "Setup background color for your top"
+msgstr ""
+
+#: ../inc/customizer/setups/top-layout.php:12
+msgid "Top area"
+msgstr ""
+
+#: ../inc/customizer/setups/top-layout.php:13
+msgid "Enabling this option will display top area"
+msgstr ""
+
+#: ../inc/customizer/setups/woo-color.php:13
+msgid "Action buttons/price slider/layered nav UI"
+msgstr ""
+
+#: ../inc/customizer/setups/woo-color.php:38
+msgid "Buttons and tabs"
+msgstr ""
+
+#: ../inc/customizer/setups/woo-color.php:58
+msgid "High Light Color"
+msgstr ""
+
+#: ../inc/customizer/setups/woo-color.php:59
+msgid "Price labels and sale flashes"
+msgstr ""
+
+#: ../inc/customizer/setups/woo-color.php:79
+msgid "Subtext Color"
+msgstr ""
+
+#: ../inc/customizer/setups/woo-color.php:80
+msgid "Used for certain text and asides - breadcrumbs, small text etc"
+msgstr ""
+
+#: ../inc/customizer/setups/woo-color.php:96
+msgid "Button Color"
+msgstr ""
+
+#: ../inc/customizer/setups/woo-color.php:97
+#: ../inc/customizer/setups/woo-color.php:130
+msgid "Color for button"
+msgstr ""
+
+#: ../inc/customizer/setups/woo-color.php:113
+msgid "Hover color for button"
+msgstr ""
+
+#: ../inc/customizer/setups/woo-color.php:129
+msgid "Button Background Color"
+msgstr ""
+
+#: ../inc/customizer/setups/woo-color.php:146
+msgid "Hover background color for button"
+msgstr ""
+
+#: ../inc/customizer/setups/woo-layout.php:12
+msgid "Category Product Page Layout"
+msgstr ""
+
+#: ../inc/customizer/setups/woo-layout.php:13
+#: ../inc/customizer/setups/woo-layout.php:14
+msgid "Choose the category product page layout you want"
+msgstr ""
+
+#: ../inc/customizer/setups/woo-layout.php:28
+msgid "Single Product Page Layout"
+msgstr ""
+
+#: ../inc/customizer/setups/woo-layout.php:29
+#: ../inc/customizer/setups/woo-layout.php:30
+msgid "Choose the product page layout you want"
+msgstr ""
+
+#: ../inc/extras.php:166
+msgid "View your shopping cart"
+msgstr ""
+
+#: ../inc/extras.php:208
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../inc/extras.php:212
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: ../inc/extras.php:214
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: ../inc/extras.php:215
+msgid "(Edit)"
+msgstr ""
+
+#: ../inc/meta-box.php:49
+msgid "Page Settings"
+msgstr ""
+
+#: ../inc/meta-box.php:58
+msgid "Page Layout"
+msgstr ""
+
+#: ../inc/meta-box.php:59
+msgid "Choose a layout you want"
+msgstr ""
+
+#: ../inc/meta-box.php:63
+msgid "Default"
+msgstr ""
+
+#: ../inc/meta-box.php:64
+msgid "Full width"
+msgstr ""
+
+#: ../inc/meta-box.php:65
+msgid "Content-Sidebar"
+msgstr ""
+
+#: ../inc/meta-box.php:66
+msgid "Sidebar-Content"
+msgstr ""
+
+#: ../inc/meta-box.php:76
+msgid "Title Background"
+msgstr ""
+
+#: ../inc/meta-box.php:77
+msgid "Upload an image or enter a URL for heading title"
+msgstr ""
+
+#: ../inc/template-tags.php:45
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../inc/template-tags.php:46
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:324 ../inc/tgm-plugin-registration.php:96
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:325 ../inc/tgm-plugin-registration.php:97
+msgid "Install Plugins"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:326 ../inc/tgm-plugin-registration.php:98
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:327 ../inc/tgm-plugin-registration.php:100
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:388 ../inc/tgm-plugin-registration.php:122
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:389
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:390 ../inc/tgm-plugin-activation.php:3087
+#: ../inc/tgm-plugin-registration.php:123
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:391 ../inc/tgm-plugin-registration.php:124
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:392 ../inc/tgm-plugin-registration.php:125
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:393 ../inc/tgm-plugin-registration.php:127
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:394 ../inc/tgm-plugin-registration.php:129
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:396 ../inc/tgm-plugin-registration.php:131
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2209
+msgid "Required"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2212
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2229
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2232
+msgid "External Source"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2235
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2253
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2257
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2259
+msgid "Active"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2265
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2268
+msgid "Requires Update"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2271
+msgid "Update recommended"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2428
+msgid "Installed version:"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2436
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2448
+msgid "Available version:"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2471
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2485
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2486
+msgid "Source"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2487
+msgid "Type"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2491
+msgid "Version"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2492
+msgid "Status"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2655
+msgid "Install"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2661
+msgid "Update"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2664
+msgid "Activate"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2695
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2697
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2733
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:2735
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:3086
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:3424
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:3426
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:3427
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:3431
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:3432
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:3433
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:3434
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:3437
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:3439
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../inc/tgm-plugin-activation.php:3440
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/vc-maps/blog.php:3
+msgid "BLog"
+msgstr ""
+
+#: ../inc/vc-maps/blog.php:5 ../inc/vc-maps/button.php:5
+#: ../inc/vc-maps/google-map.php:5 ../inc/vc-maps/recent-post.php:5
+msgid "by THEMEMOVE"
+msgstr ""
+
+#: ../inc/vc-maps/button.php:18
+msgid "Entry your url here"
+msgstr ""
+
+#: ../inc/vc-maps/button.php:25
+msgid "Example: fa-arrow-right"
+msgstr ""
+
+#: ../inc/vc-maps/google-map.php:3
+msgid "Google Maps"
+msgstr ""
+
+#: ../inc/vc-maps/google-map.php:13
+msgid "Enter address or coordinate."
+msgstr ""
+
+#: ../inc/vc-maps/google-map.php:19
+msgid "Choose a image for marker address"
+msgstr ""
+
+#: ../inc/vc-maps/google-map.php:25
+msgid "Content for info window"
+msgstr ""
+
+#: ../inc/vc-maps/google-map.php:32
+msgid "Enter map height (in pixels or percentage)"
+msgstr ""
+
+#: ../inc/vc-maps/google-map.php:39
+msgid "Enter map width (in pixels or percentage)"
+msgstr ""
+
+#: ../inc/vc-maps/google-map.php:46
+msgid "Map zoom level"
+msgstr ""
+
+#: ../inc/vc-maps/google-map.php:61
+msgid "Choose a map type"
+msgstr ""
+
+#: ../inc/vc-maps/google-map.php:74
+msgid ""
+"Choose a map style. This approach changes the style of the Roadmap types "
+"(base imagery in terrain and satellite views is not affected, but roads, "
+"labels, etc. respect styling rules"
+msgstr ""
+
+#: ../inc/vc-maps/google-map.php:103
+msgid ""
+"If you want to use multiple Google Maps in one page, please add a class name "
+"for them."
+msgstr ""
+
+#: ../inc/vc-maps/recent-post.php:3
+msgid "Recent Posts"
+msgstr ""
+
+#: ../inc/vc-template/thememove_blog.php:22
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: ../inc/vc-template/thememove_recentposts.php:47
+#: ../template-parts/content-blog.php:25 ../template-parts/content-index.php:20
+#: ../template-parts/content-single.php:24
+msgid "Posted by "
+msgstr ""
+
+#: ../inc/vc-template/thememove_recentposts.php:49
+#: ../template-parts/content-blog.php:27 ../template-parts/content-index.php:22
+#: ../template-parts/content-single.php:26
+msgid "In "
+msgstr ""
+
+#: ../inc/vc-template/thememove_recentposts.php:49
+#: ../template-parts/content-blog.php:27 ../template-parts/content-index.php:22
+#: ../template-parts/content-single.php:26
+msgid ", "
+msgstr ""
+
+#: ../index.php:18
+msgid "Blog"
+msgstr ""
+
+#: ../page.php:65
+msgid "Pages:"
+msgstr ""
+
+#: ../template-parts/content-blog.php:41 ../template-parts/content-index.php:36
+msgid "Continue Reading"
+msgstr ""
+
+#: ../template-parts/content-blog.php:45 ../template-parts/content-index.php:40
+#: ../template-parts/content-single.php:49
+msgid "Share: "
+msgstr ""
+
+#: ../template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../template-parts/content.php:26
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""

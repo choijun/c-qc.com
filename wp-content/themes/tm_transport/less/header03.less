@@ -1,0 +1,42 @@
+@import (reference) "_elements";
+
+/*--------------------------------------------------------------
+Header 03
+--------------------------------------------------------------*/
+.header {
+	width: 100%;
+	.transit;
+}
+
+.header03, .header04, .header08 {
+	#site-navigation .mega-menu .sub-menu {
+		width: 104%;
+	}
+	#site-navigation .menu > ul > li, #site-navigation .menu > li {
+		> a {
+			display: inline-block;
+		}
+		> a:before {
+			content: '\\\\';
+			position: absolute;
+			right: 0;
+			font-family: "Times New Roman", "Bitstream Charter", Times, serif;
+		}
+		&:last-child {
+			> a:before {
+				display: none;
+			}
+		}
+	}
+}
+
+@media @lg {
+	.header {
+		&.headroom--not-top {
+			position: fixed;
+			top: 0;
+			z-index: 999;
+			padding: 0;
+		}
+	}
+}

@@ -415,9 +415,7 @@ class SgpbDataConfig
 		);
 
 		$targetParams = array(
-			'select_role' => __('Select role', SG_POPUP_TEXT_DOMAIN),
-			'Groups' => array(
-			)
+			'select_role' => __('Select role', SG_POPUP_TEXT_DOMAIN)
 		);
 
 		$targetOperators = array(

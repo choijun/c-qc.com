@@ -173,17 +173,22 @@ class Ajax
 		check_ajax_referer(SG_AJAX_NONCE, 'nonce');
 
 		$popupParams = $_POST['params'];
-		$popupId = (int)$popupParams['popupId'];
+		$popupsIdCollection = $popupParams['popupsIdCollection'];
+
 		$popupsCounterData = get_option('SgpbCounter');
 
 		if ($popupsCounterData === false) {
 			$popupsCounterData = array();
 		}
 
-		if (empty($popupsCounterData[$popupId])) {
-			$popupsCounterData[$popupId] = 0;
+		if (!empty($popupsIdCollection)) {
+			foreach ($popupsIdCollection as $popupId => $popupCount) {
+				if (empty($popupsCounterData[$popupId])) {
+					$popupsCounterData[$popupId] = 0;
+				}
+				$popupsCounterData[$popupId] += $popupCount;
+			}
 		}
-		$popupsCounterData[$popupId] += 1;
 
 		update_option('SgpbCounter', $popupsCounterData);
 		wp_die();

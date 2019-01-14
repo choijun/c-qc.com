@@ -422,7 +422,7 @@ class AdminHelper
 		if (isset($_GET['sgpb-subscription-popup-id']) && !empty($_GET['sgpb-subscription-popup-id'])) {
 			$filterCriteria = esc_sql($_GET['sgpb-subscription-popup-id']);
 			if ($filterCriteria != 'all') {
-				$searchQuery .= "(subscriptionType = $filterCriteria)";
+				$searchQuery .= " AND (subscriptionType = $filterCriteria)";
 			}
 		}
 		if ($filterCriteria != '' && $filterCriteria != 'all' && isset($_GET['s']) && !empty($_GET['s'])) {
